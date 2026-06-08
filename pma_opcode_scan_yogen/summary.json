@@ -1,0 +1,159 @@
+{
+  "record_types": [
+    2,
+    3,
+    1
+  ],
+  "files": {
+    "ev_yogen.pma": {
+      "records": 140,
+      "by_type_top": [
+        {
+          "value": 2,
+          "count": 140
+        }
+      ],
+      "u32_1_top": [
+        {
+          "value": 65535,
+          "count": 140
+        }
+      ],
+      "u16_8_top": [
+        {
+          "value": 80,
+          "count": 1
+        },
+        {
+          "value": 240,
+          "count": 1
+        },
+        {
+          "value": 400,
+          "count": 1
+        },
+        {
+          "value": 560,
+          "count": 1
+        },
+        {
+          "value": 720,
+          "count": 1
+        },
+        {
+          "value": 880,
+          "count": 1
+        },
+        {
+          "value": 1040,
+          "count": 1
+        },
+        {
+          "value": 1200,
+          "count": 1
+        },
+        {
+          "value": 1360,
+          "count": 1
+        },
+        {
+          "value": 1520,
+          "count": 1
+        },
+        {
+          "value": 1680,
+          "count": 1
+        },
+        {
+          "value": 1840,
+          "count": 1
+        }
+      ],
+      "first_nonzero_after_0x10_top": [
+        {
+          "value": 16,
+          "count": 130
+        },
+        {
+          "value": 17,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "global_summary": {
+    "records": 140,
+    "by_type_top": [
+      {
+        "value": 2,
+        "count": 140
+      }
+    ],
+    "u32_1_top": [
+      {
+        "value": 65535,
+        "count": 140
+      }
+    ],
+    "u16_8_top": [
+      {
+        "value": 80,
+        "count": 1
+      },
+      {
+        "value": 240,
+        "count": 1
+      },
+      {
+        "value": 400,
+        "count": 1
+      },
+      {
+        "value": 560,
+        "count": 1
+      },
+      {
+        "value": 720,
+        "count": 1
+      },
+      {
+        "value": 880,
+        "count": 1
+      },
+      {
+        "value": 1040,
+        "count": 1
+      },
+      {
+        "value": 1200,
+        "count": 1
+      },
+      {
+        "value": 1360,
+        "count": 1
+      },
+      {
+        "value": 1520,
+        "count": 1
+      },
+      {
+        "value": 1680,
+        "count": 1
+      },
+      {
+        "value": 1840,
+        "count": 1
+      }
+    ],
+    "first_nonzero_after_0x10_top": [
+      {
+        "value": 16,
+        "count": 130
+      },
+      {
+        "value": 17,
+        "count": 10
+      }
+    ]
+  }
+}

@@ -1,0 +1,588 @@
+
+==================================================
+TABLE OF CONTENTS
+===============================================
+1- Introduction
+2- Tools
+3- Extracting/Reinserting Files
+4- Finding Text
+5- Finding Graphics
+6- MIPS Tutorial Part 1 Registers
+7. MIPS Tutorial Part 2 Loading and Storing
+8. MIPS Tutorial Part 3 Arithmetic
+9. MIPS Tutorial Part 4 Branching
+10- MIPS Tutorial Part 5 Extra MIPS resources
+11- Finding a text routine.
+12- Conclusion
+
+========================================
+SECTION 1 INTRODUCTION
+======================================== 
+Hello, this is Rai and this is my tutorial on PS2 translation hacking. I noticed that there aren't too many
+documents on PS2 translation hacking so I figured that I would write one. In this tutorial you will learn
+what tools you need to make a translation for a PS2 game, how to extract and reinsert files from an ISO,
+how to find graphics in a PS2 game, basic MIPS assembly and how to use the PCSX2 debugger to find a text routine.
+
+========================================
+SECTION 2 TOOLS
+======================================== 
+In this section I will talk about the tools you will need in order to hack and translate a PS2 game.
+
+In order to debug a PS2 game, you will need a version of PCSX2 that has a debugger.
+For a version of the PCSX2 that has debugging you can grab the latest developer build from here:
+https://buildbot.orphis.net/pcsx2/index.php?m=fulllist
+
+The specific version of PCSX2 I'm using in the tutorial is "v1.7.0-dev-1926-g9109751ff". You
+should be able to find it on the Orphis site.
+
+To extract and reinsert files from a PS2 ISO you will need a program called Apache 2.
+You can find it here:
+https://www.psx-place.com/resources/apache-by-sonix-2004.697/
+
+There is an Apache3 program; however I could not get it to work.
+
+For finding PS2 graphics I like to use CrystalTile2 which you can get here:
+https://www.romhacking.net/utilities/818/
+
+I also like to use TiledGGD for extracting PS2 graphics, you can find it here:
+https://www.romhacking.net/utilities/646/
+
+To open up PCSX2 save states you will need 7zip which you can get here:
+https://sourceforge.net/projects/sevenzip/
+
+To insert new code into a PS2 elf file we will need armips:
+https://www.romhacking.net/utilities/635/
+
+========================================
+SECTION 3 EXTRACTING/REINSERTING FILES
+======================================== 
+In this section I'm going to talk about how to extract files from a PS2 ISO and how to reinsert them.
+
+The first thing you need to do is download Apache2, I've put the link to download it earlier in the "TOOLS"
+section of this document.
+
+So after you've downloaded Apache2, open it and go to File--->Open File. After that, find the location on 
+your hard disk where your ISO file is. Double click on your ISO file and this will open the ISO file in Apache2.
+
+To extract a file, right click on the file you want to extract in the right panel and select
+"Extract" from the dropdown list. Once you've clicked on "Extract" find the location on your hard
+disk that you wish to extract the file to, then click on the "OK" button. Once a file has been
+successfully extracted you will see an "Extraction Complete" message.
+
+To extract all the files from an ISO, you can right click on the topmost entry in the list on the left
+panel and select "Extract All". This will extract all of the files on the ISO.
+
+To reinsert a file, you will have to click on a file from the list in the right panel and right
+click like before, but this time you will have to select "Update selected file".
+
+After extracting the files of an ISO, I would recommend making a text file in Notepad. Name it something
+like "gamename_file_descriptions.txt". Then after that, I would go through each file on the ISO
+and write down what each file contains in the "gamename_file_descriptions.txt" file. The point of 
+all of this is to get an idea of what each file's purpose is.
+
+So how can you figure out what each file's purpose is? Well one thing you can do is look at the
+file extensions of the file. For example, if a file has the ".tm2" extension it is a TIM2 file.
+
+If there is a file extension you don't know about try to google it; it might be a well documented
+format. However, sometimes PS2 developers have game specific formats which you will need to make
+custom tools in order to modify.
+
+I will explain more ways to figure out what each file does later in the document.
+
+========================================
+SECTION 4 FINDING TEXT
+======================================== 
+After I extract the files from an ISO, one of the first things I try to do is find which files
+have text. For PS2 games, it is very common for text to be in the SJIS-format. SJIS stands for
+Shift-JIS. Shift_JIS is a character encoding for the Japanese language and is very common
+in Japanese PS2 games, as well as Japanese games on other disc-based systems.
+
+So to find a game's text, the first thing you should try is to do is go through each file on the ISO
+and open it up in a Hex Editor that supports SJIS encoding. A hex editor I like to use is WindHex.
+What I do is open up WindHex and then open an SJIS-table, then go to Option--> View Text as Unicode.
+
+To open a table in WindHex go to File-->Open Table-->Table 1, then find your table.
+
+I like to use this SJIS table:
+https://www.romhacking.net/download/documents/179/
+
+If you've found SJIS text; congratulations your game uses uncompressed SJIS text. However, if you
+weren't able to find any SJIS text, that probably means your game uses encrypted text or the game's
+text is compressed.
+
+If a game's text is encrypted, you can try to download a relative searching utility to try and find the
+text. Once you've found some text by relative searching you would then make a table file.
+
+If the game's text is compressed; unfortunately you won't be able to find the game's text without
+some knowledge of assembly. But don't worry, later in this document I will talk about MIPS assembly.
+
+For now just understand that MIPS is the assembly language that the PS2 uses.
+
+
+========================================
+SECTION 5 FINDING GRAPHICS
+======================================== 
+Once you understand how to extract from and reinsert files back into a PS2 ISO; you should understand
+how to find graphics in PS2 games.
+
+The PS2 does have a standard texture format called TIM2. Files that have the .tm2 extension are TIM2
+files.
+
+"Rainbow" is tool you can use to view TIM2 files. You can find it here:
+https://www.romhacking.net/utilities/1069/
+
+However, what if a game doesn't use the standard TIM2 format? Well that's where things get a little
+bit more complicated.
+
+If you look through a game's files and can't find any standard TIM2 files; this means your graphics
+are compressed or are stored as raw data.
+
+So how do we find graphics that are in a raw image format? Well this is where CrystalTile2 comes in.
+
+To find graphics inside your files, I would go through each file in the ISO, open it up in CrystalTile2,
+go to View-->Tile Viewer then set the Tile Format to GBA 8bpp. The 8bpp format used on the GBA seems
+to be very similar to the one used in PS2.
+
+After that keep playing around with the "width" and "height" settings until you find something that looks
+like graphics.
+
+If you don't find anything move on to the next file. Then rinse and repeat for all the files in the ISO.
+
+========================================
+SECTION 6 MIPS TUTORIAL PART 1 REGISTERS
+======================================== 
+The PS2 uses a MIPS III R5900-based CPU. But wait you ask, what does any of that mean? Well I'll explain that.
+MIPS processors are a family of microprocessors that use a similar architecture. The PS1, PSP and N64 also had
+MIPS-based CPUs.
+
+In this section I'll just be going over the basics of MIPS. I won't be going over anything specific to the
+PS2.
+
+But before we go any further let me try and explain what a register is. So a register is basically a small
+amount of memory on the CPU where you can temporarily store addresses, data and instructions.
+
+Most CPUs have multiple registers.
+
+MIPS Architecture:
+All MIPS instructions are 32-bit. 32-bit means that all MIPS CPU instructions take up 4 bytes in memory.
+
+A byte in the MIPS architecture consists of 8 bits, a halfword consists of two bytes and a word consists of 4 bytes.
+
+Registers:
+The MIPS architecture consists of 32 general purpose registers. Each register is preceded by '$'.
+
+Here is a list of the MIPS registers.....
+$zero
+$at
+$v0
+$v1
+$a0
+$a1
+$a2
+$a3
+$t0
+$t1
+$t2
+$t3
+$t4
+$t5
+$t6
+$t7
+$s0
+$s1
+$s2
+$s3
+$s4
+$s5
+$s6
+$s7
+$t8
+$t9
+$k0
+$k1
+$gp
+$sp
+$fp
+
+Now I will explain what the registers do.
+
+$zero:
+-The $zero register always holds a value of zero. It can not be modified. It will always have a value
+ of zero no matter what.
+
+$at:
+-This register is reserved for the assembler.
+
+v registers:
+-The "v" registers are registers meant to hold the return value of a function. It is difficult to understand
+ if you don't understand functions in programming languages.
+ 
+ But say in a programming language we had a function like this....
+ 
+ int Addition(int x,int y){
+ return x+y;
+ }
+ 
+ The "return" keyword would return the sum of x+y. The value returned would be the return value; this is what
+ the "v" registers are meant to store. 
+
+a registers:
+-"a" registers are used for passing function arguments to functions. So what are function arguments well let
+ me try to explain....
+ 
+ A function in programming language might look like this:
+ int Addition(int x,int y){
+ 
+ }
+ 
+ The two variables in between the parantheses would be the function's parameters.
+ 
+ When we call a function, the values which we pass to the function parameters are called arguments for example:
+ Addition(50,50)
+ 
+ The values in between the parentheses are the arguments; the values we will pass to the function. The
+ argument values are what the "a" registers are meant to hold.
+ 
+ I know it's kind of confusing, but you should research how functions work in programming languages to get
+ a better understanding.
+ 
+ 
+t registers:
+-The "t" registers are used when you don't want to worry about saving a variable's value when a function is
+ executed. If you don't want a value to stay the same when you call a function and when you exit a function,
+ it should be stored in a "t" register.
+ 
+s registers:
+-When you want a value to stay the same when you call the function as after you return from a function, you should
+ use the "s" registers. So for example, if the value in register $s0 is 15 and we want it to still be 15
+ after we return from a function, it should be stored in an "s" register.
+
+k registers:
+-The "k" registers are reserved for the kernel.
+
+$gp,$sp,$ra:
+-"$gp" stands for Global Pointer, "$sp" stands for Stack Pointer and "$ra" stands for Return address.
+-$ra tells us where our function should return to when it's done running.
+
+Other registers:
+-MIPS also has 3 special purpose registers. "pc" which stores the program counter and the "hi" and "lo"
+ registers which are used for storing the results of multiplying and dividing.
+
+========================================
+SECTION 7 MIPS TUTORIAL PART 2 Loading and storing
+======================================== 
+In this section I will be going over how you can load and store things to and from memory in MIPS.
+
+In MIPS there are several load and store instructions for accessing memory.
+
+Only load and store instructions can access memory. Load instructions load something from memory
+into a register. Store instructions store the value in a register to memory.
+
+All other MIPS instructions cannot access memory.
+
+This is an example of a load instruction in MIPS:
+lw destination_register,RAM_source
+
+
+
+"lw" stands for "Load Word". Remember before when I said that a Word in MIPS is 32-bits(4 bytes) long?
+Well that's what the "lw" instruction does; it loads a Word from memory.
+
+"destination_register" is the register that we want the data that we loaded from memory to be stored.
+This register can be any of the 32 general purpose registers such as $t0,$t1,ect.
+
+RAM_source is the address in memory where the data we want to load is stored.
+
+So this line of code loads a Word at the Ram_source address into a destination register.
+
+Here's another load instruction in MIPS:
+lb	destination_register, RAM_source
+
+This line of assembly code, loads a byte at the Ram_source address into a destination register.
+"lb" stands for Load Byte.
+
+Here's a third example of loading in MIPS:
+li $v0,4001  
+
+"li" stands for "Load Immediate". An immediate is basically an integer. So the numbers
+ 0,1,2,3,4,5,6,7,8,9 and 10 would be considered intermediates.
+
+So the above line of assembly code loads the integer 4001 into register $v0.
+
+Here's the final example of loading:
+la $t0,_myaddr
+
+"la" stands for Load Address. This line of code loads the address where the variable "_myaddr" is
+stored in memory and stores it into register $t0.
+
+Now I will show you how to store things in MIPS.
+
+Saving a word to memory:
+sw $t1,0($t0)
+
+"sw" stands for Store Word. This line of code stores the value in $t1 to the meomry address $t0 + 0.
+Here the 0 is an offset that is added to the address in $t0.
+
+Saving a byte to memory:
+sb	v0,(v1)
+
+"sb" stands for Save Byte. This line of code stores the value in register $v0 to the memory address
+in register $v1.
+
+
+========================================
+SECTION 8 MIPS TUTORIAL PART 3 Arithmetic
+======================================== 
+In this section you will learn about Arithmetic in MIPS.
+
+Most MIPS arithmetic operations use three operands and all these operands are registers.
+
+So for example:
+add	$t0,$t1,$t2		;$t0=$t1+$t2
+
+The "add" instruction adds operand1 and operand2 together, then stores the result in operand0.
+So this line of assembly code adds $t1 to $t2 and stores the sum in $t0.
+
+Here's an example of subtracting in MIPS:
+sub $t2,$t3,$t4		;$t2=$t3-$t4
+
+The "sub" instruction subtracts $t4 from $t3 and stores the difference in $t0.
+
+Multiplication example:
+mult $s1,$s2	;$s1*$s2
+mflo $t0	;Load the upper 32-bits of the product into $t0.
+mflo $t1	;Load the lower 32-bits of the product into $t1.
+
+The above assembly code multiples the value in $s1 by the value in $s2.
+The result of the multiplication is then moved to the $t0 register.
+
+Division example:
+div $s0,$s1
+mfhi $t0
+mflo $t1 
+
+This code divides $s0 by $s1. The remainder is moved to $t0 and the
+Quotient is moved to $t1.
+
+========================================
+SECTION 9 MIPS TUTORIAL PART 4 Branching
+======================================== 
+In this section I will give some examples of branching in MIPS.
+
+Branch Equal:
+beq $t0,$t1,target	;branch to target if $t0=$t1
+
+This instruction will branch to the "target" label if operand0 and operand1 are equal.
+
+Branch Less Than:
+blt	$t0,$t1,target	;branch to target if $t0<$t1.
+
+Branch if $t0 is less than $t1.
+
+Branch Less Than Equal To:
+ble	$t0,$t1,target	;branch if $t0<=$t1
+
+Branch if $t0 is less than or equal to t1.
+
+Branch Greater Than:
+bgt $t0,$t1,target
+
+Branch if $t0 is greater than $t1.
+
+Branch Not Equal:
+bne $t0,$t1,target
+
+Branch if $t0 is not equal to $t1.
+
+========================================
+SECTION 10 MIPS TUTORIAL PART 5 MIPS RESOURCES
+======================================== 
+In this tutorial, I've briefly gone over some of the aspects of the MIPS architecture.
+
+However, if you would like to learn more about MIPS these are some sites:
+http://mipsconverter.com/opcodes.html	;A list of MIPS opcodes
+https://minnie.tuhs.org/CompArch/Resources/mips_quick_tutorial.html	;MIPS quick tutorial
+https://chortle.ccsu.edu/AssemblyTutorial/index.html	;Programmed Introduction to MIPS Assembly Language
+
+========================================
+SECTION 11 FINDING THE TEXT ROUTINE
+======================================== 
+In this section, I will teach you how to find a text routine in a PS2 game. This assumes that the game you're
+hacking has uncompressed SJIS text. Before moving on forward in this tutorial, make sure you've found the file
+in the ISO that has the line of text you're looking for in uncompressed SJIS format.
+
+The example game I will be using is Super Robot Wars Alpha 2.
+
+First, make sure you have downloaded a dev PCSX2 build from the Orphis site that has a debugger. I will be using
+the "v1.7.0-dev-1926-g9109751ff" build for this tutorial.
+
+Then once you have the PCSX2 emulator with a debugger opened and set up, boot the ISO of the game that you wish
+to translate.
+
+Now at this point, I want you to play the game up until the point where a particular line of text appears
+on screen. Once you get to the point of the game where that particular line of text appears; press F1
+to create a save state.
+
+The point of all of this, is that we're going to extract a dump of the PS2's memory from a PCSX2 save
+state. PCSX2 save states are really archives that have many files. The "eeMemory.bin" file is the one
+we're interested in; since it is a dump of the PS2's memory at the time the save state was made.
+
+So to extract a dump of the PS2's memory from a PCSX2 save state, first go to the folder where your
+save states are located, "sstates" by default. Then make sure you have 7zip installed. After you've
+made sure you have 7zip installed, double click on your save state and this should open up the
+save state in 7zip. 
+
+Once the save state is opened, you will see many files, but the one we're interested in is "eeMemory.bin",
+which is a dump of the PS2's memory at the time of the save state.
+
+Once the save state is opened in 7zip, extract the "eeMemory.bin" file from the save state.
+
+Now, open up the "eeMemory.bin" file in a Hex Editor that supports SJIS encoding and search for the 
+line of text that was on screen when you made the save state. Once you've found the address where
+that line of text is, copy it down in Notepad because we will need the address of that text
+for later.
+
+So for example, I found the text I was looking for at address 0x7848A0. This is the address where
+the first line of text for Arado's route is in Super Robot Wars Alpha 2.
+
+After that, in PCSX2 go to Debug-->Show Debugger. This will open up PCSX2's debugger.
+
+Next open the "Breakpoint" tab to the right of the "Memory" tab. Next in the white area
+at the bottom of the debugger window right click and select "Add new" from the dropdown
+window. This will open the breakpoint window.
+
+Next paste the address where you found your line of text in memory to the "Address" section.
+Make sure to put 0x before the address if it is a hex address. Also, make sure that "Memory"
+is selected and that "Read" and "Write" are selected.
+
+The "Memory" option will trigger a breakpoint on an address in memory. The "Execute" option
+will trigger when a particular line of assembly code is executed.
+
+After that press "OK". Congratulations, you've successfully added a breakpoint.
+
+Okay, so after you've added your breakpoint, reset your game and play up to the point where
+that particular line is visible on screen.
+
+If you did everything correctly up until this point, a breakpoint should be triggered on the
+address where your line of text begins in memory.
+
+So for instance, when the breakpoint triggered for me this line of assembly code was highlighted
+in the debugger:
+001C3B18	lbu	v0,(a1)
+
+So what does this line of code do? Well "lbu" stands for "Load Byte Unsigned", so we load an unsigned
+byte from the address in $a1 into $v0.
+
+That's all well and good, but we have to ask ourselves? What does this line of code really do? 
+
+Well if I look at the register section in the PCSX2 debugger, I can see that $a1 contains the 
+address where the line of text starts in memory. If we load a byte from the address where our
+line of text begins, we only load the first byte of the text. So basically, we load a byte of
+text from the line of text into register $v0.
+
+But there's a problem, if I NOP this instruction, I can see that the text still displays
+on screen; so I know that this isn't the main text routine.
+
+To NOP an instruction, right click on the instruction, select "Assemble Opcode" and then type
+"NOP" in the input box in lowercase.
+
+Just because the address where your line of text is is read, doesn't mean that's the actual
+main text routine. 
+
+What you should do is keep pressing the "Run" button and NOPing lines of code that read
+a byte of text from memory; until you find the line of code that causes text not to display.
+
+Once you've found the line of code that causes text not to display when NOP'd, you've most
+likely found the main text routine.
+
+To figure out what the assembly code does, I would highly recommend stepping through the code
+and copying it to some sort of text file. Then I would step through the code line by line
+and ask myself "What does this line of code do?".
+
+After some trial and error I found that this line of code is apart of the main text routine:
+002916C4		lb	v0,(v1)
+
+How do I know it's apart the main text routine? If I NOP this line code, it causes text
+not to appear.
+
+So at this point in the code, $v1 holds the address where the current byte of text is
+stored in memory. Let's just call label $v1 "currentTextAddress" from now on. So that
+line of code loads a byte at the currentTextAddress(stored in $v1) to register $v0.
+
+So in short, that line of code loads a byte of our text into $v0.
+
+So I step on instruction further I get this line of code:
+002916C8		addiu	s2,0x2
+
+So what does that do? Well I have to ask myself what does "$s2" represent here?
+
+Well I looked back at previous instructions and before the instruction that loads our byte of text,
+we can see an instruction that uses $s2.
+
+002916C0	addu	v1,s5,s2
+
+So what does this instruction do? Well I look at the value in register $s5 and I can see that it's the 
+address where my current line of text begins. I look at $s2 and it's zero. Remember that $v1 is where
+the address of our current byte of text.
+
+So to get the address of the current byte of text, the game is taking $s5, which represents where our
+line of text begins and adding $s2 to it. So it's using $s2 as sort of an offset.
+
+So back to the "addiu s2,0x2" line of code. What is it doing? Well in SJIS we know that each character
+is two bytes long. So add 2 to $s2, so that next time, we will load the byte for the next SJIS character.
+
+Stepping again we get this line of code:
+002916CC		sb	v0,(s6)
+
+This line of code saves $v0(Our text byte) to the address in $s6. Basically we're copying our text byte
+to somewhere else in ram.
+
+The next few lines of code are pretty similar to the previous lines I've already discussed so I won't
+go into much depth about them:
+002916D0		lb	v0,0x1(v1)	;Load the second byte of our SJIS character.
+002916D4	    sb	v0,0x1(s6)	;Store the second byte of the SJIS character to the ram text buffer.
+002916D8		addiu	s6,0x2	;Increment the $ramBufferAddress($s6) by two since each SJIS character is two bytes.	
+002916DC		nop	
+002916E0		slt	v0,s2,s3
+002916E4		bnez	v0,load_SJIS_bytes	;Loop if our second SJIS byte isn't zero.
+
+
+So this would be the main text routine........
+load_SJIS_bytes:
+002916C0		addu	v1,s5,s2	;Calculate the new $textByteAddress.
+002916C4		lb	v0,(v1)	;Load the first byte of our SJIS character.
+002916C8		addiu	s2,0x2	;Add 0x2 to the value in the $s2 register.
+002916CC		sb	v0,(s6)	;Store our text byte to the ram text buffer.
+002916D0		lb	v0,0x1(v1)	;Load the second byte of our SJIS character.
+002916D4	    sb	v0,0x1(s6)	;Store teh second byte of the SJIS character to the ram text buffer.
+002916D8		addiu	s6,0x2	;Increment the $ramBufferAddress by two since each SJIS character is two bytes.	
+002916DC		nop	
+002916E0		slt	v0,s2,s3	
+
+I know it seems kind of difficult to understand, but really just try to step through the code line by line in the
+debugger; look at the registers and really ask yourself, what does this line of code do?
+
+So that's the process I used to find the text routine in Super Robot Wars Alpha 2.
+
+
+
+
+========================================
+SECTION 12 CONCLUSION	
+======================================== 
+After reading this document you should have a good idea of what it takes to hack and translate a PS2
+game. You should understand what tools you need, how to find graphics, how to find text, have a basic
+understanding of MIPS assembly and a basic understanding of how to use the PCSX2 debugger.
+
+There are still other things you may need to hack and translate a PS2, such as a script editor, a
+script extractor and other things. But this guide should've given you a basic idea how to hack
+and translate a PS2 game.
+
+I may write a another tutorial where I get into even more advanced stuff such as how to actually
+code a routine to add ascii text and how to add a VWF; but this tutorial should be enough to 
+get you started with PS2 translation hacking.
+
+
+
+
+

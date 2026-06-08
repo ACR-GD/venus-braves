@@ -1,0 +1,10 @@
+PMA: /Users/acr/venus-braves/cdimage_unpacked/seven_data_link/scrdata/map/ev_kuro/ev_kuro.pma
+Pointer-derived segments: 420
+Mappings tested: 5
+
+[003] xorff:builtin:0x0 -> 3 hits (best 106.65)
+
+Top decode hits:
+- xorff:builtin:0x0 seg=0x1C10 score=106.65 jp=78 kana=4 :: 'ｶ\\np_\x7f?@]燿SqCa\x10wﾘe(!\x0e｣勁ﾋb, KV\t3ｱ炸C[ｬAdB糢8ﾇｿPY#=ｱﾌｴP陲ﾛｴ!\x15ｭ\x1bjR6ﾜ\x05\x02\x05\x15\x18?I\x1aM&\x18\x12,\x1d_+ZHｦJ\x14ﾘ\x1chx$mi疑o\x1a爨cp1nD\x12-\x17\x04i\x1bｲ≒ﾙCD岶[ｷ i_\x07}\\n6\x16M\x03\x00@=\x0b.pTﾇMﾘ靹*､+H\x7fw\x05吊\x7fﾏ\x00i俤{\x03'
+- xorff:builtin:0x0 seg=0xFB0 score=75.42 jp=46 kana=6 :: 'ｶ\\n樵/ｿ\x02Gﾟ聯ｮ r%\x16Lﾁｻﾒ\\r\x08ｵ:m+･\x12[8Y<d\x1eｽﾁｺ:\x08A截\x05\x1fｧXk8叢関拉抻ﾕH\x17y\x07\x1fﾟ\x1fｯｾ\x01/ｿ\\rﾈ腟7\x1e7eﾁﾇ-ｵｯ\x04oｲ.\\n虞δｳ^\\v;GｲJ\x1dRｧaﾗ;M冬iｦｯヰ\x13\x0c樵A\x0fﾃ\x00p\x0cｧｲﾐ\x06aｹ皀･:ﾜむAｫ.\x01/ｿ/\x00ﾁ｡"°｣6q6\x0fｹ\x1f2\x12\x03%ｨｬ'
+- xorff:builtin:0x0 seg=0xC30 score=41.58 jp=20 kana=4 :: 'ｶ\\rX9J\x0eWヴ膩GMHｴ%(a+\\r(ﾂj腕 NRヵ｡)BVM5"ﾐ(ﾂV)F\x13Tﾃ\x189F\x0eV┘\t[\x0eE\x06僻認9ﾈ遷"r描ｴ認S%ﾎEa┐4ｯ\t.2枴ﾋOｶ\\rX9J\x0eWヴ膩GMHｴ%(a+\\r(ﾂj腕 NRヵ｡)BVM5"ﾐ(ﾂV)F\x13Tﾃ\x189F\x0eV┘\t[\x0eE\x06僻認9ﾈ遷"r描ｴ認S%ﾎEa┐'

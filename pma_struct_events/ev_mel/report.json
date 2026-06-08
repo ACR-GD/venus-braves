@@ -1,0 +1,50 @@
+{
+  "path": "/Users/acr/venus-braves/cdimage_unpacked/seven_data_link/scrdata/map/ev_mel/ev_mel.pma",
+  "file_size": 131408,
+  "magic": "PMA\u0000",
+  "version": 5,
+  "header_u32": [
+    4279632,
+    5,
+    640,
+    448,
+    1,
+    64,
+    130832,
+    48,
+    131392,
+    8421504,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "table_offset": 130828,
+  "table_entries": 141,
+  "chunks": 141,
+  "chunk_size_min": 28,
+  "chunk_size_max": 3136,
+  "chunk_size_median": 864,
+  "top_chunk_signatures": [
+    {
+      "signature": "02000000ffff0000:0002",
+      "count": 140,
+      "size_min": 28,
+      "size_max": 3136,
+      "size_median": 864,
+      "sample_chunk_index": 1,
+      "sample_chunk_offset": "0x190"
+    },
+    {
+      "signature": "504d410005000000:4d50",
+      "count": 1,
+      "size_min": 400,
+      "size_max": 400,
+      "size_median": 400,
+      "sample_chunk_index": 0,
+      "sample_chunk_offset": "0x0"
+    }
+  ]
+}

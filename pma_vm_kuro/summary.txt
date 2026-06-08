@@ -1,0 +1,68 @@
+PMA: /Users/acr/venus-braves/cdimage_unpacked/seven_data_link/scrdata/map/ev_kuro/ev_kuro.pma
+Table offset: 0x8508C
+Type2 pointers: 420
+Pointer-derived segments: 420
+
+Top opcodes:
+- 0x00 count=39403 followers=[00:17190, 01:875, FF:523, 02:460, 49:436]
+- 0x01 count=7473 followers=[B0:912, 00:274, 03:164, F0:112, 78:102]
+- 0x80 count=6657 followers=[05:276, 07:228, 06:222, 1F:172, 09:162]
+- 0x40 count=4881 followers=[00:412, 03:317, 02:280, FD:220, FC:186]
+- 0x02 count=4503 followers=[00:772, 07:226, C0:104, D0:72, F0:72]
+- 0x03 count=4486 followers=[00:149, F0:132, F5:126, F3:86, EF:86]
+- 0xFF count=4339 followers=[00:582, FF:468, 80:122, C0:56, 7F:54]
+- 0xC0 count=3894 followers=[03:206, 0F:191, 05:153, 07:142, 02:138]
+- 0x20 count=3531 followers=[01:478, 7E:340, 02:214, 80:138, 03:124]
+- 0x04 count=3530 followers=[00:711, 0F:592, 20:90, 1F:70, 80:70]
+- 0x08 count=3475 followers=[00:744, 1F:544, C0:96, 40:80, 01:73]
+- 0xDC count=3286 followers=[68:748, 01:156, 00:134, 10:54, 80:34]
+- 0xFB count=3103 followers=[00:150, 80:128, 91:70, 11:62, FB:46]
+- 0xF7 count=3092 followers=[00:188, 11:42, EF:40, FA:40, FB:38]
+- 0xDF count=3085 followers=[9E:42, 00:37, CF:36, 7E:36, 37:36]
+- 0x07 count=3075 followers=[00:115, E4:72, E0:70, 60:68, A0:66]
+- 0x1F count=3053 followers=[80:84, 00:63, AE:48, 91:44, DF:36]
+- 0x7F count=2999 followers=[C0:70, E0:56, 00:55, BF:48, 80:46]
+- 0xE0 count=2990 followers=[01:258, 03:140, 07:120, 02:118, 05:109]
+- 0xEF count=2970 followers=[DF:46, DB:42, 00:42, FF:40, B7:36]
+
+Top correlated IDs:
+- op=0x01 value=0x00B0 stream=1586 resources=159489
+- op=0x00 value=0xB001 stream=1634 resources=94469
+- op=0x00 value=0x0100 stream=840 resources=161000
+- op=0x00 value=0x0002 stream=824 resources=129436
+- op=0xDC value=0xD168 stream=732 resources=124117
+- op=0x37 value=0x341A stream=668 resources=101027
+- op=0xFF value=0x00FF stream=422 resources=5944
+- op=0xB0 value=0x0002 stream=18 resources=129436
+- op=0x01 value=0x0100 stream=14 resources=161000
+- op=0x00 value=0x00B0 stream=13 resources=159489
+- op=0xFF value=0x0002 stream=14 resources=129436
+- op=0x20 value=0x0002 stream=12 resources=129436
+- op=0x00 value=0x0040 stream=30 resources=43706
+- op=0x08 value=0x0001 stream=10 resources=98748
+- op=0xB0 value=0x0001 stream=10 resources=98748
+- op=0x02 value=0x0100 stream=6 resources=161000
+- op=0x40 value=0x0002 stream=6 resources=129436
+- op=0xFB value=0x0002 stream=6 resources=129436
+- op=0x00 value=0x0200 stream=794 resources=778
+- op=0x40 value=0x0001 stream=6 resources=98748
+- op=0x7F value=0x0001 stream=6 resources=98748
+- op=0xB0 value=0xA3D1 stream=6 resources=88743
+- op=0x01 value=0x0002 stream=4 resources=129436
+- op=0x80 value=0x0002 stream=4 resources=129436
+- op=0x04 value=0x0002 stream=4 resources=129436
+- op=0x40 value=0x0004 stream=24 resources=21139
+- op=0x00 value=0x4900 stream=391 resources=1168
+- op=0x00 value=0x0068 stream=32 resources=13931
+- op=0xB0 value=0x0240 stream=16 resources=27757
+- op=0xC0 value=0x0240 stream=16 resources=27757
+- op=0xFF value=0x0001 stream=4 resources=98748
+- op=0xE0 value=0x0001 stream=4 resources=98748
+- op=0xEF value=0x0001 stream=4 resources=98748
+- op=0xE0 value=0x0240 stream=14 resources=27757
+- op=0x20 value=0xB001 stream=4 resources=94469
+- op=0xE0 value=0xB001 stream=4 resources=94469
+- op=0x00 value=0x005A stream=54 resources=6184
+- op=0x02 value=0x0240 stream=12 resources=27757
+- op=0x00 value=0x005C stream=76 resources=4110
+- op=0x01 value=0x2020 stream=12 resources=23477

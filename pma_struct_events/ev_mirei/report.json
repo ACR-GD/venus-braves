@@ -1,0 +1,50 @@
+{
+  "path": "/Users/acr/venus-braves/cdimage_unpacked/seven_data_link/scrdata/map/ev_mirei/ev_mirei.pma",
+  "file_size": 170096,
+  "magic": "PMA\u0000",
+  "version": 5,
+  "header_u32": [
+    4279632,
+    5,
+    640,
+    448,
+    1,
+    64,
+    169520,
+    48,
+    170080,
+    8421504,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "table_offset": 169516,
+  "table_entries": 141,
+  "chunks": 141,
+  "chunk_size_min": 28,
+  "chunk_size_max": 2656,
+  "chunk_size_median": 1024,
+  "top_chunk_signatures": [
+    {
+      "signature": "02000000ffff0000:0002",
+      "count": 140,
+      "size_min": 28,
+      "size_max": 2656,
+      "size_median": 1040,
+      "sample_chunk_index": 1,
+      "sample_chunk_offset": "0x3B0"
+    },
+    {
+      "signature": "504d410005000000:4d50",
+      "count": 1,
+      "size_min": 944,
+      "size_max": 944,
+      "size_median": 944,
+      "sample_chunk_index": 0,
+      "sample_chunk_offset": "0x0"
+    }
+  ]
+}

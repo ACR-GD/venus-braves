@@ -1,0 +1,77 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Images disque du jeu (original + patchée)
+*.iso
+Venus & Braves - Majo to Megami to Horobi no Yogen (Japan).iso
+venus_braves_translated.iso
+
+# Données extraites / décompressées du jeu (volumineux, droits d'auteur)
+extracted_iso/
+cdimage_unpacked/
+cdimage_temp_unpacked/
+bgmimage_unpacked/
+movimage_unpacked/
+IMAGE/
+CDIMAGE.BIN
+CDIMAGE.BIN.orig
+Dump/
+ite_out/
+
+# Binaires exécutables / assets jeu originaux
+SLPS_251.96
+SLPS_251.96.orig
+*.orig
+*.bak
+
+# Savestates PCSX2 et dumps mémoire
+*savestate*/
+*_p2s_extract/
+*.p2s
+eeMemory.bin
+iopMemory.bin
+GS.bin
+SPU2.bin
+USB.bin
+Scratchpad.bin
+PAD.bin
+vu0Memory.bin
+vu1Memory.bin
+vu0MicroMem.bin
+vu1MicroMem.bin
+eeHwRegs.bin
+iopHwRegs.bin
+
+# Artefacts d'analyse intermédiaires
+scratch/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Fichiers volumineux générés
+cdimage_strings.txt
+screenshots/
+translation_catalog.csv
+translation_catalog_split/
+translation_dialogue_cache.json
+gim_decoded/
+
+# Projets Ghidra locaux
+*.gpr
+*.rep/
+
+# OS / éditeur
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~

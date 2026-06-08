@@ -1,0 +1,68 @@
+PMA: /Users/acr/venus-braves/cdimage_unpacked/seven_data_link/scrdata/map/ev_yogen/ev_yogen.pma
+Table offset: 0x1FD6C
+Type2 pointers: 140
+Pointer-derived segments: 140
+
+Top opcodes:
+- 0x00 count=8413 followers=[00:5563, 01:282, FF:160, 49:146, 02:140]
+- 0x01 count=1135 followers=[B0:286, 00:153, F0:20, E8:16, D7:16]
+- 0x1A count=846 followers=[34:168, 30:162, 33:80, 00:12, DD:10]
+- 0x80 count=842 followers=[00:36, 07:36, 16:28, 1D:28, 09:24]
+- 0xB0 count=807 followers=[00:283, 01:19, 02:18, 03:9, 05:8]
+- 0x40 count=759 followers=[00:112, 0F:30, 03:20, FD:20, 1C:16]
+- 0xA3 count=737 followers=[0C:162, 46:82, 5A:10, 6C:10, 64:8]
+- 0x68 count=736 followers=[C3:164, D1:160, 00:23, D7:8, 20:8]
+- 0x8D count=725 followers=[1A:240, 48:12, A1:10, 93:8, B6:8]
+- 0x02 count=725 followers=[00:165, 20:14, 80:12, C0:10, AE:8]
+- 0x49 count=721 followers=[F0:104, F1:78, F2:42, F3:12, F4:10]
+- 0xC3 count=711 followers=[0D:160, 71:80, 40:80, 52:10, 32:10]
+- 0xB6 count=698 followers=[80:18, D9:14, 8C:12, EA:10, 42:10]
+- 0x30 count=678 followers=[C3:161, DC:80, 01:15, 03:14, 02:11]
+- 0x6D count=670 followers=[1A:12, 40:10, 90:10, 76:10, A4:10]
+- 0xFF count=669 followers=[00:157, FF:144, EC:8, BB:8, 92:6]
+- 0xDB count=660 followers=[29:12, 52:10, 46:10, 69:10, 9B:10]
+- 0xB2 count=645 followers=[6D:12, 87:12, 49:10, CA:10, DC:8]
+- 0xDC count=644 followers=[68:160, 00:18, 01:10, 95:8, 8B:8]
+- 0x6C count=641 followers=[44:14, 2E:12, 96:12, B2:12, 00:10]
+
+Top correlated IDs:
+- op=0x01 value=0x00B0 stream=516 resources=159489
+- op=0x00 value=0xB001 stream=540 resources=94469
+- op=0x00 value=0x0100 stream=280 resources=161000
+- op=0x00 value=0x0002 stream=272 resources=129436
+- op=0xDC value=0xD168 stream=160 resources=124117
+- op=0x37 value=0x341A stream=160 resources=101027
+- op=0x1A value=0x6834 stream=160 resources=100043
+- op=0x68 value=0xA3D1 stream=160 resources=88743
+- op=0x68 value=0x0DC3 stream=160 resources=83837
+- op=0x8D value=0x301A stream=160 resources=73368
+- op=0x0D value=0x8DC6 stream=160 resources=71433
+- op=0x1A value=0xC330 stream=160 resources=63760
+- op=0xA3 value=0x370C stream=160 resources=59393
+- op=0xC3 value=0xC60D stream=160 resources=54258
+- op=0x30 value=0x71C3 stream=80 resources=57656
+- op=0x30 value=0x68DC stream=80 resources=54486
+- op=0xC3 value=0x0040 stream=80 resources=43706
+- op=0xA3 value=0x8C46 stream=80 resources=28445
+- op=0xC3 value=0xA371 stream=80 resources=26338
+- op=0x8D value=0x331A stream=80 resources=26056
+- op=0xB0 value=0x0002 stream=8 resources=129436
+- op=0xFF value=0x00FF stream=140 resources=5944
+- op=0x30 value=0x40C3 stream=160 resources=3595
+- op=0x00 value=0x0200 stream=260 resources=778
+- op=0x00 value=0x4900 stream=130 resources=1168
+- op=0xB6 value=0x0080 stream=6 resources=12279
+- op=0x1A value=0x6633 stream=80 resources=806
+- op=0x00 value=0x7000 stream=34 resources=1770
+- op=0x00 value=0x3000 stream=32 resources=1872
+- op=0x00 value=0x1000 stream=24 resources=2496
+- op=0x00 value=0x9000 stream=37 resources=1128
+- op=0x80 value=0x0016 stream=8 resources=4321
+- op=0x00 value=0x5000 stream=28 resources=1187
+- op=0x00 value=0xB000 stream=19 resources=1736
+- op=0x00 value=0x005C stream=8 resources=4110
+- op=0x00 value=0xD000 stream=26 resources=1206
+- op=0x00 value=0x0035 stream=8 resources=3307
+- op=0x00 value=0x0050 stream=8 resources=3268
+- op=0x02 value=0x0220 stream=8 resources=2997
+- op=0x80 value=0x0013 stream=6 resources=3834

@@ -1,0 +1,50 @@
+{
+  "path": "/Users/acr/venus-braves/cdimage_unpacked/seven_data_link/scrdata/map/ev_kuro/ev_kuro.pma",
+  "file_size": 546608,
+  "magic": "PMA\u0000",
+  "version": 5,
+  "header_u32": [
+    4279632,
+    5,
+    640,
+    1344,
+    1,
+    64,
+    544912,
+    48,
+    546592,
+    8421504,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "table_offset": 544908,
+  "table_entries": 421,
+  "chunks": 421,
+  "chunk_size_min": 28,
+  "chunk_size_max": 4064,
+  "chunk_size_median": 576,
+  "top_chunk_signatures": [
+    {
+      "signature": "02000000ffff0000:0002",
+      "count": 420,
+      "size_min": 28,
+      "size_max": 4064,
+      "size_median": 576,
+      "sample_chunk_index": 1,
+      "sample_chunk_offset": "0xD0"
+    },
+    {
+      "signature": "504d410005000000:4d50",
+      "count": 1,
+      "size_min": 208,
+      "size_max": 208,
+      "size_median": 208,
+      "sample_chunk_index": 0,
+      "sample_chunk_offset": "0x0"
+    }
+  ]
+}

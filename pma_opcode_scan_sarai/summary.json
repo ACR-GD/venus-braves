@@ -1,0 +1,159 @@
+{
+  "record_types": [
+    2,
+    3,
+    1
+  ],
+  "files": {
+    "ev_sarai.pma": {
+      "records": 280,
+      "by_type_top": [
+        {
+          "value": 2,
+          "count": 280
+        }
+      ],
+      "u32_1_top": [
+        {
+          "value": 65535,
+          "count": 280
+        }
+      ],
+      "u16_8_top": [
+        {
+          "value": 34704,
+          "count": 2
+        },
+        {
+          "value": 25392,
+          "count": 2
+        },
+        {
+          "value": 45872,
+          "count": 2
+        },
+        {
+          "value": 48720,
+          "count": 2
+        },
+        {
+          "value": 15120,
+          "count": 2
+        },
+        {
+          "value": 19216,
+          "count": 2
+        },
+        {
+          "value": 19856,
+          "count": 2
+        },
+        {
+          "value": 37360,
+          "count": 2
+        },
+        {
+          "value": 54896,
+          "count": 2
+        },
+        {
+          "value": 6320,
+          "count": 2
+        },
+        {
+          "value": 31984,
+          "count": 2
+        },
+        {
+          "value": 80,
+          "count": 1
+        }
+      ],
+      "first_nonzero_after_0x10_top": [
+        {
+          "value": 16,
+          "count": 261
+        },
+        {
+          "value": 17,
+          "count": 19
+        }
+      ]
+    }
+  },
+  "global_summary": {
+    "records": 280,
+    "by_type_top": [
+      {
+        "value": 2,
+        "count": 280
+      }
+    ],
+    "u32_1_top": [
+      {
+        "value": 65535,
+        "count": 280
+      }
+    ],
+    "u16_8_top": [
+      {
+        "value": 34704,
+        "count": 2
+      },
+      {
+        "value": 25392,
+        "count": 2
+      },
+      {
+        "value": 45872,
+        "count": 2
+      },
+      {
+        "value": 48720,
+        "count": 2
+      },
+      {
+        "value": 15120,
+        "count": 2
+      },
+      {
+        "value": 19216,
+        "count": 2
+      },
+      {
+        "value": 19856,
+        "count": 2
+      },
+      {
+        "value": 37360,
+        "count": 2
+      },
+      {
+        "value": 54896,
+        "count": 2
+      },
+      {
+        "value": 6320,
+        "count": 2
+      },
+      {
+        "value": 31984,
+        "count": 2
+      },
+      {
+        "value": 80,
+        "count": 1
+      }
+    ],
+    "first_nonzero_after_0x10_top": [
+      {
+        "value": 16,
+        "count": 261
+      },
+      {
+        "value": 17,
+        "count": 19
+      }
+    ]
+  }
+}

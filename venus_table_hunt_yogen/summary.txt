@@ -1,0 +1,25 @@
+PMA: /Users/acr/venus-braves/cdimage_unpacked/seven_data_link/scrdata/map/ev_yogen/ev_yogen.pma
+Pointer-derived segments: 140
+Mappings tested: 5
+
+[000] identity:builtin:0x0 -> 3 hits (best 165.74)
+[001] xor55:builtin:0x0 -> 2 hits (best 220.13)
+[002] xoraa:builtin:0x0 -> 1 hits (best 172.85)
+[003] xorff:builtin:0x0 -> 4 hits (best 158.71)
+[004] perm256:SLPS_251.96:0x45FC90 -> 4 hits (best 199.23)
+
+Top decode hits:
+- xor55:builtin:0x0 seg=0x17F0 score=220.13 jp=166 kana=8 :: '\x1c･｣ﾙｮ!稠t｣Mｵﾓ袢\x12"2,\x02:ﾈo\x16\x04\x08\x01ｷf\x07LZz\x17!\x19\x08Aｪ8卍JﾞxZ睚u7B\x1aﾘ貎v-U6ｺ2l､訳\x1cｸﾒ｣ｰ\x00@\x1a\x08[L\x05ｳｲ\x00ｲtF\x07辨\'皇x{反ﾐc曜*5P\x0e囹,x,-ｮﾏｫ癌*MｯHﾇ\x11ﾄ[ﾒ逖jS餓qﾐ絵ﾁ|\x0f%7b=^ｬU｢迚ｷ;ｿ\x1dw.Eﾃ>\x15IUlｵT壽ｾﾋKT|ﾅ'
+- xor55:builtin:0x0 seg=0x25D0 score=213.26 jp=164 kana=6 :: '\x1c･｣ﾘゞ3]JｫU\x04eU｢麌迥{\x0e^d#\x19晰B\x0eｻ]J3x､]累ﾛ(ｳ擽"ﾋ8$ﾔﾘｷx{ﾍﾄxﾀﾔI｣\x0b0\x14｡T\x07動*ｩ"\x1bｦa\x1d饒ｩg譖\x1be\tﾋ\x1b懾[f\x0f\x1aEｻ\x18zY@Zﾎ駸ﾌ\x1a忸kﾁ\x04姫$ﾗ+UZｷ&ﾕV戒偲蜂ｪo3$<ﾌZ\x17ﾎUﾉTb:ｱﾗUｩTﾔ[~ｶ敷ｲ./\x1c孟\x1eﾄ\x07Lﾏｨ#7煽噪A\x06'
+- perm256:SLPS_251.96:0x45FC90 seg=0x25D0 score=199.23 jp=156 kana=4 :: 'Vﾅ廴瞼\x07(｢9ﾁﾙuｽﾙw1k:ｩ}ﾋ0y>鴬\x05Q0[ﾍ(｢\x07♭(jf\x058遉\x11跖M4±ｯK\x1a\x15ﾌ錺惴iﾖ$xﾏﾊ檀ｩﾗ\x0f躰ｺGs%ｷﾓ@ｺ列ｽ\x01｣[､]ｯﾟﾂﾘ獪ﾜﾆﾍ62J9vp擔%O湎ﾟ≫NZ疫-ﾝｺ\x11\x1eﾙ64[\x08ﾄX9?I魯ｭ!\x07\x11$沱e^pﾙ\x04x\x0b\x03ｫﾙx靼P\x1b-魂/ﾕV漏\x14\x1aﾊLﾐ\x7f>\x0e'
+- perm256:SLPS_251.96:0x45FC90 seg=0x17F0 score=196.60 jp=150 kana=6 :: "Vﾅ5hX深z囿訝\\r5\x1c\x0f躙ﾃ%ﾑ\x03\x18!l砥<$;ｯn4ﾊL擅\x00[2e制<+ｭ波t｢ｬ◎#\x18\x17\x0e灼Mｻ\x06ﾙﾚ.W宝侏Vｱ3寮vﾜ<ﾘL\x12ｰｾｰ喙μg\x10ﾇc{±]ｻR{べoﾝ0ﾉﾉﾃﾃ\x06hﾐﾁｩｸﾗb 斤ﾎ\x1aﾘ:lしX\x02Rｩ7ZEﾋﾔ\x0e\x0bl',yｦﾙPﾌw:X4C\x0cs塑/ﾆ潛婬Dﾙ\\rxﾉ[_､xE"
+- perm256:SLPS_251.96:0x45FC90 seg=0x1E50 score=182.34 jp=138 kana=6 :: "Vﾅ廴1ﾍﾙｰｩ\x7fﾅ2ｰ\x06\x1b韻4\x17jｺ/仮gl/ﾏ\x1e\x0fﾟ傷ﾂs\x17\x1eﾂ9ﾅﾄoxﾄ*yl\\rｺ\x01\x18ｰ歐}\x02ｲ\x15\\r\x07ｹ｣tｽ\x0f\x1f'羣茴aﾋ麼鉉ﾙ\x17ﾙx\x11b; \x1a\x7f6\x1e\x13U6[翳@\x11I劫@g\x10ｲｱ/\x08/ﾙ~Gか\x17ﾝｭX\x1a“ﾆ`\\n_jgeﾍsｦｱ1\x02ｴZｷ\\r\x08ｵT(-d\x1a\x1e4&%\\rxwD\x03ﾗk率~("
+- xoraa:builtin:0x0 seg=0x2CB0 score=172.85 jp=130 kana=6 :: '綮\\\'_\x05\\n関ﾊ間\\r世YFｪ(ﾎ\x03\x19%%E7+l*苓%qｦﾆN鶻zｮ\x1ae\x05jｨHﾙ\x1fY箙ｻﾛP#ﾙｶﾃｵ3ﾏ\x1bｨｰ肯榻[ﾍ%ﾅ\x0eｪｪEU\\r_h\x03ｬ]7 LﾓzHﾔ葹|帥轌ｪﾔ｢ｪﾊｪEr\'4DHV"\x00菴}=読\x18=\x13ﾀcｸzZH\x03G@椨b\x18ﾐ辰･鑾ｩﾚB\x18ﾗ+ｩY\x15J･\x18\\r\x11o\x1dﾙﾙ;鋤4\x07e'
+- perm256:SLPS_251.96:0x45FC90 seg=0x2CB0 score=168.23 jp=130 kana=4 :: 'Vﾅ廴･9ﾂ\x17ﾈo\x17\x1eﾌ!(&Gｹﾙ鵲槽**.\x18ﾔ闥\x08ke*?ｲJｼｫTT\\nﾓ\x19匕ﾉ9-4ｸGs救\x11 ｪD｢&i;|d\x13ｮFW*\x03\x0f`ﾙ\x12ﾙu.ｶｭﾌ･揃w<\x18rﾃﾓ4\x1eｨ;!E狐ﾙ\x1e(ﾙoﾙ.cM､ﾍ4┗,t部:t\x02\x1d<ﾟ7ﾓﾅ4続\x0cx\x05:ﾕH抛ｩﾄｻ:f霪G1\\r:ﾜﾌ[乾zﾑ蔕\x1aｳ瞬@\t@､'
+- identity:builtin:0x0 seg=0x17F0 score=165.74 jp=124 kana=6 :: 'I口ﾜtｻｷ3!ﾒ\x18煕ｰ隈､wgyｼWo:ﾍCQﾅ]ｨTｪ｣3Rｭ\x19\x0fｬﾑｻ/BtL]\x14mﾌ\x1f-\x0fｴ b\x17O叉#x\x00cg9ﾃｦI蠕U\x15O]\x0e\x19P跚U!ｻ\x13Rﾌﾋrﾘ6-.ﾁ閻6ﾂ?\x7f`\x05[ﾏﾏy-yxﾟｵ\x7f\x18\x1d奪\x0eｲﾍ?\x06ﾜｹ$ﾟ\x12)ｦZpb7ﾍhﾗ\x0b\x00ｫｧｲﾜ穗鶇ｩ"ｩ{\x10｡妙k@\x1c\x009\x01ﾏｳｻ\x1e'
+- xorff:builtin:0x0 seg=0x25D0 score=158.71 jp=122 kana=4 :: 'ｶ\x0f\tr+咸澑\x01ｮﾏ\x08@ﾂM ﾑY､ﾎ!ｳ7Z隍D\x11燎ﾒ\x0e=wq\x197\x1ea虫-~r\x1dﾒﾑUgnﾒjX~\t｡埓\x0bW,ｭ9\x04 [\x03D1ｱ\x0cﾋｷCﾊ\x03/ﾍL1Aｱﾏ%｣Daｱ>U6_ﾌ^･ｰG\x11ｲEﾐP鷁dCﾙfｰ6ﾒ"ﾁk!ｮ?1枝E\x1dD\x7f#P$i<\x00ﾅ剋W貿ｽdQcﾈ\x1b}\x03G~Tﾔ\x1c?ﾔ\x18уｶ<zｴnｭ'
+- xorff:builtin:0x0 seg=0x17F0 score=144.45 jp=110 kana=4 :: "ｶ\x0f\ts\x04#汽Hﾌﾞ\t-\x1fyOsｸ[Cｨ臣ﾅ2ｼｮ:｢WｫU\\\x1dﾌｭR跼S.Dﾐｽ教｢\x003h炙ﾒKbﾟ晁ｰrL\x17ﾜ\x10佝\x0e<Yｶ\x12x\t\x1aAｪｰ｢豈\x19\x18ｪ\x18ﾞDｭ34'ﾉﾒﾑ>\x17zﾉ=ﾀ滯､00ﾒ\x04e\x01 J\x05穃ｻnxM2ﾀ#Fﾛz kﾖY･傷ﾈ2(\x06TX\x08M#\x1d\x15ｷVﾝV^iR帆ﾆ\x1f0LD\x14aﾖo\x15｣ﾔ"
+- xorff:builtin:0x0 seg=0x3330 score=117.21 jp=74 kana=10 :: 'ｶ\x0f\tr\x08ﾑｾ&>\x0b\x7f}7`\\rｯi+炯ｶ\x7f\x7f}\x01\x7f麟｣N\x1eaﾓ$\x05Mｵ+\x06ﾕ砠%ﾈdJ峩ｿ4;Zﾝ$､ﾌ1陽ﾈ\x06ﾚ\\*?~\x12毯\x07_ﾚ\x04\x7f=錮ﾅ*ﾇﾂKﾀﾓｱ\x19\x07L"\tU\x7f｣~%oﾋﾌ:Q4\x08ﾜﾇqiﾛ\\dqwlﾊ\x0641kWガぼﾉOI\x02\x06繋IZ\\ﾛ蘓V\x15!?>ｱLｳ\x03嶷ｹ_%/ﾒ\x1b\x17|番\x15xmﾒ\x03\\'
+- identity:builtin:0x0 seg=0x3330 score=104.73 jp=72 kana=6 :: 'I桜.A\x03ﾙﾁ\x03\x14\x0c}\x0bな漑P\x03奔\x08\x1eﾔ\x08\x1f迂\x0f\t\x0fh&\x7f\\i\x00ｱ癰,ﾛ\x13ｲJﾔp*\x1e\x18ﾚ7峽dK@~ﾋﾄ･"ﾛ[3ﾎh7%｣}ﾕﾀ`%\x00\x11\x05}\x1dﾂ\x18\x03:ﾕ8\x10=ｴ\x10?,N誄\x00\x00ｳ\x07ﾝ\x00\x7fｪ\x10\x0f\\）ﾚ43ﾅｮﾋ\x1b\x0e#8事$｣寰\x00\x005ﾋﾎ畑|ｴ}%6ｰ\x03\x0fｶs叱･｣$\x1a｡ｩﾞ\x14\x01ﾀ\x03ﾁ_NｳLd)Fﾚ'
+- identity:builtin:0x0 seg=0x1190 score=85.67 jp=60 kana=4 :: 'I紅=ﾜqｰｲ\x0em\x00\x02q#ｸﾐ\x01\x12Zﾊqｺscﾞﾞqﾆﾙt黹夸5\x18ﾝ.ｯ\x14ﾔ{\x1177u%P塋鞁\x16=kxﾚ6ﾀ\x01(ｰ#\\n\x001`ｩ\x1f囗躄髫P\x04,ﾌｭ\x05\x19籖\x10eﾈT<\x1b\x1f\x19朶ﾈｨンﾆ\\rｬﾜｯ]Yﾔ貰,(ﾚﾄBｻ\x1d\x00s\x15a畭軍-ﾚ\x18･F馼ﾖ\t\x17｢\x1d輛ﾔEJ<ｦ\\ﾝﾜ\x0cXｩKO\x06mFTQ7cﾄ\x01講ﾓMｫ\x16'
+- xorff:builtin:0x0 seg=0xDD0 score=71.66 jp=43 kana=6 :: 'ｶ\x0f\tr滯KﾏI\x7f/9宕ｩ\x12槫ﾏse膺\\･停ﾂｦ佶q\x12dｦjD屁s司ｺ杠)\x140\x18ｼﾄ柯\x17<ｮjLOﾉ侫聞ﾊg\x0f6莢0BすｳkWﾁpﾛ樣K3D､;.f\x038%ﾌ)q剃\x08\x19ｫaｫし~ｺ~\x13ｷRｧ\x14Xﾉ ﾀﾁ垤l))Dﾚぽﾎ7呈･hｷ\x1bｧ,ﾜ岻]ｹ\x7fOｶ\x0f\tr滯KﾏI\x7f/9宕ｩ\x12槫ﾏse膺\\･停ﾂｦ佶q\x12d'

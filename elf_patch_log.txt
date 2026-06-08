@@ -1,0 +1,722 @@
+[+] Loaded 8329 rows across ELF UI CSVs.
+[!] Warning: String at 0x0036667C too long. Truncated 'Orot Mushroom' (13B) -> 'Orot Mushroo' (12B). Original space: 12B.
+[!] Warning: String at 0x003666F0 too long. Truncated 'Pebrot Mushroom' (15B) -> 'Pebrot Mushr' (12B). Original space: 12B.
+[!] Warning: String at 0x00366764 too long. Truncated 'Melbug Mushroom' (15B) -> 'Melbug Mus' (10B). Original space: 10B.
+[!] Warning: String at 0x003667D8 too long. Truncated 'Belbog Mushroom' (15B) -> 'Belbog Mus' (10B). Original space: 10B.
+[!] Warning: String at 0x0036684C too long. Truncated 'Kadri Fruit' (11B) -> 'Kadri Frui' (10B). Original space: 10B.
+[!] Warning: String at 0x003668C0 too long. Truncated 'Furbo Fruit' (11B) -> 'Furbo Frui' (10B). Original space: 10B.
+[!] Warning: String at 0x003669A8 too long. Truncated 'Huba Spike' (10B) -> 'Huba Spi' (8B). Original space: 8B.
+[!] Warning: String at 0x00366A90 too long. Truncated 'Leather Armor' (13B) -> 'Leather ' (8B). Original space: 8B.
+[!] Warning: String at 0x00366D48 too long. Truncated 'Leylant Leather Armor' (21B) -> 'Leylant Leathe' (14B). Original space: 14B.
+[!] Warning: String at 0x00366DBC too long. Truncated 'Leylant Plate Armor' (19B) -> 'Leylant Plate ' (14B). Original space: 14B.
+[!] Warning: String at 0x00366E30 too long. Truncated "Alsena's Holy Armor" (19B) -> "Alsena's Holy " (14B). Original space: 14B.
+[!] Warning: String at 0x00367074 too long. Truncated "Scholar's Robe" (14B) -> "Scholar's Ro" (12B). Original space: 12B.
+[!] Warning: String at 0x003670E8 too long. Truncated 'Gold-Thread Robe' (16B) -> 'Gold-Thread ' (12B). Original space: 12B.
+[!] Warning: String at 0x0036715C too long. Truncated 'Pure White Robe' (15B) -> 'Pure White R' (12B). Original space: 12B.
+[!] Warning: String at 0x00367244 too long. Truncated "Caleidon's Garment" (18B) -> "Caleidon's Gar" (14B). Original space: 14B.
+[!] Warning: String at 0x003672B8 too long. Truncated 'Stone Dagger' (12B) -> 'Stone Da' (8B). Original space: 8B.
+[!] Warning: String at 0x0036732C too long. Truncated 'Jade Dagger' (11B) -> 'Jade Dagge' (10B). Original space: 10B.
+[!] Warning: String at 0x003673A0 too long. Truncated 'Silver Dirk' (11B) -> 'Silver D' (8B). Original space: 8B.
+[!] Warning: String at 0x00367414 too long. Truncated 'Crescent Dagger' (15B) -> 'Crescent Dag' (12B). Original space: 12B.
+[!] Warning: String at 0x00367658 too long. Truncated "Kamji's Wakizashi" (17B) -> "Kamji's Waki" (12B). Original space: 12B.
+[!] Warning: String at 0x00367740 too long. Truncated 'Earth Amulet' (12B) -> 'Earth Amul' (10B). Original space: 10B.
+[!] Warning: String at 0x003677B4 too long. Truncated 'Meteor Amulet' (13B) -> 'Meteor Amule' (12B). Original space: 12B.
+[!] Warning: String at 0x00367828 too long. Truncated 'Glitter Star Amulet' (19B) -> 'Glitter Star' (12B). Original space: 12B.
+[!] Warning: String at 0x0036789C too long. Truncated 'Comet Amulet' (12B) -> 'Comet Amul' (10B). Original space: 10B.
+[!] Warning: String at 0x00367910 too long. Truncated 'Morning Star Amulet' (19B) -> 'Morning St' (10B). Original space: 10B.
+[!] Warning: String at 0x00367984 too long. Truncated 'Moonlight Amulet' (16B) -> 'Moonlight Amul' (14B). Original space: 14B.
+[!] Warning: String at 0x003679F8 too long. Truncated 'Sunlight Amulet' (15B) -> 'Sunlight A' (10B). Original space: 10B.
+[!] Warning: String at 0x00367A6C too long. Truncated 'Celestial Amulet' (16B) -> 'Celestial ' (10B). Original space: 10B.
+[!] Warning: String at 0x00367AE0 too long. Truncated 'Sparrow Brooch' (14B) -> 'Sparrow Broo' (12B). Original space: 12B.
+[!] Warning: String at 0x00367B54 too long. Truncated 'Swallow Brooch' (14B) -> 'Swallow Broo' (12B). Original space: 12B.
+[!] Warning: String at 0x00367CB0 too long. Truncated 'Falcon Brooch' (13B) -> 'Falcon Brooc' (12B). Original space: 12B.
+[!] Warning: String at 0x00367F68 too long. Truncated 'Bronze Shield' (13B) -> 'Bronze S' (8B). Original space: 8B.
+[!] Warning: String at 0x00367FDC too long. Truncated 'Iron Greatshield' (16B) -> 'Iron Greatshie' (14B). Original space: 14B.
+[!] Warning: String at 0x00368050 too long. Truncated 'Steel Shield' (12B) -> 'Steel Sh' (8B). Original space: 8B.
+[!] Warning: String at 0x003680C4 too long. Truncated 'Silver Shield' (13B) -> 'Silver S' (8B). Original space: 8B.
+[!] Warning: String at 0x00368138 too long. Truncated 'Gold Shield' (11B) -> 'Gold Shi' (8B). Original space: 8B.
+[!] Warning: String at 0x003681AC too long. Truncated 'Platinum Greatshield' (20B) -> 'Platinum Great' (14B). Original space: 14B.
+[!] Warning: String at 0x00368220 too long. Truncated 'Dragon Scale Shield' (19B) -> 'Dragon Sca' (10B). Original space: 10B.
+[!] Warning: String at 0x00368294 too long. Truncated 'Mithril Greatshield' (19B) -> 'Mithril Greats' (14B). Original space: 14B.
+[!] Warning: String at 0x003683F0 too long. Truncated 'Glass Bell' (10B) -> 'Glass Be' (8B). Original space: 8B.
+[!] Warning: String at 0x0036854C too long. Truncated 'Bell of Fortune' (15B) -> 'Bell of ' (8B). Original space: 8B.
+[!] Warning: String at 0x003685C0 too long. Truncated 'Chime of Fate' (13B) -> 'Chime of' (8B). Original space: 8B.
+[!] Warning: String at 0x00368634 too long. Truncated 'Astral Chime' (12B) -> 'Astral C' (8B). Original space: 8B.
+[!] Warning: String at 0x003689D4 too long. Truncated 'Reversal Mirror' (15B) -> 'Reversal M' (10B). Original space: 10B.
+[!] Warning: String at 0x00368A48 too long. Truncated 'Exorcism Water Mirror' (21B) -> 'Exorcism W' (10B). Original space: 10B.
+[!] Warning: String at 0x00368ABC too long. Truncated 'Holy Warding Mirror' (19B) -> 'Holy Wardi' (10B). Original space: 10B.
+[!] Warning: String at 0x00368BA4 too long. Truncated 'Basics of Swordplay' (19B) -> 'Basics of ' (10B). Original space: 10B.
+[!] Warning: String at 0x00368C18 too long. Truncated 'Principles of Swordplay' (23B) -> 'Principles' (10B). Original space: 10B.
+[!] Warning: String at 0x00368F44 too long. Truncated 'Calamity Sword' (14B) -> 'Calamity' (8B). Original space: 8B.
+[!] Warning: String at 0x00368FB8 too long. Truncated 'Cursed Sword' (12B) -> 'Cursed S' (8B). Original space: 8B.
+[!] Warning: String at 0x0036902C too long. Truncated 'Exorcist Sword' (14B) -> 'Exorcist' (8B). Original space: 8B.
+[!] Warning: String at 0x003690A0 too long. Truncated 'Bloody Demon Sword' (18B) -> 'Bloody D' (8B). Original space: 8B.
+[!] Warning: String at 0x00369114 too long. Truncated 'Shadow Demon Sword' (18B) -> 'Shadow D' (8B). Original space: 8B.
+[!] Warning: String at 0x00369188 too long. Truncated 'Night Demon Sword' (17B) -> 'Night De' (8B). Original space: 8B.
+[!] Warning: String at 0x003691FC too long. Truncated 'Black Sword Genau' (17B) -> 'Black Sword Ge' (14B). Original space: 14B.
+[!] Warning: String at 0x00369270 too long. Truncated 'Dark Sword Gados' (16B) -> 'Dark Sword Gad' (14B). Original space: 14B.
+[!] Warning: String at 0x003692E4 too long. Truncated 'Death Sword Gii' (15B) -> 'Death Sword ' (12B). Original space: 12B.
+[!] Warning: String at 0x003693CC too long. Truncated 'Long Journey Diary' (18B) -> 'Long Journ' (10B). Original space: 10B.
+[!] Warning: String at 0x00369440 too long. Truncated 'Memoirs of Travel' (17B) -> 'Memoirs of' (10B). Original space: 10B.
+[!] Warning: String at 0x003694B4 too long. Truncated 'Biography of Traveler' (21B) -> 'Biography ' (10B). Original space: 10B.
+[!] Warning: String at 0x00369528 too long. Truncated 'Reminiscences of Traveler' (25B) -> 'Reminiscence' (12B). Original space: 12B.
+[!] Warning: String at 0x0036959C too long. Truncated 'Travelogue of Traveler' (22B) -> 'Travelogue o' (12B). Original space: 12B.
+[!] Warning: String at 0x00369610 too long. Truncated 'Akral Chronicles' (16B) -> 'Akral Chronicl' (14B). Original space: 14B.
+[!] Warning: String at 0x00369684 too long. Truncated "Jazil's Memoirs" (15B) -> "Jazil's Memoir" (14B). Original space: 14B.
+[!] Warning: String at 0x003696F8 too long. Truncated 'Book of Varius' (14B) -> 'Book of Vari' (12B). Original space: 12B.
+[!] Warning: String at 0x003698C8 too long. Truncated 'Silent Shoes' (12B) -> 'Silent Sho' (10B). Original space: 10B.
+[!] Warning: String at 0x0036993C too long. Truncated 'Quick-step Shoes' (16B) -> 'Quick-st' (8B). Original space: 8B.
+[!] Warning: String at 0x003699B0 too long. Truncated 'Wind-rider Shoes' (16B) -> 'Wind-rid' (8B). Original space: 8B.
+[!] Warning: String at 0x00369A24 too long. Truncated 'Giant-stride Shoes' (18B) -> 'Giant-stride S' (14B). Original space: 14B.
+[!] Warning: String at 0x00369A98 too long. Truncated 'Thousand-league Boots' (21B) -> 'Thousand-l' (10B). Original space: 10B.
+[!] Warning: String at 0x00369B0C too long. Truncated 'Winged Shoes' (12B) -> 'Winged S' (8B). Original space: 8B.
+[!] Warning: String at 0x00369EAC too long. Truncated 'Dragon Slayer Greatsword' (24B) -> 'Dragon Slaye' (12B). Original space: 12B.
+[!] Warning: String at 0x00369F20 too long. Truncated 'Greatsword Belgand' (18B) -> 'Greatsword Bel' (14B). Original space: 14B.
+[!] Warning: String at 0x00369F94 too long. Truncated 'Twilight Cloak' (14B) -> 'Twilight Clo' (12B). Original space: 12B.
+[!] Warning: String at 0x0036A07C too long. Truncated 'Evening Cloak' (13B) -> 'Evening Cl' (10B). Original space: 10B.
+[!] Warning: String at 0x0036A2C0 too long. Truncated 'Sunrise Cloak' (13B) -> 'Sunrise Cl' (10B). Original space: 10B.
+[!] Warning: String at 0x0036A334 too long. Truncated 'Daybreak Cloak' (14B) -> 'Daybreak C' (10B). Original space: 10B.
+[!] Warning: String at 0x0036A3A8 too long. Truncated 'Kaneshige' (9B) -> 'Kaneshig' (8B). Original space: 8B.
+[!] Warning: String at 0x0036A41C too long. Truncated 'Kiyomitsu' (9B) -> 'Kiyomits' (8B). Original space: 8B.
+[!] Warning: String at 0x0036A7BC too long. Truncated 'Bat Staff' (9B) -> 'Bat Staf' (8B). Original space: 8B.
+[!] Warning: String at 0x0036A830 too long. Truncated 'Raven Staff' (11B) -> 'Raven St' (8B). Original space: 8B.
+[!] Warning: String at 0x0036A8A4 too long. Truncated 'Black Cat Staff' (15B) -> 'Black Ca' (8B). Original space: 8B.
+[!] Warning: String at 0x0036A918 too long. Truncated 'Hound Staff' (11B) -> 'Hound St' (8B). Original space: 8B.
+[!] Warning: String at 0x0036A98C too long. Truncated 'Great Wolf Staff' (16B) -> 'Great Wo' (8B). Original space: 8B.
+[!] Warning: String at 0x0036AA00 too long. Truncated 'Serpent Staff' (13B) -> 'Serpent ' (8B). Original space: 8B.
+[!] Warning: String at 0x0036AA74 too long. Truncated 'Tiger Staff' (11B) -> 'Tiger St' (8B). Original space: 8B.
+[!] Warning: String at 0x0036AAE8 too long. Truncated 'Lion King Staff' (15B) -> 'Lion King ' (10B). Original space: 10B.
+[!] Warning: String at 0x0036AB5C too long. Truncated 'Dragon Emperor Staff' (20B) -> 'Dragon E' (8B). Original space: 8B.
+[!] Warning: String at 0x0036ABD0 too long. Truncated "Fool's Ring" (11B) -> "Fool's Rin" (10B). Original space: 10B.
+[!] Warning: String at 0x0036AC44 too long. Truncated "Emperor's Ring" (14B) -> "Emperor's " (10B). Original space: 10B.
+[!] Warning: String at 0x0036ACB8 too long. Truncated "Priest's Ring" (13B) -> "Priest's R" (10B). Original space: 10B.
+[!] Warning: String at 0x0036AD2C too long. Truncated 'Ring of Justice' (15B) -> 'Ring of Ju' (10B). Original space: 10B.
+[!] Warning: String at 0x0036ADA0 too long. Truncated "Hermit's Ring" (13B) -> "Hermit's R" (10B). Original space: 10B.
+[!] Warning: String at 0x0036AE14 too long. Truncated 'Ring of Destiny' (15B) -> 'Ring of De' (10B). Original space: 10B.
+[!] Warning: String at 0x0036AE88 too long. Truncated 'Ring of Strength' (16B) -> 'Ring of ' (8B). Original space: 8B.
+[!] Warning: String at 0x0036AEFC too long. Truncated 'Ring of Judgement' (17B) -> 'Ring of Ju' (10B). Original space: 10B.
+[!] Warning: String at 0x0036AFE4 too long. Truncated 'Autumn Bracelet' (15B) -> 'Autumn B' (8B). Original space: 8B.
+[!] Warning: String at 0x0036B058 too long. Truncated 'Falling Leaf Bracelet' (21B) -> 'Falling Le' (10B). Original space: 10B.
+[!] Warning: String at 0x0036B0CC too long. Truncated 'Frost Bracelet' (14B) -> 'Frost Br' (8B). Original space: 8B.
+[!] Warning: String at 0x0036B140 too long. Truncated 'Winter Bracelet' (15B) -> 'Winter B' (8B). Original space: 8B.
+[!] Warning: String at 0x0036B1B4 too long. Truncated 'Ice Bracelet' (12B) -> 'Ice Brac' (8B). Original space: 8B.
+[!] Warning: String at 0x0036B228 too long. Truncated 'Spring Bracelet' (15B) -> 'Spring B' (8B). Original space: 8B.
+[!] Warning: String at 0x0036B29C too long. Truncated 'Fresh Verdure Bracelet' (22B) -> 'Fresh Verd' (10B). Original space: 10B.
+[!] Warning: String at 0x0036B310 too long. Truncated 'Thunder Bracelet' (16B) -> 'Thunder ' (8B). Original space: 8B.
+[!] Warning: String at 0x0036B384 too long. Truncated 'Solstice Bracelet' (17B) -> 'Solstice B' (10B). Original space: 10B.
+[!] Warning: String at 0x0036B3F8 too long. Truncated 'Mace of Judgement' (17B) -> 'Mace of Judg' (12B). Original space: 12B.
+[!] Warning: String at 0x0036B46C too long. Truncated 'Mace of Law' (11B) -> 'Mace of La' (10B). Original space: 10B.
+[!] Warning: String at 0x0036B4E0 too long. Truncated 'Mace of Discipline' (18B) -> 'Mace of Disc' (12B). Original space: 12B.
+[!] Warning: String at 0x0036B554 too long. Truncated 'Mace of Law' (11B) -> 'Mace of La' (10B). Original space: 10B.
+[!] Warning: String at 0x0036B5C8 too long. Truncated 'Mace of Punishment' (18B) -> 'Mace of Pu' (10B). Original space: 10B.
+[!] Warning: String at 0x0036B63C too long. Truncated 'Hammer of Condemnation' (22B) -> 'Hammer o' (8B). Original space: 8B.
+[!] Warning: String at 0x0036B6B0 too long. Truncated 'Hammer of Governance' (20B) -> 'Hammer o' (8B). Original space: 8B.
+[!] Warning: String at 0x0036B724 too long. Truncated 'Hammer of Sovereignty' (21B) -> 'Hammer o' (8B). Original space: 8B.
+[!] Warning: String at 0x0036B798 too long. Truncated 'Sacred Hammer Lauro' (19B) -> 'Sacred Hammer ' (14B). Original space: 14B.
+[!] Warning: String at 0x0036B80C too long. Truncated 'Forest Herb' (11B) -> 'Forest H' (8B). Original space: 8B.
+[!] Warning: String at 0x0036B880 too long. Truncated "Traveler's Medicine" (19B) -> 'Traveler' (8B). Original space: 8B.
+[!] Warning: String at 0x0036B8F4 too long. Truncated "Witch's Elixir" (14B) -> "Witch's El" (10B). Original space: 10B.
+[!] Warning: String at 0x0036B968 too long. Truncated "Philosopher's Remedy" (20B) -> 'Philosophe' (10B). Original space: 10B.
+[!] Warning: String at 0x0036B9DC too long. Truncated "Sage's Elixir" (13B) -> "Sage's Eli" (10B). Original space: 10B.
+[!] Warning: String at 0x0036BA50 too long. Truncated "Saint's Panacea" (15B) -> "Saint's Pa" (10B). Original space: 10B.
+[!] Warning: String at 0x0036BC20 too long. Truncated "Soldier's Helm" (14B) -> "Soldier'" (8B). Original space: 8B.
+[!] Warning: String at 0x0036BC94 too long. Truncated "Knight's Helm" (13B) -> "Knight's" (8B). Original space: 8B.
+[!] Warning: String at 0x0036BD08 too long. Truncated "Baron's Helm" (12B) -> "Baron's " (8B). Original space: 8B.
+[!] Warning: String at 0x0036BD7C too long. Truncated "Viscount's Helm" (15B) -> 'Viscount' (8B). Original space: 8B.
+[!] Warning: String at 0x0036BDF0 too long. Truncated "Count's Helm" (12B) -> "Count's " (8B). Original space: 8B.
+[!] Warning: String at 0x0036BE64 too long. Truncated "Marquis's Helm" (14B) -> "Marquis'" (8B). Original space: 8B.
+[!] Warning: String at 0x0036BED8 too long. Truncated "Duke's Helm" (11B) -> "Duke's H" (8B). Original space: 8B.
+[!] Warning: String at 0x0036BFC0 too long. Truncated "Emperor's Helm" (14B) -> "Emperor'" (8B). Original space: 8B.
+[!] Warning: String at 0x0036C034 too long. Truncated 'Introduction to Magic' (21B) -> 'Introduction t' (14B). Original space: 14B.
+[!] Warning: String at 0x0036C11C too long. Truncated 'Book of High Magic' (18B) -> 'Book of High' (12B). Original space: 12B.
+[!] Warning: String at 0x0036C190 too long. Truncated 'Grimoire of Advanced Magic' (26B) -> 'Grimoire of ' (12B). Original space: 12B.
+[!] Warning: String at 0x0036C204 too long. Truncated 'Dictionary of Hell' (18B) -> 'Dictionary' (10B). Original space: 10B.
+[!] Warning: String at 0x0036C2EC too long. Truncated 'Book of Eibon' (13B) -> 'Book of Eibo' (12B). Original space: 12B.
+[!] Warning: String at 0x0036C448 too long. Truncated "Hunter's Bow" (12B) -> "Hunter's" (8B). Original space: 8B.
+[!] Warning: String at 0x0036C4BC too long. Truncated "Huntsman's Bow" (14B) -> 'Huntsman' (8B). Original space: 8B.
+[!] Warning: String at 0x0036C774 too long. Truncated 'Greatbow of Stars' (17B) -> 'Greatbow o' (10B). Original space: 10B.
+[!] Warning: String at 0x0036C7E8 too long. Truncated 'Divine Bow Milush' (17B) -> 'Divine Bow Mil' (14B). Original space: 14B.
+[!] Warning: String at 0x0036C85C too long. Truncated 'Stone Arrowhead' (15B) -> 'Stone Ar' (8B). Original space: 8B.
+[!] Warning: String at 0x0036C8D0 too long. Truncated 'Bone Arrowhead' (14B) -> 'Bone Arr' (8B). Original space: 8B.
+[!] Warning: String at 0x0036C944 too long. Truncated 'Iron Arrowhead' (14B) -> 'Iron Arr' (8B). Original space: 8B.
+[!] Warning: String at 0x0036C9B8 too long. Truncated 'Obsidian Arrowhead' (18B) -> 'Obsidian Arr' (12B). Original space: 12B.
+[!] Warning: String at 0x0036CA2C too long. Truncated 'Tigol Arrowhead' (15B) -> 'Tigol Arrowhea' (14B). Original space: 14B.
+[!] Warning: String at 0x0036CAA0 too long. Truncated 'Silver Arrowhead' (16B) -> 'Silver A' (8B). Original space: 8B.
+[!] Warning: String at 0x0036CB14 too long. Truncated "Wilma's Arrowhead" (17B) -> "Wilma's Arrowh" (14B). Original space: 14B.
+[!] Warning: String at 0x0036CB88 too long. Truncated 'Warding Arrowhead' (17B) -> 'Warding Ar' (10B). Original space: 10B.
+[!] Warning: String at 0x0036CBFC too long. Truncated 'Divine Wrath Arrowhead' (22B) -> 'Divine Wra' (10B). Original space: 10B.
+[!] Warning: String at 0x0036CC70 too long. Truncated 'Whitewood Arrow' (15B) -> 'Whitewoo' (8B). Original space: 8B.
+[!] Warning: String at 0x0036CCE4 too long. Truncated 'Valkian Copper Arrow' (20B) -> 'Valkian Copper' (14B). Original space: 14B.
+[!] Warning: String at 0x0036CE40 too long. Truncated 'Tigol Wooden Arrow' (18B) -> 'Tigol Wooden A' (14B). Original space: 14B.
+[!] Warning: String at 0x0036CEB4 too long. Truncated "Atia's Poison Arrow" (19B) -> "Atia's Poison " (14B). Original space: 14B.
+[!] Warning: String at 0x0036CF28 too long. Truncated "Wilma's Arrow" (13B) -> "Wilma's Arro" (12B). Original space: 12B.
+[!] Warning: String at 0x0036CF9C too long. Truncated "Zokar's Fire Arrow" (18B) -> "Zokar's Fire A" (14B). Original space: 14B.
+[!] Warning: String at 0x0036D010 too long. Truncated "Kias's Arrow of Light" (21B) -> "Kias's Arrow o" (14B). Original space: 14B.
+[!] Warning: String at 0x0036D084 too long. Truncated 'Lark Feather Ornament' (21B) -> 'Lark Feather O' (14B). Original space: 14B.
+[!] Warning: String at 0x0036D0F8 too long. Truncated 'Parrot Feather Ornament' (23B) -> 'Parrot Feather' (14B). Original space: 14B.
+[!] Warning: String at 0x0036D16C too long. Truncated 'Swan Feather Ornament' (21B) -> 'Swan Feather' (12B). Original space: 12B.
+[!] Warning: String at 0x0036D1E0 too long. Truncated 'Chimera Feather Ornament' (24B) -> 'Chimera Feathe' (14B). Original space: 14B.
+[!] Warning: String at 0x0036D254 too long. Truncated 'Gryphon Feather' (15B) -> 'Gryphon Feathe' (14B). Original space: 14B.
+[!] Warning: String at 0x0036D2C8 too long. Truncated 'Pegasus Feather' (15B) -> 'Pegasus Feat' (12B). Original space: 12B.
+[!] Warning: String at 0x0036D33C too long. Truncated 'Phoenix Feather' (15B) -> 'Phoenix Fe' (10B). Original space: 10B.
+[!] Warning: String at 0x0036D3B0 too long. Truncated 'Simurgh Feather' (15B) -> 'Simurgh Feat' (12B). Original space: 12B.
+[!] Warning: String at 0x0036D424 too long. Truncated 'Angel Feather Ornament' (22B) -> 'Angel Feathe' (12B). Original space: 12B.
+[!] Warning: String at 0x0036D498 too long. Truncated 'Leather Belt' (12B) -> 'Leather Be' (10B). Original space: 10B.
+[!] Warning: String at 0x0036D5F4 too long. Truncated 'Belt of Strength' (16B) -> 'Belt of St' (10B). Original space: 10B.
+[!] Warning: String at 0x0036D668 too long. Truncated 'Band of Wisdom' (14B) -> 'Band of Wisd' (12B). Original space: 12B.
+[!] Warning: String at 0x0036D6DC too long. Truncated 'Band of Courage' (15B) -> 'Band of Cour' (12B). Original space: 12B.
+[!] Warning: String at 0x0036D750 too long. Truncated 'Band of Honor' (13B) -> 'Band of Hono' (12B). Original space: 12B.
+[!] Warning: String at 0x0036D7C4 too long. Truncated 'Golden Magic Sash' (17B) -> 'Golden Magic' (12B). Original space: 12B.
+[!] Warning: String at 0x0036D838 too long. Truncated 'Spirit Sash' (11B) -> 'Spirit Sas' (10B). Original space: 10B.
+[!] Warning: String at 0x0036D8AC too long. Truncated 'Crest of Victory' (16B) -> 'Crest of V' (10B). Original space: 10B.
+[!] Warning: String at 0x0036D920 too long. Truncated 'Crest of Fellowship' (19B) -> 'Crest of F' (10B). Original space: 10B.
+[!] Warning: String at 0x0036D994 too long. Truncated 'Crest of Morality' (17B) -> 'Crest of M' (10B). Original space: 10B.
+[!] Warning: String at 0x0036DA08 too long. Truncated 'Crest of Fidelity' (17B) -> 'Crest of F' (10B). Original space: 10B.
+[!] Warning: String at 0x0036DA7C too long. Truncated 'Crest of Sincerity' (18B) -> 'Crest of S' (10B). Original space: 10B.
+[!] Warning: String at 0x0036DAF0 too long. Truncated 'Crest of Justice' (16B) -> 'Crest of J' (10B). Original space: 10B.
+[!] Warning: String at 0x0036DB64 too long. Truncated 'Crest of Order' (14B) -> 'Crest of O' (10B). Original space: 10B.
+[!] Warning: String at 0x0036DBD8 too long. Truncated 'Crest of Providence' (19B) -> 'Crest of P' (10B). Original space: 10B.
+[!] Warning: String at 0x0036DC4C too long. Truncated 'Crest of Wisdom' (15B) -> 'Crest of W' (10B). Original space: 10B.
+[!] Warning: String at 0x0036DCC0 too long. Truncated 'Crystal Sword Cadis' (19B) -> 'Crystal Sword ' (14B). Original space: 14B.
+[!] Warning: String at 0x0036DD34 too long. Truncated 'Ice Sword Likia' (15B) -> 'Ice Sword Li' (12B). Original space: 12B.
+[!] Warning: String at 0x0036DDA8 too long. Truncated 'Moon Sword Kahn' (15B) -> 'Moon Sword K' (12B). Original space: 12B.
+[!] Warning: String at 0x0036DE1C too long. Truncated 'White Sword Duat' (16B) -> 'White Sword Du' (14B). Original space: 14B.
+[!] Warning: String at 0x0036DE90 too long. Truncated 'Silver Sword Tilana' (19B) -> 'Silver Sword T' (14B). Original space: 14B.
+[!] Warning: String at 0x0036DF04 too long. Truncated 'Light Sword Juana' (17B) -> 'Light Sword ' (12B). Original space: 12B.
+[!] Warning: String at 0x0036DF78 too long. Truncated 'Spirit Sword Mergibel' (21B) -> 'Spirit Sword M' (14B). Original space: 14B.
+[!] Warning: String at 0x0036DFEC too long. Truncated 'Nether Sword Fulmol' (19B) -> 'Nether Sword F' (14B). Original space: 14B.
+[!] Warning: String at 0x0036E060 too long. Truncated 'Holy Sword Vildarik' (19B) -> 'Holy Sword Vil' (14B). Original space: 14B.
+[!] Warning: String at 0x0036E148 too long. Truncated 'Rainbow Crystal' (15B) -> 'Rainbow ' (8B). Original space: 8B.
+[!] Warning: String at 0x0036E1BC too long. Truncated 'Twinkling Crystal Ball' (22B) -> 'Twinkling Cr' (12B). Original space: 12B.
+[!] Warning: String at 0x0036E230 too long. Truncated 'Talos Crystal' (13B) -> 'Talos Crysta' (12B). Original space: 12B.
+[!] Warning: String at 0x0036E318 too long. Truncated 'Earth Keystone' (14B) -> 'Earth Keys' (10B). Original space: 10B.
+[!] Warning: String at 0x0036E474 too long. Truncated 'Great Gem of Seven Stones' (25B) -> 'Great Gem of S' (14B). Original space: 14B.
+[!] Warning: String at 0x0036E644 too long. Truncated 'Jade Flute' (10B) -> 'Jade Flu' (8B). Original space: 8B.
+[!] Warning: String at 0x0036E6B8 too long. Truncated "Ogis's Silver Flute" (19B) -> "Ogis's Silver " (14B). Original space: 14B.
+[!] Warning: String at 0x0036E72C too long. Truncated 'Velias Recorder' (15B) -> 'Velias Recorde' (14B). Original space: 14B.
+[!] Warning: String at 0x0036E814 too long. Truncated 'Dragon Horn' (11B) -> 'Dragon H' (8B). Original space: 8B.
+[!] Warning: String at 0x0036E888 too long. Truncated 'Spirit Leaf Flute' (17B) -> 'Spirit Lea' (10B). Original space: 10B.
+[!] Warning: String at 0x0036E8FC too long. Truncated 'Dew of Growth' (13B) -> 'Dew of G' (8B). Original space: 8B.
+[!] Warning: String at 0x0036E970 too long. Truncated 'Dew of Healing' (14B) -> 'Dew of H' (8B). Original space: 8B.
+[!] Warning: String at 0x0036E9E4 too long. Truncated 'Pixie Dew' (9B) -> 'Pixie De' (8B). Original space: 8B.
+[!] Warning: String at 0x0036EA58 too long. Truncated 'Dew of Recovery' (15B) -> 'Dew of R' (8B). Original space: 8B.
+[!] Warning: String at 0x0036EACC too long. Truncated 'Dew of Restoration' (18B) -> 'Dew of R' (8B). Original space: 8B.
+[!] Warning: String at 0x0036EB40 too long. Truncated 'Dew of Remedy' (13B) -> 'Dew of R' (8B). Original space: 8B.
+[!] Warning: String at 0x0036EBB4 too long. Truncated 'Dew of Rejuvenation' (19B) -> 'Dew of R' (8B). Original space: 8B.
+[!] Warning: String at 0x0036EC28 too long. Truncated 'Spirit Dew' (10B) -> 'Spirit D' (8B). Original space: 8B.
+[!] Warning: String at 0x0036EC9C too long. Truncated "Philosopher's Stone" (19B) -> 'Philosop' (8B). Original space: 8B.
+[!] Warning: String at 0x0036ED10 too long. Truncated 'Ankh of Philanthropy' (20B) -> 'Ankh of Phil' (12B). Original space: 12B.
+[!] Warning: String at 0x0036ED84 too long. Truncated 'Ankh of Faith' (13B) -> 'Ankh of Fait' (12B). Original space: 12B.
+[!] Warning: String at 0x0036EDF8 too long. Truncated 'Ankh of Devotion' (16B) -> 'Ankh of Devo' (12B). Original space: 12B.
+[!] Warning: String at 0x0036EE6C too long. Truncated 'Ankh of Sacrifice' (17B) -> 'Ankh of Sacr' (12B). Original space: 12B.
+[!] Warning: String at 0x0036EEE0 too long. Truncated 'Ankh of Blessing' (16B) -> 'Ankh of Bles' (12B). Original space: 12B.
+[!] Warning: String at 0x0036EFC8 too long. Truncated 'Ankh of Resurrection' (20B) -> 'Ankh of Resu' (12B). Original space: 12B.
+[!] Warning: String at 0x0036F03C too long. Truncated 'Ankh of Spirits' (15B) -> 'Ankh of Spir' (12B). Original space: 12B.
+[!] Warning: String at 0x0036F0B0 too long. Truncated 'Ankh of Glory' (13B) -> 'Ankh of Glor' (12B). Original space: 12B.
+[!] Warning: String at 0x0036F198 too long. Truncated 'Horned Mask' (11B) -> 'Horned M' (8B). Original space: 8B.
+[!] Warning: String at 0x0036F20C too long. Truncated 'Winged Mask' (11B) -> 'Winged Mas' (10B). Original space: 10B.
+[!] Warning: String at 0x0036F2F4 too long. Truncated 'Wind Demon Mask' (15B) -> 'Wind Demon' (10B). Original space: 10B.
+[!] Warning: String at 0x0036F368 too long. Truncated 'Fire Sprite Mask' (16B) -> 'Fire Sprit' (10B). Original space: 10B.
+[!] Warning: String at 0x0036F3DC too long. Truncated 'Tree Spirit Mask' (16B) -> 'Tree Spiri' (10B). Original space: 10B.
+[!] Warning: String at 0x0036F450 too long. Truncated 'Water Pixie Mask' (16B) -> 'Water Pixi' (10B). Original space: 10B.
+[!] Warning: String at 0x0036F538 too long. Truncated 'Amber Earrings' (14B) -> 'Amber Earrin' (12B). Original space: 12B.
+[!] Warning: String at 0x0036F5AC too long. Truncated 'Agate Earrings' (14B) -> 'Agate Earrin' (12B). Original space: 12B.
+[!] Warning: String at 0x0036F620 too long. Truncated 'Pearl Earrings' (14B) -> 'Pearl Earrin' (12B). Original space: 12B.
+[!] Warning: String at 0x0036F694 too long. Truncated 'Silver Earrings' (15B) -> 'Silver Ear' (10B). Original space: 10B.
+[!] Warning: String at 0x0036F708 too long. Truncated 'Gold Earrings' (13B) -> 'Gold Earri' (10B). Original space: 10B.
+[!] Warning: String at 0x0036F77C too long. Truncated 'Platinum Earrings' (17B) -> 'Platinum Ear' (12B). Original space: 12B.
+[!] Warning: String at 0x0036F7F0 too long. Truncated 'Diamond Earrings' (16B) -> 'Diamond Earrin' (14B). Original space: 14B.
+[!] Warning: String at 0x0036F864 too long. Truncated 'Pixie Earrings' (14B) -> 'Pixie Earrin' (12B). Original space: 12B.
+[!] Warning: String at 0x0036F8D8 too long. Truncated 'Spirit Earrings' (15B) -> 'Spirit Earri' (12B). Original space: 12B.
+[!] Warning: String at 0x0036F94C too long. Truncated 'Statue of Wild Beast' (20B) -> 'Statue o' (8B). Original space: 8B.
+[!] Warning: String at 0x0036F9C0 too long. Truncated 'Statue of Fiend' (15B) -> 'Statue o' (8B). Original space: 8B.
+[!] Warning: String at 0x0036FA34 too long. Truncated 'Statue of Pixie' (15B) -> 'Statue o' (8B). Original space: 8B.
+[!] Warning: String at 0x0036FB1C too long. Truncated 'Statue of Divine Dragon' (23B) -> 'Statue o' (8B). Original space: 8B.
+[!] Warning: String at 0x0036FB90 too long. Truncated 'Statue of Spirit' (16B) -> 'Statue o' (8B). Original space: 8B.
+[!] Warning: String at 0x0036FC04 too long. Truncated 'Statue of Great Spirit' (22B) -> 'Statue of ' (10B). Original space: 10B.
+[!] Warning: String at 0x0036FC78 too long. Truncated 'Statue of Soul' (14B) -> 'Statue o' (8B). Original space: 8B.
+[!] Warning: String at 0x0036FCEC too long. Truncated 'Statue of Ancestor' (18B) -> 'Statue o' (8B). Original space: 8B.
+[!] Warning: String at 0x0036FD60 too long. Truncated 'Chalice of Angel' (16B) -> 'Chalice of' (10B). Original space: 10B.
+[!] Warning: String at 0x0036FDD4 too long. Truncated 'Chalice of Archangel' (20B) -> 'Chalice of A' (12B). Original space: 12B.
+[!] Warning: String at 0x0036FE48 too long. Truncated 'Chalice of Principalities' (25B) -> 'Chalice of P' (12B). Original space: 12B.
+[!] Warning: String at 0x0036FEBC too long. Truncated 'Chalice of Powers' (17B) -> 'Chalice of P' (12B). Original space: 12B.
+[!] Warning: String at 0x0036FF30 too long. Truncated 'Chalice of Virtues' (18B) -> 'Chalice of V' (12B). Original space: 12B.
+[!] Warning: String at 0x0036FFA4 too long. Truncated 'Chalice of Dominions' (20B) -> 'Chalice of D' (12B). Original space: 12B.
+[!] Warning: String at 0x00370018 too long. Truncated 'Chalice of Thrones' (18B) -> 'Chalice of T' (12B). Original space: 12B.
+[!] Warning: String at 0x0037008C too long. Truncated 'Chalice of Cherubim' (19B) -> 'Chalice of C' (12B). Original space: 12B.
+[!] Warning: String at 0x00370100 too long. Truncated 'Chalice of Seraphim' (19B) -> 'Chalice of S' (12B). Original space: 12B.
+[!] Warning: String at 0x003701E8 too long. Truncated 'Claw of the Nether King' (23B) -> 'Claw of ' (8B). Original space: 8B.
+[!] Warning: String at 0x0037025C too long. Truncated 'Divine Iron Chain' (17B) -> 'Divine Iro' (10B). Original space: 10B.
+[!] Warning: String at 0x003702D0 too long. Truncated 'Tower of Protection' (19B) -> 'Tower of' (8B). Original space: 8B.
+[!] Warning: String at 0x00370344 too long. Truncated 'Fortress of Invincibility' (25B) -> 'Fortress' (8B). Original space: 8B.
+[!] Warning: String at 0x003703B8 too long. Truncated 'Tablet of Divine Wisdom' (23B) -> 'Tablet of ' (10B). Original space: 10B.
+[!] Warning: String at 0x0037042C too long. Truncated 'Iridescent Sacred Disk' (22B) -> 'Iridescent' (10B). Original space: 10B.
+[!] Warning: String at 0x003704A0 too long. Truncated 'Seven-pronged Tail' (18B) -> 'Seven-pron' (10B). Original space: 10B.
+[!] Warning: String at 0x00370588 too long. Truncated 'Book of Molsagarsa' (18B) -> 'Book of Molsag' (14B). Original space: 14B.
+[!] Warning: String at 0x003707CC too long. Truncated 'Serpent Prayerbook' (18B) -> 'Serpent Pr' (10B). Original space: 10B.
+[!] Warning: String at 0x00370840 too long. Truncated 'Sword of Alphas' (15B) -> 'Sword of Alpha' (14B). Original space: 14B.
+[!] Warning: String at 0x003708B4 too long. Truncated 'Book of Kurukurim' (17B) -> 'Book of Kuruku' (14B). Original space: 14B.
+[!] Warning: String at 0x00370928 too long. Truncated 'Staff of Paliamon' (17B) -> 'Staff of Palia' (14B). Original space: 14B.
+[!] Warning: String at 0x00370A10 too long. Truncated 'Helm of Kyulik' (14B) -> 'Helm of Kyul' (12B). Original space: 12B.
+[!] Warning: String at 0x00370A84 too long. Truncated 'Simuela Manuscript' (18B) -> 'Simuela Manusc' (14B). Original space: 14B.
+[!] Warning: String at 0x00370AF8 too long. Truncated 'Ring of Silon' (13B) -> 'Ring of Silo' (12B). Original space: 12B.
+[!] Warning: String at 0x00370B6C too long. Truncated "Archwitch's Tall Hat" (20B) -> "Archwitch's Ta" (14B). Original space: 14B.
+[!] Warning: String at 0x00370BE0 too long. Truncated 'Tear of the Goddess' (19B) -> 'Tear of ' (8B). Original space: 8B.
+[!] Warning: String at 0x00421E80 too long. Truncated 'Iglass Islands' (14B) -> 'Iglass Islan' (12B). Original space: 12B.
+[!] Warning: String at 0x00421E90 too long. Truncated 'Lion Region' (11B) -> 'Lion Regio' (10B). Original space: 10B.
+[!] Warning: String at 0x00421EA0 too long. Truncated 'Former Leilant Territory' (24B) -> 'Former Leilant' (14B). Original space: 14B.
+[!] Warning: String at 0x00421ED0 too long. Truncated 'South Acral' (11B) -> 'South Acra' (10B). Original space: 10B.
+[!] Warning: String at 0x00421FD0 too long. Truncated 'Amano-Mitsurugi' (15B) -> 'Amano-Mitsurug' (14B). Original space: 14B.
+[!] Warning: String at 0x0042A668 too long. Truncated 'Royal Capital Valey' (19B) -> 'Royal Capital' (13B). Original space: 13B.
+[!] Warning: String at 0x0042A678 too long. Truncated 'Mountain Town Fermina' (21B) -> 'Mountain Town Fermi' (19B). Original space: 19B.
+[!] Warning: String at 0x0042A690 too long. Truncated 'Coastal City Mezonea' (20B) -> 'Coastal City Mezo' (17B). Original space: 17B.
+[!] Warning: String at 0x0042A6A8 too long. Truncated 'Fortress City Zeres' (19B) -> 'Fortress City Z' (15B). Original space: 15B.
+[!] Warning: String at 0x0042A6F0 too long. Truncated 'Rieve Monastery' (15B) -> 'Rieve Monaster' (14B). Original space: 14B.
+[!] Warning: String at 0x0042A700 too long. Truncated 'Tigor Valley' (12B) -> 'Tigor Vall' (10B). Original space: 10B.
+[!] Warning: String at 0x0042A710 too long. Truncated 'Malice Bay Village' (18B) -> 'Malice Bay Vil' (14B). Original space: 14B.
+[!] Warning: String at 0x0042A720 too long. Truncated 'Port Town Ilgull' (16B) -> 'Port Town Ilgu' (14B). Original space: 14B.
+[!] Warning: String at 0x0042A730 too long. Truncated 'Baltharion Waystation' (21B) -> 'Baltharion Waystatio' (20B). Original space: 20B.
+[!] Warning: String at 0x0042A768 too long. Truncated 'Frigid Sheela' (13B) -> 'Frigid Sheel' (12B). Original space: 12B.
+[!] Warning: String at 0x0042A788 too long. Truncated 'Ost Village' (11B) -> 'Ost Vill' (8B). Original space: 8B.
+[!] Warning: String at 0x0042A7C0 too long. Truncated 'Village of Velias Forest' (24B) -> 'Village of Vel' (14B). Original space: 14B.
+[!] Warning: String at 0x0042A7E0 too long. Truncated 'City of Night Jigu' (18B) -> 'City of Nigh' (12B). Original space: 12B.
+[!] Warning: String at 0x0042A7F0 too long. Truncated 'Goldor Village' (14B) -> 'Goldor Villa' (12B). Original space: 12B.
+[!] Warning: String at 0x0042A800 too long. Truncated 'White Flame Village' (19B) -> 'White Fl' (8B). Original space: 8B.
+[!] Warning: String at 0x0042A810 too long. Truncated 'Franca Village' (14B) -> 'Franca Villa' (12B). Original space: 12B.
+[!] Warning: String at 0x0042A820 too long. Truncated 'Phantom Village Azer' (20B) -> 'Phantom Vill' (12B). Original space: 12B.
+[!] Warning: String at 0x0042A858 too long. Truncated 'Zetta Village' (13B) -> 'Zetta Vill' (10B). Original space: 10B.
+[!] Warning: String at 0x0042A868 too long. Truncated 'Harley Village' (14B) -> 'Harley Villa' (12B). Original space: 12B.
+[!] Warning: String at 0x0042A8C0 too long. Truncated 'Far North Pier' (14B) -> 'Far North Pi' (12B). Original space: 12B.
+[!] Warning: String at 0x0042A8D0 too long. Truncated "Port at World's End" (19B) -> 'Port at Wo' (10B). Original space: 10B.
+[!] Warning: String at 0x0042A900 too long. Truncated 'Mezonea Port' (12B) -> 'Mezonea Po' (10B). Original space: 10B.
+[!] Warning: String at 0x0042A928 too long. Truncated 'Celo Fruit Hill' (15B) -> 'Celo Fruit H' (12B). Original space: 12B.
+[!] Warning: String at 0x0042A948 too long. Truncated 'Moonview Forest' (15B) -> 'Moonview' (8B). Original space: 8B.
+[!] Warning: String at 0x0042A958 too long. Truncated 'Mount Croco' (11B) -> 'Mount Cr' (8B). Original space: 8B.
+[!] Warning: String at 0x0042A968 too long. Truncated 'Kiydis Mountains' (16B) -> 'Kiydis Mountai' (14B). Original space: 14B.
+[!] Warning: String at 0x0042A978 too long. Truncated 'Leilant Fortress' (16B) -> 'Leilant Fortre' (14B). Original space: 14B.
+[!] Warning: String at 0x0042A988 too long. Truncated 'Forest of Illusion' (18B) -> 'Forest of ' (10B). Original space: 10B.
+[!] Warning: String at 0x0042A9C0 too long. Truncated 'Uruka Pass Village' (18B) -> 'Uruka Pass V' (12B). Original space: 12B.
+[!] Warning: String at 0x0042A9D0 too long. Truncated 'Keera Village' (13B) -> 'Keera Vill' (10B). Original space: 10B.
+[!] Warning: String at 0x0042A9E0 too long. Truncated 'Denas Farm Village' (18B) -> 'Denas Farm V' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AA08 too long. Truncated 'High Maple Plantation' (21B) -> 'High Maple Plant' (16B). Original space: 16B.
+[!] Warning: String at 0x0042AA20 too long. Truncated 'Fortress Town Moga' (18B) -> 'Fortress Tow' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AA40 too long. Truncated 'Foothill Inn' (12B) -> 'Foothill I' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AA50 too long. Truncated 'Derry Farm Village' (18B) -> 'Derry Farm' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AA60 too long. Truncated 'Gareth Bay Settlement' (21B) -> 'Gareth Bay Set' (14B). Original space: 14B.
+[!] Warning: String at 0x0042AA80 too long. Truncated 'South Acral' (11B) -> 'South Acra' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AA90 too long. Truncated 'Dead City Jigu' (14B) -> 'Dead City ' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AAA0 too long. Truncated 'Spirit Womb Path' (16B) -> 'Spirit Wom' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AAB0 too long. Truncated 'Tower of Ur' (11B) -> 'Tower of' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AAD8 too long. Truncated 'Mount Flame Cave' (16B) -> 'Mount Flame Ca' (14B). Original space: 14B.
+[!] Warning: String at 0x0042AAE8 too long. Truncated 'Frozen Forest' (13B) -> 'Frozen F' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AB38 too long. Truncated 'Kemy Fortress' (13B) -> 'Kemy For' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AB58 too long. Truncated 'Lion Region' (11B) -> 'Lion Regio' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AB68 too long. Truncated "Vampire's Old Castle" (20B) -> "Vampire's Ol" (12B). Original space: 12B.
+[!] Warning: String at 0x0042AB78 too long. Truncated 'Former Leilant Territory' (24B) -> 'Former Leilant' (14B). Original space: 14B.
+[!] Warning: String at 0x0042ABA8 too long. Truncated 'Barak Mountain Pass' (19B) -> 'Barak Moun' (10B). Original space: 10B.
+[!] Warning: String at 0x0042ABB8 too long. Truncated "Saint's Path" (12B) -> "Saint's " (8B). Original space: 8B.
+[!] Warning: String at 0x0042ABC8 too long. Truncated 'West Levas Mountain Pass' (24B) -> 'West Levas Mou' (14B). Original space: 14B.
+[!] Warning: String at 0x0042ABD8 too long. Truncated 'East Levas Mountain Pass' (24B) -> 'East Levas Mou' (14B). Original space: 14B.
+[!] Warning: String at 0x0042ABE8 too long. Truncated 'Cape Island' (11B) -> 'Cape Isl' (8B). Original space: 8B.
+[!] Warning: String at 0x0042ABF8 too long. Truncated 'Alacrim Island' (14B) -> 'Alacrim Isla' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AC08 too long. Truncated 'Greal Island' (12B) -> 'Greal Isla' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AC18 too long. Truncated 'Gral Island' (11B) -> 'Gral Isl' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AC28 too long. Truncated 'Island of Sinners' (17B) -> 'Island o' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AC38 too long. Truncated 'Grinas Island' (13B) -> 'Grinas Isl' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AC48 too long. Truncated 'Gricia Island' (13B) -> 'Gricia Isl' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AC58 too long. Truncated 'Cope Island' (11B) -> 'Cope Isl' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AC68 too long. Truncated 'Shard Island' (12B) -> 'Shard Is' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AC78 too long. Truncated 'Triplet Mountains' (17B) -> 'Triplet ' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AC88 too long. Truncated 'Mount Remington' (15B) -> 'Mount Reming' (12B). Original space: 12B.
+[!] Warning: String at 0x0042ACA8 too long. Truncated 'Mount Sevari' (12B) -> 'Mount Seva' (10B). Original space: 10B.
+[!] Warning: String at 0x0042ACB8 too long. Truncated "Talos' Horn" (11B) -> "Talos' Hor" (10B). Original space: 10B.
+[!] Warning: String at 0x0042ACC8 too long. Truncated 'Velias Wetlands' (15B) -> 'Velias Wetland' (14B). Original space: 14B.
+[!] Warning: String at 0x0042ACD8 too long. Truncated 'Gran Talos Lake' (15B) -> 'Gran Talos Lak' (14B). Original space: 14B.
+[!] Warning: String at 0x0042ACF8 too long. Truncated 'Mount Kantrel' (13B) -> 'Mount Kantre' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AD08 too long. Truncated 'Centipede Grass Forest' (22B) -> 'Centipede Gr' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AD18 too long. Truncated 'Mount Flame' (11B) -> 'Mount Fl' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AD28 too long. Truncated 'Werewolf Forest' (15B) -> 'Werewolf' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AD38 too long. Truncated "Traveler's Forest" (17B) -> 'Traveler' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AD48 too long. Truncated 'Sacred Velias Forest' (20B) -> 'Sacred Velias ' (14B). Original space: 14B.
+[!] Warning: String at 0x0042AD58 too long. Truncated "Vampire's Forest" (16B) -> "Vampire's " (10B). Original space: 10B.
+[!] Warning: String at 0x0042AD68 too long. Truncated 'Leyras Mountains' (16B) -> 'Leyras Mount' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AD78 too long. Truncated 'Galesia Mountains' (17B) -> 'Galesia Moun' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AD88 too long. Truncated 'Mountain of Prayer' (18B) -> 'Mountain' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AD98 too long. Truncated 'Mount Barak' (11B) -> 'Mount Ba' (8B). Original space: 8B.
+[!] Warning: String at 0x0042ADA8 too long. Truncated 'Cow-Bird Forest' (15B) -> 'Cow-Bird For' (12B). Original space: 12B.
+[!] Warning: String at 0x0042ADB8 too long. Truncated 'Mugwort Fern Forest' (19B) -> 'Mugwort Fern F' (14B). Original space: 14B.
+[!] Warning: String at 0x0042ADD8 too long. Truncated 'Foothill Forest' (15B) -> 'Foothill' (8B). Original space: 8B.
+[!] Warning: String at 0x0042ADF8 too long. Truncated 'Levas Highlands' (15B) -> 'Levas Highla' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AE08 too long. Truncated 'Kemy Mountains' (14B) -> 'Kemy Mount' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AE18 too long. Truncated 'Midia Mountain Range' (20B) -> 'Midia Mounta' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AE38 too long. Truncated 'Mount Otra' (10B) -> 'Mount Ot' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AE48 too long. Truncated 'Silver Moss Forest' (18B) -> 'Silver Moss Fore' (16B). Original space: 16B.
+[!] Warning: String at 0x0042AE78 too long. Truncated "Saint Mary's Forest" (19B) -> "Saint Mary's For" (16B). Original space: 16B.
+[!] Warning: String at 0x0042AE90 too long. Truncated 'Forest of the Dead' (18B) -> 'Forest o' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AEA0 too long. Truncated 'Forest of Visions' (17B) -> 'Forest of ' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AEC0 too long. Truncated 'Kem Forest' (10B) -> 'Kem Fore' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AEE0 too long. Truncated 'Schukel Forest' (14B) -> 'Schukel Fore' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AF00 too long. Truncated 'Shamak Forest' (13B) -> 'Shamak Fores' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AF10 too long. Truncated 'Forest of Dawn' (14B) -> 'Forest of Da' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AF20 too long. Truncated 'Forest of Vows' (14B) -> 'Forest o' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AF30 too long. Truncated 'Forest of Silence' (17B) -> 'Forest of ' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AF58 too long. Truncated 'Chirping Forest' (15B) -> 'Chirping For' (12B). Original space: 12B.
+[!] Warning: String at 0x0042AF68 too long. Truncated "Talos' Beard" (12B) -> "Talos' Bea" (10B). Original space: 10B.
+[!] Warning: String at 0x0042AF88 too long. Truncated 'Hunting Forest' (14B) -> 'Hunting ' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AFA8 too long. Truncated 'Ascetic Forest' (14B) -> 'Ascetic Fo' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AFC8 too long. Truncated 'Derry Heights' (13B) -> 'Derry Heig' (10B). Original space: 10B.
+[!] Warning: String at 0x0042AFE8 too long. Truncated 'Gool Island' (11B) -> 'Gool Isl' (8B). Original space: 8B.
+[!] Warning: String at 0x0042AFF8 too long. Truncated 'Lion Wasteland' (14B) -> 'Lion Waste' (10B). Original space: 10B.
+[!] Warning: String at 0x00421FF0 too long. Truncated '"Get plenty of sleep" (HP increases)' (36B) -> '"Get plenty of sleep" (H' (24B). Original space: 24B.
+[!] Warning: String at 0x00422010 too long. Truncated '"Practice your swing every day" (Attack power increases)' (56B) -> '"Practice your swing every day" (Att' (36B). Original space: 36B.
+[!] Warning: String at 0x00422038 too long. Truncated '"Do your best in the race!" (Increases speed)' (45B) -> '"Do your best in the race!" (Increases s' (40B). Original space: 40B.
+[!] Warning: String at 0x00422068 too long. Truncated '"Help out!" (Increases attack support power)' (44B) -> '"Help out!" (Increases attack support ' (38B). Original space: 38B.
+[!] Warning: String at 0x00422090 too long. Truncated '"Cherish your friends" (Increases defensive support ability)' (60B) -> '"Cherish your friends" (Increases defensiv' (42B). Original space: 42B.
+[!] Warning: String at 0x004220C0 too long. Truncated '"Take good care of your eyes." (Increases indirect attack power)' (64B) -> '"Take good care of your eyes." (Increa' (38B). Original space: 38B.
+[!] Warning: String at 0x004220E8 too long. Truncated '"Take your medicine properly." (Increases recovery power)' (57B) -> '"Take your medicine properly." (Increa' (38B). Original space: 38B.
+[!] Warning: String at 0x00422380 too long. Truncated 'Death Curse' (11B) -> 'Death Cu' (8B). Original space: 8B.
+[!] Warning: String at 0x00422390 too long. Truncated 'A furious blow' (14B) -> 'A furious ' (10B). Original space: 10B.
+[!] Warning: String at 0x004223A0 too long. Truncated 'Gathering power' (15B) -> 'Gathering ' (10B). Original space: 10B.
+[!] Warning: String at 0x004223B0 too long. Truncated 'Flames of Purgatory' (19B) -> 'Flames o' (8B). Original space: 8B.
+[!] Warning: String at 0x004223F0 too long. Truncated 'Attack on a whim' (16B) -> 'Attack on a wh' (14B). Original space: 14B.
+[!] Warning: String at 0x00422410 too long. Truncated 'Aiming to be the leader' (23B) -> 'Aiming to be t' (14B). Original space: 14B.
+[!] Warning: String at 0x00422420 too long. Truncated 'Target those with low HP' (24B) -> 'Target those wit' (16B). Original space: 16B.
+[!] Warning: String at 0x00422438 too long. Truncated 'Target those with high HP' (25B) -> 'Target those wit' (16B). Original space: 16B.
+[!] Warning: String at 0x00422450 too long. Truncated 'Targeting men' (13B) -> 'Targeting ' (10B). Original space: 10B.
+[!] Warning: String at 0x00422460 too long. Truncated 'Targeting women' (15B) -> 'Targeting ' (10B). Original space: 10B.
+[!] Warning: String at 0x00422470 too long. Truncated 'Targeting young people' (22B) -> 'Targeting yo' (12B). Original space: 12B.
+[!] Warning: String at 0x00422480 too long. Truncated 'Targeting the elderly' (21B) -> 'Targeting th' (12B). Original space: 12B.
+[!] Warning: String at 0x00422490 too long. Truncated 'Targeting those who can heal themselves' (39B) -> 'Targeting thos' (14B). Original space: 14B.
+[!] Warning: String at 0x004224A0 too long. Truncated 'Target the row healer' (21B) -> 'Target the row' (14B). Original space: 14B.
+[!] Warning: String at 0x00422598 too long. Truncated 'We are fully booked.\n\nPlease choose which requests to decline.' (62B) -> 'We are fully booked.\n\nPlease choose which reque' (47B). Original space: 47B.
+[!] Warning: String at 0x004225C8 too long. Truncated 'Would you like to decline this request?' (39B) -> 'Would you like to dec' (21B). Original space: 21B.
+[!] Warning: String at 0x00423A88 too long. Truncated 'a i u e o ha hi fu he ho ga gi gu ge go' (39B) -> 'a i u e o ha hi fu he ho ga gi' (30B). Original space: 30B.
+[!] Warning: String at 0x00423AA8 too long. Truncated 'ka ki ku ke ko ma mi mu me mo za ji zu ze zo' (44B) -> 'ka ki ku ke ko ma mi mu me mo ' (30B). Original space: 30B.
+[!] Warning: String at 0x00423AE8 too long. Truncated 'tachitsutetorarirurerobabibubebo' (32B) -> 'tachitsutetorarirurerobabibube' (30B). Original space: 30B.
+[!] Warning: String at 0x00423B48 too long. Truncated 'A I U E O Ha Hi Fu He Ho Ga Gi Gu Ge Go' (39B) -> 'A I U E O Ha Hi Fu He Ho Ga Gi' (30B). Original space: 30B.
+[!] Warning: String at 0x00423B68 too long. Truncated 'Ka ki ku ke ko ma mi mu me mo za ji zu ze zo' (44B) -> 'Ka ki ku ke ko ma mi mu me mo ' (30B). Original space: 30B.
+[!] Warning: String at 0x00423B88 too long. Truncated 'Sa shi su se so ya yu yo da ji dzu de do' (40B) -> 'Sa shi su se so ya yu yo da ji' (30B). Original space: 30B.
+[!] Warning: String at 0x00423EC0 too long. Truncated 'There is no formation.\n\nPlease form a formation.' (48B) -> 'There is no formation.\n\nPlease form a for' (41B). Original space: 41B.
+[!] Warning: String at 0x00423EF0 too long. Truncated 'Removing an equipped item will reset your experience points.\n\nAre you sure you want to proceed?' (95B) -> 'Removing an equipped item will reset your experience points.\n\nAre ' (66B). Original space: 66B.
+[!] Warning: String at 0x00423F38 too long. Truncated "Your Knights' inventory is full of items.\n\nWould you like to swap some items?\n\n*Excess items will be discarded." (111B) -> "Your Knights' inventory is full of items.\n\nWould you like to swap some items?\n\n*Excess item" (91B). Original space: 91B.
+[!] Warning: String at 0x00423F98 too long. Truncated 'The item has been equipped.' (27B) -> 'The item has been equipp' (24B). Original space: 24B.
+[!] Warning: String at 0x00423FD0 too long. Truncated 'Paralyze the enemy' (18B) -> 'Paralyze the ene' (16B). Original space: 16B.
+[!] Warning: String at 0x00423FE8 too long. Truncated 'Double the HP of all characters in the front row.' (49B) -> 'Double the HP of all c' (22B). Original space: 22B.
+[!] Warning: String at 0x00424000 too long. Truncated 'Put all front row members into a critical charge state.' (55B) -> 'Put all front row members into a critica' (40B). Original space: 40B.
+[!] Warning: String at 0x00424030 too long. Truncated 'Cast an irreversible curse on the enemy.' (40B) -> 'Cast an irreversible curse o' (28B). Original space: 28B.
+[!] Warning: String at 0x00424050 too long. Truncated 'All allies recover.' (19B) -> 'All allies recover' (18B). Original space: 18B.
+[!] Warning: String at 0x00424068 too long. Truncated 'Revive allies who died in battle.' (33B) -> 'Revive allies who died in battle' (32B). Original space: 32B.
+[!] Warning: String at 0x00424090 too long. Truncated 'Double the speed of everyone in the front row.' (46B) -> 'Double the speed of everyone ' (29B). Original space: 29B.
+[!] Warning: String at 0x004240B0 too long. Truncated 'Turns enemies to stone' (22B) -> 'Turns enemie' (12B). Original space: 12B.
+[!] Warning: String at 0x00424680 too long. Truncated 'The Seven Knights' (17B) -> 'The Seven Kni' (13B). Original space: 13B.
+[!] Warning: String at 0x00425298 too long. Truncated '"My dearest friend, I will never forget the days we spent together.\nI look forward to seeing you again.\nGoodnight."' (115B) -> '"My dearest friend, I will never forget the days we spent together.\nI look forward to seeing you again.\n' (104B). Original space: 104B.
+[!] Warning: String at 0x00425498 too long. Truncated 'The grave is empty.' (19B) -> 'The grave ' (10B). Original space: 10B.
+[!] Warning: String at 0x00425538 too long. Truncated 'I have a very close friend.' (27B) -> 'I have a very close friend' (26B). Original space: 26B.
+[!] Warning: String at 0x00425578 too long. Truncated "I have a feeling I'm getting married..." (39B) -> 'I have a feeling' (16B). Original space: 16B.
+[!] Warning: String at 0x00425590 too long. Truncated 'A strong friendship seems imminent...' (37B) -> 'A strong friendship ' (20B). Original space: 20B.
+[!] Warning: String at 0x004255A8 too long. Truncated 'He is the strongest member of the Knights.' (42B) -> 'He is the strongest memb' (24B). Original space: 24B.
+[!] Warning: String at 0x004255C8 too long. Truncated 'They seem to be in top form.' (28B) -> 'They seem to be in' (18B). Original space: 18B.
+[!] Warning: String at 0x004255E0 too long. Truncated 'It seems to be in very poor condition.' (38B) -> 'It seems to be in ' (18B). Original space: 18B.
+[!] Warning: String at 0x00425788 too long. Truncated 'Is this job title acceptable?' (29B) -> 'Is this job title accepta' (25B). Original space: 25B.
+[!] Warning: String at 0x004257A8 too long. Truncated 'Do you want to return to the title screen?' (42B) -> 'Do you want to return' (21B). Original space: 21B.
+[!] Warning: String at 0x00425810 too long. Truncated 'Pass it on to other members' (27B) -> 'Pass it on to other ' (20B). Original space: 20B.
+[!] Warning: String at 0x00425828 too long. Truncated 'Return to the Knights' (21B) -> 'Return to th' (12B). Original space: 12B.
+[!] Warning: String at 0x00425950 too long. Truncated 'Are you recruiting new members?' (31B) -> 'Are you recruiting ' (19B). Original space: 19B.
+[!] Warning: String at 0x00425968 too long. Truncated 'We added a new member.' (22B) -> 'We added a new m' (16B). Original space: 16B.
+[!] Warning: String at 0x00425980 too long. Truncated 'Do you want to swap out your teammates?' (39B) -> 'Do you want to swap o' (21B). Original space: 21B.
+[!] Warning: String at 0x00425998 too long. Truncated 'We changed the members of our team.' (35B) -> 'We changed the membe' (20B). Original space: 20B.
+[!] Warning: String at 0x004259B0 too long. Truncated 'I decided not to hand it over.' (30B) -> 'I decided not to hand it ove' (28B). Original space: 28B.
+[!] Warning: String at 0x004259D0 too long. Truncated 'Will you enroll your child?' (27B) -> 'Will you enroll your ' (21B). Original space: 21B.
+[!] Warning: String at 0x004259E8 too long. Truncated 'I enrolled my child in the team.' (32B) -> 'I enrolled my child ' (20B). Original space: 20B.
+[!] Warning: String at 0x00425A00 too long. Truncated "Will you cancel your child's enrollment?" (40B) -> "Will you cancel your child'" (27B). Original space: 27B.
+[!] Warning: String at 0x00425A20 too long. Truncated 'Are you going to cancel your joining the team?' (46B) -> 'Are you going to canc' (21B). Original space: 21B.
+[!] Warning: String at 0x00425A38 too long. Truncated 'Departing members possess items.\nDo you wish to pass on these items?' (68B) -> 'Departing members possess items.\nDo you wish to pass o' (54B). Original space: 54B.
+[!] Warning: String at 0x00425A70 too long. Truncated 'I will pass on this item to this companion.\n\nIs that alright?' (61B) -> 'I will pass on this item to this companion.\n\nIs ' (48B). Original space: 48B.
+[!] Warning: String at 0x00425AA8 too long. Truncated 'When you transfer an item, the item you previously possessed will be lost.\n\nDo you wish to transfer the item?' (109B) -> 'When you transfer an item, the item you previously possessed will be lost.\n\nDo you wish to trans' (96B). Original space: 96B.
+[!] Warning: String at 0x00425B10 too long. Truncated 'Do you want to return the item to the Knights?' (46B) -> 'Do you want to return the ite' (29B). Original space: 29B.
+[!] Warning: String at 0x00425B30 too long. Truncated 'The item was returned to the commander.' (39B) -> 'The item was returned to the' (28B). Original space: 28B.
+[!] Warning: String at 0x00425B50 too long. Truncated 'Your inventory is full.\n\nWould you like to swap some items?' (59B) -> 'Your inventory is full.\n\nWould you like ' (40B). Original space: 40B.
+[!] Warning: String at 0x00425B80 too long. Truncated 'Are you sure you want to discard the item?' (42B) -> 'Are you sure you want to discar' (31B). Original space: 31B.
+[!] Warning: String at 0x00425BA0 too long. Truncated 'I discarded the item.' (21B) -> 'I discarded the item' (20B). Original space: 20B.
+[!] Warning: String at 0x00425BB8 too long. Truncated "Should we entrust the Knights' Order to this person?" (52B) -> 'Should we entrust the Knigh' (27B). Original space: 27B.
+[!] Warning: String at 0x00425BD8 too long. Truncated 'Should we send these allies?' (28B) -> 'Should we send these al' (23B). Original space: 23B.
+[!] Warning: String at 0x00425BF0 too long. Truncated 'Would you like to learn some techniques from this friend?' (57B) -> 'Would you like to learn some techni' (35B). Original space: 35B.
+[!] Warning: String at 0x00425C18 too long. Truncated 'Will you rejuvenate these companions?' (37B) -> 'Will you rejuvenate these' (25B). Original space: 25B.
+[!] Warning: String at 0x00425C98 too long. Truncated 'I have left the team.' (21B) -> 'I have left ' (12B). Original space: 12B.
+[!] Warning: String at 0x00426000 too long. Truncated 'Do you want to return to the title screen?' (42B) -> 'Do you want to return' (21B). Original space: 21B.
+[!] Warning: String at 0x004260C0 too long. Truncated 'Directional keys: Move screen\nTriangle button: Reset to initial state\nCircle button: Confirm\nX button: Cancel' (109B) -> 'Directional keys: Move screen\nTriangle button: Reset to initial state\nCircle bu' (79B). Original space: 79B.
+[!] Warning: String at 0x00426230 too long. Truncated 'Maximum speed' (13B) -> 'Maximum sp' (10B). Original space: 10B.
+[!] Warning: String at 0x004263B0 too long. Truncated 'The Legendary Seven' (19B) -> 'The Legendar' (12B). Original space: 12B.
+[!] Warning: String at 0x00426400 too long. Truncated 'Kingdom of Almesera' (19B) -> 'Kingdom of Alm' (14B). Original space: 14B.
+[!] Warning: String at 0x00426580 too long. Truncated 'The Cavalry of Mormoos' (22B) -> 'The Cavalry of Mormo' (20B). Original space: 20B.
+[!] Warning: String at 0x004265A8 too long. Truncated 'Knights of the Almesera Kingdom' (31B) -> 'Knights of the Almes' (20B). Original space: 20B.
+[!] Warning: String at 0x004265E0 too long. Truncated 'Iron Crow Youth Group' (21B) -> 'Iron Crow Yo' (12B). Original space: 12B.
+[!] Warning: String at 0x00426630 too long. Truncated 'Otra Holy Land Guardians' (24B) -> 'Otra Holy Land G' (16B). Original space: 16B.
+[!] Warning: String at 0x00426678 too long. Truncated 'Akralim Island Garrison' (23B) -> 'Akralim Island Gar' (18B). Original space: 18B.
+[!] Warning: String at 0x004266D0 too long. Truncated 'Melset Magical Troupe' (21B) -> 'Melset Magical T' (16B). Original space: 16B.
+[!] Warning: String at 0x00426728 too long. Truncated 'Shamak Forest Rangers' (21B) -> 'Shamak Forest Rang' (18B). Original space: 18B.
+[!] Warning: String at 0x00426780 too long. Truncated 'Ooduldom Mountain Surveillance Team' (35B) -> 'Ooduldom Mountain Su' (20B). Original space: 20B.
+[!] Warning: String at 0x00426810 too long. Truncated "Tittel's Bridge Guard" (21B) -> "Tittel's Bridge Gu" (18B). Original space: 18B.
+[!] Warning: String at 0x00426888 too long. Truncated 'Calderon Warriors' (17B) -> 'Calderon Warrior' (16B). Original space: 16B.
+[!] Warning: String at 0x004268C0 too long. Truncated 'The Brigade of the Grasslands' (29B) -> 'The Brigad' (10B). Original space: 10B.
+[!] Warning: String at 0x004268F0 too long. Truncated 'Sokkol and the Forest Friends' (29B) -> 'Sokkol and the For' (18B). Original space: 18B.
+[!] Warning: String at 0x00426968 too long. Truncated 'Green Hunters' (13B) -> 'Green Hunter' (12B). Original space: 12B.
+[!] Warning: String at 0x00426CA8 too long. Truncated 'Desert Warriors' (15B) -> 'Desert Warri' (12B). Original space: 12B.
+[!] Warning: String at 0x00426E58 too long. Truncated 'Otra Holy Land' (14B) -> 'Otra Holy ' (10B). Original space: 10B.
+[!] Warning: String at 0x00427250 too long. Truncated 'Please select your destination.' (31B) -> 'Please select your destinati' (28B). Original space: 28B.
+[!] Warning: String at 0x00427270 too long. Truncated 'Please select a save location.' (30B) -> 'Please select a save locatio' (28B). Original space: 28B.
+[!] Warning: String at 0x00427320 too long. Truncated 'The memory card in slot 1 (PS2) is not initialized.\nDo you want to initialize it?' (81B) -> 'The memory card in slot 1 (PS2) is not initialized.\nDo you want to initi' (72B). Original space: 72B.
+[!] Warning: String at 0x00427370 too long. Truncated 'The memory card in slot 2 (PS2) is not initialized.\nDo you want to initialize it?' (81B) -> 'The memory card in slot 2 (PS2) is not initialized.\nDo you want to initi' (72B). Original space: 72B.
+[!] Warning: String at 0x004274F0 too long. Truncated 'This will overwrite the existing file. Is that alright?' (55B) -> 'This will overwrite the existing f' (34B). Original space: 34B.
+[!] Warning: String at 0x00428280 too long. Truncated 'Save your User ID.\n\nPlease select a save location.\n\n*This will be loaded simultaneously with your Knight Order data, so please save it in the same location.' (156B) -> 'Save your User ID.\n\nPlease select a save location.\n\n*This will be loaded simultaneously with your Knight Order data, so please sa' (129B). Original space: 129B.
+[!] Warning: String at 0x00428308 too long. Truncated 'Do you want to log in without saving your user ID?' (50B) -> 'Do you want to log in without saving your us' (44B). Original space: 44B.
+[!] Warning: String at 0x00428498 too long. Truncated 'No data available.' (18B) -> 'No data av' (10B). Original space: 10B.
+[!] Warning: String at 0x00428BC0 too long. Truncated 'The void of death' (17B) -> 'The void' (8B). Original space: 8B.
+[!] Warning: String at 0x00428E48 too long. Truncated 'Talking to the goddess' (22B) -> 'Talking to' (10B). Original space: 10B.
+[!] Warning: String at 0x00428E90 too long. Truncated 'List of burials' (15B) -> 'List of buri' (12B). Original space: 12B.
+[!] Warning: String at 0x00428EA0 too long. Truncated 'I heard a rumor' (15B) -> 'I heard ' (8B). Original space: 8B.
+[!] Warning: String at 0x00428ED8 too long. Truncated "The miners' tavern" (18B) -> "The miners' ta" (14B). Original space: 14B.
+[!] Warning: String at 0x00428EE8 too long. Truncated 'Bulkway Street Gate' (19B) -> 'Bulkway Street Gat' (18B). Original space: 18B.
+[!] Warning: String at 0x00428F10 too long. Truncated 'Mine entrance' (13B) -> 'Mine entra' (10B). Original space: 10B.
+[!] Warning: String at 0x00428F70 too long. Truncated 'Roseberry Mountain Path' (23B) -> 'Roseberry Mountain' (18B). Original space: 18B.
+[!] Warning: String at 0x00428FB8 too long. Truncated 'Forest on the outskirts of town' (31B) -> 'Forest on ' (10B). Original space: 10B.
+[!] Warning: String at 0x00428FD8 too long. Truncated 'Bar "Tears of the Moon"' (23B) -> 'Bar "Tears o' (12B). Original space: 12B.
+[!] Warning: String at 0x00429018 too long. Truncated 'Dark Guild "Abyss"' (18B) -> 'Dark Guild "Ab' (14B). Original space: 14B.
+[!] Warning: String at 0x00429028 too long. Truncated 'At the foot of the clock tower' (30B) -> 'At the foo' (10B). Original space: 10B.
+[!] Warning: String at 0x00429048 too long. Truncated 'Stone building' (14B) -> 'Stone buildi' (12B). Original space: 12B.
+[!] Warning: String at 0x00429098 too long. Truncated 'Mid-slope of Remington Mountain' (31B) -> 'Mid-slope of Rem' (16B). Original space: 16B.
+[!] Warning: String at 0x004290B0 too long. Truncated 'Near the summit of Mount Remington' (34B) -> 'Near the summit of' (18B). Original space: 18B.
+[!] Warning: String at 0x004290C8 too long. Truncated 'Entrance to Mount Ivales' (24B) -> 'Entrance to Mount ' (18B). Original space: 18B.
+[!] Warning: String at 0x004290E0 too long. Truncated 'Former Arsena Garrison' (22B) -> 'Former Arsena Ga' (16B). Original space: 16B.
+[!] Warning: String at 0x004290F8 too long. Truncated 'Mid-slope of Mount Ivales' (25B) -> 'Mid-slope of Mou' (16B). Original space: 16B.
+[!] Warning: String at 0x00429120 too long. Truncated 'Ivales Mountain Summit' (22B) -> 'Ivales Mountai' (14B). Original space: 14B.
+[!] Warning: String at 0x00429130 too long. Truncated 'Severi Mountain Trail' (21B) -> 'Severi Mount' (12B). Original space: 12B.
+[!] Warning: String at 0x00429140 too long. Truncated 'Mid-slope of Mount Severi' (25B) -> 'Mid-slope of M' (14B). Original space: 14B.
+[!] Warning: String at 0x00429150 too long. Truncated 'Hyuga Pass' (10B) -> 'Hyuga Pa' (8B). Original space: 8B.
+[!] Warning: String at 0x00429160 too long. Truncated 'Foothills of Remington Mountain' (31B) -> 'Foothills of R' (14B). Original space: 14B.
+[!] Warning: String at 0x004291A0 too long. Truncated "The Heroes' Tavern" (18B) -> "The Heroes' Ta" (14B). Original space: 14B.
+[!] Warning: String at 0x004291B0 too long. Truncated 'Outskirts of the capital city' (29B) -> 'Outskirts ' (10B). Original space: 10B.
+[!] Warning: String at 0x004291C0 too long. Truncated 'Forest of Prayer' (16B) -> 'Forest o' (8B). Original space: 8B.
+[!] Warning: String at 0x004291D0 too long. Truncated 'Valley Castle Audience Chamber' (30B) -> 'Valley Castle Audi' (18B). Original space: 18B.
+[!] Warning: String at 0x004291E8 too long. Truncated 'Valley Castle Passage' (21B) -> 'Valley Castle ' (14B). Original space: 14B.
+[!] Warning: String at 0x004291F8 too long. Truncated 'Valley Castle Prison' (20B) -> 'Valley Castle ' (14B). Original space: 14B.
+[!] Warning: String at 0x00429248 too long. Truncated "Traveler's Bridge" (17B) -> 'Traveler' (8B). Original space: 8B.
+[!] Warning: String at 0x00429258 too long. Truncated 'A bar in a port town' (20B) -> 'A bar in a' (10B). Original space: 10B.
+[!] Warning: String at 0x00429268 too long. Truncated 'Port Maisonaire' (15B) -> 'Port Maiso' (10B). Original space: 10B.
+[!] Warning: String at 0x00429288 too long. Truncated 'A bar of tranquility' (20B) -> 'A bar of t' (10B). Original space: 10B.
+[!] Warning: String at 0x004292A8 too long. Truncated 'Wellow Central Bridge' (21B) -> 'Wellow Central' (14B). Original space: 14B.
+[!] Warning: String at 0x004292C8 too long. Truncated "Wizard's Tavern" (15B) -> "Wizard's Taver" (14B). Original space: 14B.
+[!] Warning: String at 0x004292D8 too long. Truncated "Floyd's house" (13B) -> "Floyd's hous" (12B). Original space: 12B.
+[!] Warning: String at 0x00429318 too long. Truncated 'Sigou Cathedral' (15B) -> 'Sigou Cathed' (12B). Original space: 12B.
+[!] Warning: String at 0x00429328 too long. Truncated 'The Gate of Birth' (17B) -> 'The Gate' (8B). Original space: 8B.
+[!] Warning: String at 0x00429338 too long. Truncated 'Hill of Incarnation' (19B) -> 'Hill of ' (8B). Original space: 8B.
+[!] Warning: String at 0x00429348 too long. Truncated 'Valley of Encounters' (20B) -> 'Valley o' (8B). Original space: 8B.
+[!] Warning: String at 0x00429358 too long. Truncated 'Corridor of Niabales' (20B) -> 'Corridor of Niab' (16B). Original space: 16B.
+[!] Warning: String at 0x00429370 too long. Truncated 'Beyond Destruction and Rebirth' (30B) -> 'Beyond Destructi' (16B). Original space: 16B.
+[!] Warning: String at 0x00429388 too long. Truncated 'Abyss of Illusions' (18B) -> 'Abyss of I' (10B). Original space: 10B.
+[!] Warning: String at 0x004293A8 too long. Truncated 'The remains of Anguaros' (23B) -> 'The remains of A' (16B). Original space: 16B.
+[!] Warning: String at 0x004293F0 too long. Truncated 'Hall of the Mortuary' (20B) -> 'Hall of th' (10B). Original space: 10B.
+[!] Warning: String at 0x00429400 too long. Truncated 'Midway up Mount Croco' (21B) -> 'Midway up Mo' (12B). Original space: 12B.
+[!] Warning: String at 0x00429410 too long. Truncated 'The Forest of Saint Belias' (26B) -> 'The Forest of ' (14B). Original space: 14B.
+[!] Warning: String at 0x00429420 too long. Truncated 'Lake of Gran Talos' (18B) -> 'Lake of Gran Tal' (16B). Original space: 16B.
+[!] Warning: String at 0x00429450 too long. Truncated "Vampire's Castle" (16B) -> "Vampire's Ca" (12B). Original space: 12B.
+[!] Warning: String at 0x00429460 too long. Truncated 'Fire Mountain Cave' (18B) -> 'Fire Mountain ' (14B). Original space: 14B.
+[!] Warning: String at 0x00429470 too long. Truncated 'A time of sorrow' (16B) -> 'A time of ' (10B). Original space: 10B.
+[!] Warning: String at 0x00429480 too long. Truncated 'Berias Wetlands' (15B) -> 'Berias Wetland' (14B). Original space: 14B.
+[!] Warning: String at 0x004294A8 too long. Truncated 'Remington Mountain Trail' (24B) -> 'Remington Moun' (14B). Original space: 14B.
+[!] Warning: String at 0x004294B8 too long. Truncated 'The Green Sea of Ur' (19B) -> 'The Green ' (10B). Original space: 10B.
+[!] Warning: String at 0x004294C8 too long. Truncated 'The Chamber of the Founders' (27B) -> 'The Cham' (8B). Original space: 8B.
+[!] Warning: String at 0x004294E8 too long. Truncated "Franca's Forest" (15B) -> "Franca's For" (12B). Original space: 12B.
+[!] Warning: String at 0x004294F8 too long. Truncated 'Franca Village' (14B) -> 'Franca Villa' (12B). Original space: 12B.
+[!] Warning: String at 0x00429528 too long. Truncated 'Details of the team members' (27B) -> 'Details of' (10B). Original space: 10B.
+[!] Warning: String at 0x004295F0 too long. Truncated 'End of formation' (16B) -> 'End of for' (10B). Original space: 10B.
+[!] Warning: String at 0x00429600 too long. Truncated 'Original formation' (18B) -> 'Original' (8B). Original space: 8B.
+[!] Warning: String at 0x00429610 too long. Truncated 'Formation clear' (15B) -> 'Formation cl' (12B). Original space: 12B.
+[!] Warning: String at 0x00429620 too long. Truncated 'Confirmation of Summoned Spirits' (32B) -> 'Confirmation o' (14B). Original space: 14B.
+[!] Warning: String at 0x00429640 too long. Truncated 'Attribute verification' (22B) -> 'Attribute ' (10B). Original space: 10B.
+[!] Warning: String at 0x00429650 too long. Truncated 'Rotate forward' (14B) -> 'Rotate f' (8B). Original space: 8B.
+[!] Warning: String at 0x00429660 too long. Truncated 'Rotate backward' (15B) -> 'Rotate bac' (10B). Original space: 10B.
+[!] Warning: String at 0x00429840 too long. Truncated 'Top 30 Strongest' (16B) -> 'Top 30 Stron' (12B). Original space: 12B.
+[!] Warning: String at 0x00429850 too long. Truncated 'Top 3 Maximum Safe Values' (25B) -> 'Top 3 Maximum Safe Val' (22B). Original space: 22B.
+[!] Warning: String at 0x00429880 too long. Truncated 'Top 3 Summon Damage Maximum' (27B) -> 'Top 3 Summon Damage Maxi' (24B). Original space: 24B.
+[!] Warning: String at 0x00429980 too long. Truncated 'The state of my friends' (23B) -> 'The state of' (12B). Original space: 12B.
+[!] Warning: String at 0x004299B0 too long. Truncated 'Search mode' (11B) -> 'Search mod' (10B). Original space: 10B.
+[!] Warning: String at 0x00429AB0 too long. Truncated 'We are looking for team members.' (32B) -> 'We are loo' (10B). Original space: 10B.
+[!] Warning: String at 0x00429F10 too long. Truncated 'Enemy information' (17B) -> 'Enemy in' (8B). Original space: 8B.
+[!] Warning: String at 0x0042A4A0 too long. Truncated 'Return to the bulletin board' (28B) -> 'Return to th' (12B). Original space: 12B.
+[!] Warning: String at 0x0042B008 too long. Truncated 'Laylas Plateau' (14B) -> 'Laylas Plate' (12B). Original space: 12B.
+[!] Warning: String at 0x0042B018 too long. Truncated 'Goldoa Plains' (13B) -> 'Goldoa Plain' (12B). Original space: 12B.
+[!] Warning: String at 0x0042B028 too long. Truncated 'Maison Marsh' (12B) -> 'Maison Mar' (10B). Original space: 10B.
+[!] Warning: String at 0x0042B038 too long. Truncated 'Keim Plains' (11B) -> 'Keim Plain' (10B). Original space: 10B.
+[!] Warning: String at 0x0042B078 too long. Truncated 'Moon Plains' (11B) -> 'Moon Plain' (10B). Original space: 10B.
+[!] Warning: String at 0x0042B088 too long. Truncated 'Iglas Islands' (13B) -> 'Iglas Island' (12B). Original space: 12B.
+[!] Warning: String at 0x0042B0C8 too long. Truncated 'Galles Bay' (10B) -> 'Galles B' (8B). Original space: 8B.
+[!] Warning: String at 0x0042B0D8 too long. Truncated 'Sea of Perpetual Mist' (21B) -> 'Sea of P' (8B). Original space: 8B.
+[!] Warning: String at 0x0042DB68 too long. Truncated 'Are you sure you want to return to the title screen without saving?' (67B) -> 'Are you sure you want to return to the title screen with' (56B). Original space: 56B.
+[!] Warning: String at 0x0042DF08 too long. Truncated "The miners' tavern" (18B) -> "The miners' ta" (14B). Original space: 14B.
+[!] Warning: String at 0x0042F830 too long. Truncated 'Shall we begin the battle?' (26B) -> 'Shall we begin the b' (20B). Original space: 20B.
+[!] Warning: String at 0x004314E0 too long. Truncated 'It is "death" itself, in physical form.\n\nThe king of monsters, reigning over countless other monsters.\n\nIts blows can shatter rocks.\n\nIts roar shakes the heavens.\n\nThe only small blessing for humanity is that it rarely shows itself.' (232B) -> 'It is "death" itself, in physical form.\n\nThe king of monsters, reigning over countless other monsters.\n\nIts blows can shatter rocks.\n\nIts roar shakes the heavens.\n\nThe only small blessing for humanity is t' (205B). Original space: 205B.
+[!] Warning: String at 0x004315B0 too long. Truncated 'Among the monsters, the Elemental tribe stands out as particularly unique.\n\nThe Flame Bit, possessing the fire attribute,\ncan inflict double the normal damage when attacked with the "water" attribute.\n\nHowever, allies with the "wind" attribute will take double the normal damage.' (279B) -> 'Among the monsters, the Elemental tribe stands out as particularly unique.\n\nThe Flame Bit, possessing the fire attribute,\ncan inflict double the normal damage when attacked with the "water" attribute.\n\nHowever, allies with ' (223B). Original space: 223B.
+[!] Warning: String at 0x00431690 too long. Truncated 'Among the monsters, the Elemental tribe stands out as particularly unique.\n\nAirbit, possessing the wind attribute,\ncan inflict double the normal damage when attacked with the "fire" attribute.\n\nHowever, allies with the "earth" attribute will take double the normal damage.' (272B) -> 'Among the monsters, the Elemental tribe stands out as particularly unique.\n\nAirbit, possessing the wind attribute,\ncan inflict double the normal damage when attacked with the "fire" attribute.\n\nHowever, allies with the ' (219B). Original space: 219B.
+[!] Warning: String at 0x00431770 too long. Truncated 'Among the monsters, the Elemental tribe stands out as particularly unique.\nEarthbit, possessing the Earth attribute, can deal double the normal damage when attacked with the "Wind" attribute.\nHowever, allies with the "Water" attribute will take double the normal damage.' (270B) -> 'Among the monsters, the Elemental tribe stands out as particularly unique.\nEarthbit, possessing the Earth attribute, can deal double the normal damage when attacked with the "Wind" attribute.\nHowever, allies with the "Wat' (221B). Original space: 221B.
+[!] Warning: String at 0x00431850 too long. Truncated 'Among the monsters, the Elemental tribe stands out as particularly unique.\n\nAquavit, possessing the water attribute, can deal double the normal damage when attacked with the "earth" attribute.\n\nHowever, allies with the "fire" attribute will take double the normal damage.' (271B) -> 'Among the monsters, the Elemental tribe stands out as particularly unique.\n\nAquavit, possessing the water attribute, can deal double the normal damage when attacked with the "earth" attribute.\n\nHowever, allies with the "f' (221B). Original space: 221B.
+[!] Warning: String at 0x00431930 too long. Truncated 'Its massive size. Its imposing presence.\n\nTruly the vanguard of the dragon race, the monster of all monsters.\nThat is the Turquoise Dragon.\n\nAlthough it is a lower-ranking member of its species, the power of its "row attack," capable of uprooting even large trees with a single swift trajectory of its tail,\nis certainly a threat to humans.' (340B) -> 'Its massive size. Its imposing presence.\n\nTruly the vanguard of the dragon race, the monster of all monsters.\nThat is the Turquoise Dragon.\n\nAlthough it is a lower-ranking member of its species, the power of its "row atta' (221B). Original space: 221B.
+[!] Warning: String at 0x00431A10 too long. Truncated 'The dragon race, possessing terrifying vitality and destructive power, is practically synonymous with monsters in itself.\nThe Crimson Dragon, with its lightning-like "row attack" ability, is fortunate to be relatively slow-moving; otherwise, humans would have had no chance.' (274B) -> 'The dragon race, possessing terrifying vitality and destructive power, is practically synonymous with monsters in itself.\nThe Crimson Dragon, with its lightning-like "row attack" ability, is fortunate to be rel' (210B). Original space: 210B.
+[!] Warning: String at 0x00431AE8 too long. Truncated 'Morgaron. King of the Dragon Clan.\n\nIn other words, King of all monsters.\n\nIn fact, he is one of the highest-ranking monsters, a fearsome being possessing unparalleled power, including the ability of "Row Attack" and the magic of "Petrification Attack."' (253B) -> 'Morgaron. King of the Dragon Clan.\n\nIn other words, King of all monsters.\n\nIn fact, he is one of the highest-ranking monsters, a fearsome being possessing unparallele' (166B). Original space: 166B.
+[!] Warning: String at 0x00431B90 too long. Truncated 'The Basilcock is a bird-like beast with an impossible shape.\nDespite its somewhat endearing appearance, its body is filled with hatred for humans, and upon finding an object of that hatred, it launches a "continuous attack," relentlessly and repeatedly attacking.' (263B) -> 'The Basilcock is a bird-like beast with an impossible shape.\nDespite its somewhat endearing appearance, its body is filled with hatred for humans, and upon finding an object of that hatred, it launches a "c' (206B). Original space: 206B.
+[!] Warning: String at 0x00431C60 too long. Truncated 'Garuda is a bird-like beast with an eerie cry.\n\nAlthough its attack power is low, it relentlessly searches for its prey, humans, with terrifying persistence, and once it finds one, it doesn\'t give up easily. Furthermore, it occasionally unleashes "row attacks," making it a monster not to be underestimated.' (307B) -> "Garuda is a bird-like beast with an eerie cry.\n\nAlthough its attack power is low, it relentlessly searches for its prey, humans, with terrifying persistence, and once it finds one, it doesn't give" (196B). Original space: 196B.
+[!] Warning: String at 0x00431D28 too long. Truncated 'Gruban. It is a cursed threat from the sky.\n\nWith a greedy and ferocious nature, it attacks humans with unimaginable speed and strong vitality, despite its size. It is one of the strongest monsters, unleashing "continuous attacks" that concentrate on targeting one person, and "row attacks" that damage an entire row.' (317B) -> 'Gruban. It is a cursed threat from the sky.\n\nWith a greedy and ferocious nature, it attacks humans with unimaginable speed and strong vitality, despite its size. It is one of the strongest monsters, unleashing "continuous attacks" that concentrate on targeting one pe' (267B). Original space: 267B.
+[!] Warning: String at 0x00431E38 too long. Truncated 'The small beast-like Mowrymouse is a low-level monster that is always hungry and will try to eat anything that moves.\nWhile it is relatively weak for a monster, its appearance is misleading, and you will suffer a painful blow from its first attack.' (248B) -> 'The small beast-like Mowrymouse is a low-level monster that is always hungry and will try to eat anything that moves.\nWhile it is relatively weak for a monster, its appearance is misleading,' (190B). Original space: 190B.
+[!] Warning: String at 0x00431EF8 too long. Truncated 'The Huge Rat is a monster that ranks somewhat higher among the small beast species.\n\nIts restless mouth is constantly searching for something to eat. It will eat anything edible, including humans. Its occasional "multiple attack" is also something to watch out for.' (265B) -> 'The Huge Rat is a monster that ranks somewhat higher among the small beast species.\n\nIts restless mouth is constantly searching for something to eat. It will eat anything edible, including humans. Its occasional "mul' (216B). Original space: 216B.
+[!] Warning: String at 0x00431FD8 too long. Truncated "Owlbears have an unusual obsession with food, especially fruit, and always carry something with them.\nTheir strange behavior is unpredictable, and if you let your guard down, you'll likely suffer a painful blow with their first attack." (235B) -> "Owlbears have an unusual obsession with food, especially fruit, and always carry something with them.\nTheir strange behavior is unpredictable, and if you let your guard down, you'l" (180B). Original space: 180B.
+[!] Warning: String at 0x00432090 too long. Truncated 'The Hellhound, a type of demon beast, is a terrifying creature that constantly unleashes "multiple attacks," using its two heads to attack multiple times at once.\n\nIt is extremely aggressive, and even its own two heads constantly bicker due to differences in temperament.' (271B) -> 'The Hellhound, a type of demon beast, is a terrifying creature that constantly unleashes "multiple attacks," using its two heads to attack multiple times at once.\n\nIt is extremely aggressive, an' (194B). Original space: 194B.
+[!] Warning: String at 0x00432158 too long. Truncated 'The Cerberus, a messenger from hell and a member of the demon beast race.\n\nIt is a ferocious monster that attacks multiple times at once.\n\nIt possesses the ability to heal its wounds and is highly intelligent, accurately discerning the true nature of its enemies.\n\nIt is an aggressive and dangerous being.\n\nYou should also be wary of its "Angry Blow," which it unleashes with all its might on a whim.' (400B) -> 'The Cerberus, a messenger from hell and a member of the demon beast race.\n\nIt is a ferocious monster that attacks multiple times at once.\n\nIt possesses the ability to heal its wounds and is highly intelligent, accurately di' (223B). Original space: 223B.
+[!] Warning: String at 0x00432238 too long. Truncated 'Elmi.\n\nA beast of the demon race whose eerie appearance has become almost legendary.\nIt unleashes the most attacks at once, making it the strongest of all the demon beasts.\n\nIts name is said to mean "the one who stares at the moon."' (232B) -> 'Elmi.\n\nA beast of the demon race whose eerie appearance has become almost legendary.\nIt unleashes the most attacks at once, making it the strongest of all the demon beasts.\n\nIts nam' (181B). Original space: 181B.
+[!] Warning: String at 0x004322F0 too long. Truncated 'The Gas Tribe, eerie monsters that seem to embody resentment and hatred.\nThe bizarre and hideous Poison Mist is a troublesome monster that constantly unleashes "row attacks" filled with all its hatred.' (201B) -> 'The Gas Tribe, eerie monsters that seem to embody resentment and hatred.\nThe bizarre and hideous Poison Mist is a troublesome monster that constantly unleashes "row attac' (170B). Original space: 170B.
+[!] Warning: String at 0x004323A0 too long. Truncated 'Even the gas-like creatures, neither smoke nor mist, possess a will of their own.\nAcid Smoke, who utilizes magic and intelligence, will be a formidable opponent.\nThey constantly unleash "row attacks," slowly cornering their allies.' (231B) -> 'Even the gas-like creatures, neither smoke nor mist, possess a will of their own.\nAcid Smoke, who utilizes magic and intelligence, will be a formidable opponent.\nThey constantly unleash "row attacks," slo' (204B). Original space: 204B.
+[!] Warning: String at 0x00432470 too long. Truncated 'The Gas Tribe, lacking any tangible form, are beings like lumps of magical energy.\nAmong them, the higher-ranking Evil Clouds possess even high intelligence and are terrifying monsters that use "death curse attacks" to prevent their allies from healing while cornering them.' (274B) -> 'The Gas Tribe, lacking any tangible form, are beings like lumps of magical energy.\nAmong them, the higher-ranking Evil Clouds possess even high intelligence and are terrifying monsters that use "death curse ' (207B). Original space: 207B.
+[!] Warning: String at 0x00432540 too long. Truncated 'The Skull Demon wears a cruel smile.\nThey possess high intelligence and magical power among monsters, and many hold leadership positions over other monsters. Their power, though lower in rank, should never be underestimated.\nTheir constant "petrification attack" requires careful consideration of your formation to avoid unexpected defeat.' (339B) -> 'The Skull Demon wears a cruel smile.\nThey possess high intelligence and magical power among monsters, and many hold leadership positions over other monsters. Their power, though lower in rank, should never be underestimated.\nTheir constant "petrification at' (257B). Original space: 257B.
+[!] Warning: String at 0x00432648 too long. Truncated 'The Grim Reaper, the Archdemon.\n\nA cruel demon that finds joy in defeating humans.\n\nA terrifying being that enjoys tormenting its opponents by turning them to stone with its "petrification attack," unleashed with immense magical power.\n\n' (237B) -> 'The Grim Reaper, the Archdemon.\n\nA cruel demon that finds joy in defeating humans.\n\nA terrifying being that enjoys tormenting its opponents by turning them to s' (160B). Original space: 160B.
+[!] Warning: String at 0x004326F0 too long. Truncated 'Zodkor, the materialized darkness, the angel who brings death.\n\nAmong the many monsters, he is one of the most formidable beings, possessing immense magical power.\n\nNo one can resist the curse of their "petrification attack,"\nand the "consecutive attacks" they occasionally unleash also possess terrifying power.' (312B) -> 'Zodkor, the materialized darkness, the angel who brings death.\n\nAmong the many monsters, he is one of the most formidable beings, possessing immense magical power.\n\nNo one can resist the curse of their "pe' (205B). Original space: 205B.
+[!] Warning: String at 0x004327C0 too long. Truncated 'The flying beast, Oddnose, may seem endearing with its large, wide nose, but you should never underestimate it.\nIt possesses the ability of "First Defense," which blocks the first attack, making it a formidable and defensively strong opponent.' (243B) -> 'The flying beast, Oddnose, may seem endearing with its large, wide nose, but you should never underestimate it.\nIt possesses the ability of "First Defense," which blocks ' (170B). Original space: 170B.
+[!] Warning: String at 0x00432870 too long. Truncated 'Devilnose is a flying beast-type monster with considerable hidden power.\n\nIt has high HP and good regenerative abilities, so you may have to prepare for a long battle.\n\nIt also excels at "first-strike defense," which allows it to dodge the opponent\'s initial attack.' (266B) -> 'Devilnose is a flying beast-type monster with considerable hidden power.\n\nIt has high HP and good regenerative abilities, so you may have to prepare for a long battle.\n\nIt also excels ' (184B). Original space: 184B.
+[!] Warning: String at 0x00432930 too long. Truncated 'Chaosburn. The approaching terror.\n\nAmong the insidious and difficult-to-deal-with flying beast-type creatures,\nit ranks among the top and is a particularly troublesome presence.\n\nIts power to drain the opponent\'s life force, its ability to withstand the first attack,\nneither of these should be underestimated. Furthermore, the "multiple attacks" it occasionally unleashes are also powerful.' (392B) -> "Chaosburn. The approaching terror.\n\nAmong the insidious and difficult-to-deal-with flying beast-type creatures,\nit ranks among the top and is a particularly troublesome presence.\n\nIts power to drain the opponent's life force, its abi" (233B). Original space: 233B.
+[!] Warning: String at 0x00432A20 too long. Truncated 'The Giants, a race of giants, possess an overwhelming combination of immense power and thoughtless actions, making them a troublesome bunch.\nThey view everything except monsters as enemies and are always looking to attack at the slightest opportunity.\nUnderestimating them because of their slow movements could lead to an unexpected blow and put you in a precarious situation.' (376B) -> 'The Giants, a race of giants, possess an overwhelming combination of immense power and thoughtless actions, making them a troublesome bunch.\nThey view everything except monsters as enemies and are always looking to attack at the sl' (231B). Original space: 231B.
+[!] Warning: String at 0x00432B08 too long. Truncated 'Hill Giants are giants with primitive magical patterns etched all over their bodies. Even among the already fierce and brutal giant race, they possess a particularly aggressive temperament.\nHowever, they do possess some intelligence, and have a special ability to "accumulate power"―gathering strength without attacking, then unleashing it all at once in their next attack.' (374B) -> 'Hill Giants are giants with primitive magical patterns etched all over their bodies. Even among the already fierce and brutal giant race, they possess a particularly aggressive temperament.\nHowever, they do possess some intelligence, and have a special ability to "accu' (269B). Original space: 269B.
+[!] Warning: String at 0x00432C18 too long. Truncated 'The Ogre, the king of the extremely ferocious giant race.\n\nPossessing destructive strength, he is feared even by other monsters, and any foolish challenge will inevitably lead to a fatal outcome.\n\nFurthermore, he is the strongest giant, possessing the ability to defend against attacks twice in a row.' (301B) -> 'The Ogre, the king of the extremely ferocious giant race.\n\nPossessing destructive strength, he is feared even by other monsters, and any foolish challenge will inevitably lead to a fatal outcome.\n\nFurthermore, h' (211B). Original space: 211B.
+[!] Warning: String at 0x00432CF0 too long. Truncated 'The Chimera, a mythical beast with a horrifying appearance as if various creatures have been chaotically fused together, is a troublesome monster that constantly unleashes "petrification attacks" and, on top of that, "purgatory flames" that burn anything in its path.' (267B) -> 'The Chimera, a mythical beast with a horrifying appearance as if various creatures have been chaotically fused together, is a troublesome monster that constantly unleashes "petrification' (186B). Original space: 186B.
+[!] Warning: String at 0x00432DB0 too long. Truncated 'The Wings of Misfortune, the Mythical Beast Blue Chimera\nA cruel monster that flies in from nowhere and terrorizes people.\nIt petrifies all that opposes it and burns them to death with its "Flame of Purgatory." There is no such thing as mercy or compassion in their vocabulary.' (277B) -> 'The Wings of Misfortune, the Mythical Beast Blue Chimera\nA cruel monster that flies in from nowhere and terrorizes people.\nIt petrifies all that opposes it and burns them to death with its "Flame o' (197B). Original space: 197B.
+[!] Warning: String at 0x00432E78 too long. Truncated 'Dragoons. A legendary race said to have existed since the beginning of the world.\nA terrifying divine dragon that turns all its enemies to stone and burns them to ashes.\nWhen you encounter them, you will feel death closer than ever before.' (239B) -> 'Dragoons. A legendary race said to have existed since the beginning of the world.\nA terrifying divine dragon that turns all its enemies to stone and burns them to ashes.\nWhen you encounter them, ' (195B). Original space: 195B.
+[!] Warning: String at 0x00432F40 too long. Truncated 'A depraved individual who has dedicated both body and soul to the devil.\n\nA sorcerer, a dark sorcerer.\n\nLurking in the shadows and loving darkness, they occasionally reveal themselves,\nand work to spread the emotion of "fear," which forms the foundation of their doctrine, throughout the world.' (294B) -> 'A depraved individual who has dedicated both body and soul to the devil.\n\nA sorcerer, a dark sorcerer.\n\nLurking in the shadows and loving darkness, they occasionally reveal' (172B). Original space: 172B.
+[!] Warning: String at 0x00432FF0 too long. Truncated 'The necromancer is a terrifying sorcerer who emerges from dimensional holes and brings "death" to all living things.\nWhile you\'d want to defeat them as quickly as possible, they are dangerous monsters that slowly close in, mitigating damage with their "first-strike defense" ability.' (283B) -> 'The necromancer is a terrifying sorcerer who emerges from dimensional holes and brings "death" to all living things.\nWhile you\'d want to defeat them as quickly as possible, they are dangerous monsters that slowl' (211B). Original space: 211B.
+[!] Warning: String at 0x004330C8 too long. Truncated 'The Lich, the King of the Dead who rules the darkness.\n\nThe longer time passes, the more powerful his attacks become,\nand the more terror he will instill in his enemies.\n\nWhile you\'d want to defeat him as quickly as possible,\nhe has high HP and possesses the ability of "First Defense,"\nmaking him a very troublesome monster.' (325B) -> "The Lich, the King of the Dead who rules the darkness.\n\nThe longer time passes, the more powerful his attacks become,\nand the more terror he will instill in his enemies.\n\nWhile you'd want to defeat him as quickly as possible,\nhe " (229B). Original space: 229B.
+[!] Warning: String at 0x004331B0 too long. Truncated 'Goblins, small pygmy creatures with crimson eyes that harbor madness.\n\nTheir nature is cunning and greedy, and they scurry about restlessly through the dark forest, searching for prey.\n\nThey possess regenerative abilities and constantly unleash "multiple-target attacks," so underestimating them will lead to painful consequences.' (330B) -> 'Goblins, small pygmy creatures with crimson eyes that harbor madness.\n\nTheir nature is cunning and greedy, and they scurry about restlessly through the dark forest, searching for prey.\n\nThey possess regenerative abilit' (218B). Original space: 218B.
+[!] Warning: String at 0x00433290 too long. Truncated 'Goblin warriors are warlike and ferocious warriors of the goblin race.\nThey usually act in packs, but once they spot prey, they are cowardly monsters that will attack alone to monopolize it.\nThey wield large swords swiftly and constantly unleash "multiple-target attacks."' (272B) -> 'Goblin warriors are warlike and ferocious warriors of the goblin race.\nThey usually act in packs, but once they spot prey, they are cowardly monsters that will attack alone to monopolize it.\nThey wield large swords swiftly and constantly unleash "mu' (249B). Original space: 249B.
+[!] Warning: String at 0x00433390 too long. Truncated 'Even among the foolish and crude goblins, occasionally, after years of experience, a powerful goblin mage can emerge.\nThey are dangerous monsters who transform their hatred for the world into power, unleashing "area-of-effect attacks" that damage all who stand against them.' (274B) -> 'Even among the foolish and crude goblins, occasionally, after years of experience, a powerful goblin mage can emerge.\nThey are dangerous monsters who transform their hatred for the world into power, unleashing "area-of-effect attacks" that damage al' (249B). Original space: 249B.
+[!] Warning: String at 0x00433490 too long. Truncated 'The Agres are a race born with the sole purpose of reducing the world to nothingness. Their power, even in their larval stage, is not to be underestimated.\n\nIn particular, their occasional "dimensional banishment" attack is terrifying, forcibly sending their adversaries to somewhere other than this world.' (306B) -> 'The Agres are a race born with the sole purpose of reducing the world to nothingness. Their power, even in their larval stage, is not to be underestimated.\n\nIn particular, their occasional "dimensional banishment" attack is' (223B). Original space: 223B.
+[!] Warning: String at 0x00433570 too long. Truncated 'The Agres, a race consumed by hatred, possess immense power even in their incomplete forms.\nIn particular, their "dimensional banishment" attack, which forcibly transports those who oppose them to another world, requires extreme caution.' (237B) -> 'The Agres, a race consumed by hatred, possess immense power even in their incomplete forms.\nIn particular, their "dimensional banishment" attack, which forcibly transports those who oppose the' (192B). Original space: 192B.
+[!] Warning: String at 0x00433638 too long. Truncated 'Agres, the antibody of gluttony that devours all living things. Its adult form is said to be the strongest among all monsters. Its immense physical strength, "first attack" ability, and its most distinctive feature, the "dimensional pursuit" attack―all of these are powers befitting its purpose of destroying the entire world.' (327B) -> 'Agres, the antibody of gluttony that devours all living things. Its adult form is said to be the strongest among all monsters. Its immense physical strength, "first attack" ability, and its most distinctive feature, the "dimensional pursuit" attack―all of these are powe' (271B). Original space: 271B.
+[!] Warning: String at 0x00433748 too long. Truncated 'Eternal death to all living things.\nThe Great Spirit, Zai-Angrea,\nthe most wicked "creator of malevolent destruction,"\ndesires a re-establishment of the miracle of Anguaros,\nand is the fate of the Great Spirit who sought to reduce the world to nothingness.' (256B) -> 'Eternal death to all living things.\nThe Great Spirit, Zai-Angrea,\nthe most wicked "creator of malevolent destruction,"\ndesires a re-establishment of the miracle of Anguaros,\nand is the fate of t' (194B). Original space: 194B.
+[!] Warning: String at 0x00433820 too long. Truncated "They are low-level small beasts that are always hungry and will try to eat anything that moves.\nThey are weaker than most monsters, but they are quite fast, and you'll get hurt if you're not careful.\nIf you take damage, swap out your frontline allies and fight cautiously." (272B) -> "They are low-level small beasts that are always hungry and will try to eat anything that moves.\nThey are weaker than most monsters, but they are quite fast, and you'll get hurt if you're not careful.\nIf you take damage, swap out your front" (239B). Original space: 239B.
+[!] Warning: String at 0x00433910 too long. Truncated 'They are low-level small beasts that are always hungry and will try to eat anything that moves.\nThey seem to have slightly more HP than the monster from before, but if you rotate your formation and switch positions when they take damage, they are not an opponent to be feared.' (276B) -> 'They are low-level small beasts that are always hungry and will try to eat anything that moves.\nThey seem to have slightly more HP than the monster from before, but if you rotate your formation and switch positions when t' (221B). Original space: 221B.
+[!] Warning: String at 0x004339F0 too long. Truncated 'This is a slightly higher-ranking member of the small beast family.\nIts restless mouth is constantly searching for something to eat.\nAnything edible will do, and humans are no exception.\nIts attack power is somewhat high, so countermeasures such as providing defensive support to allies with low HP will be necessary.' (317B) -> 'This is a slightly higher-ranking member of the small beast family.\nIts restless mouth is constantly searching for something to eat.\nAnything edible will do, and humans are no exception.\nIts attack power is somewhat high, so ' (225B). Original space: 225B.
+[!] Warning: String at 0x00433AD8 too long. Truncated 'The Giants, a race of giants, possess an overwhelming amount of power and a tendency to act without thinking, making them a troublesome combination.\n\nHowever, these monsters seem to be capable of some intelligence, and will concentrate their attacks on warriors who lack regenerative abilities, so be careful.' (309B) -> 'The Giants, a race of giants, possess an overwhelming amount of power and a tendency to act without thinking, making them a troublesome combination.\n\nHowever, these monsters seem to be capable of some i' (202B). Original space: 202B.
+[!] Warning: String at 0x00433BA8 too long. Truncated 'The Oddnose, with its eerie, large, flared nose, is a low-ranking member of the flying beast family, but it\'s a troublesome enemy that occasionally unleashes "multiple-target attacks" that hit many of its allies at once.\nSince it also has a relatively high HP, you should prioritize a formation that focuses on damage recovery when fighting it.' (344B) -> 'The Oddnose, with its eerie, large, flared nose, is a low-ranking member of the flying beast family, but it\'s a troublesome enemy that occasionally unleashes "multiple-target attacks" that hit many of its allies at once.\nSince it a' (231B). Original space: 231B.
+[!] Warning: String at 0x00433C90 too long. Truncated 'Its massive size. Its imposing presence.\n\nTruly the vanguard of the dragon race, the monster of all monsters.\nThat is the Turquoise Dragon.\n\nAlthough it is a lower-ranking member of its species, the power of its "row attack," capable of uprooting even large trees with a single swift tail swing,\nis certainly a threat to humans.' (328B) -> 'Its massive size. Its imposing presence.\n\nTruly the vanguard of the dragon race, the monster of all monsters.\nThat is the Turquoise Dragon.\n\nAlthough it is a lower-ranking member of its species, the power of its "row atta' (221B). Original space: 221B.
+[!] Warning: String at 0x00433D70 too long. Truncated 'A depraved individual who has dedicated both body and soul to the devil.\n\nA sorcerer, a dark sorcerer.\n\nLurking in the shadows and loving darkness, they occasionally reveal themselves,\nand work to spread the emotion of "fear," which forms the foundation of their doctrine, throughout the world.' (294B) -> 'A depraved individual who has dedicated both body and soul to the devil.\n\nA sorcerer, a dark sorcerer.\n\nLurking in the shadows and loving darkness, they occasionally reveal t' (174B). Original space: 174B.
+[!] Warning: String at 0x00433E20 too long. Truncated 'Hill Giants are giants with primitive magical patterns etched all over their bodies. Even among the already fierce and brutal giant race, they possess a particularly aggressive temperament.\nWhat you should be wary of is their occasional "Furious Blow."\nThis attack is terrifying, dealing twice the normal damage to its opponent.' (328B) -> 'Hill Giants are giants with primitive magical patterns etched all over their bodies. Even among the already fierce and brutal giant race, they possess a particularly aggressive temperament.\nWhat you should be wary of is their occasional "Furious Blow."\n' (253B). Original space: 253B.
+[!] Warning: String at 0x00433F20 too long. Truncated 'Even the gas-like creatures, neither smoke nor mist, possess a will of their own.\nAcid Smoke, who utilizes magic and intelligence, will be a troublesome opponent.\nIn particular, their "Death Curse Attack" is a terrifying attack that leaves the opponent unable to recover for a certain period of time.' (300B) -> 'Even the gas-like creatures, neither smoke nor mist, possess a will of their own.\nAcid Smoke, who utilizes magic and intelligence, will be a troublesome opponent.\nIn particular, their "Death Curse Attack" is a te' (212B). Original space: 212B.
+[!] Warning: String at 0x00433FF8 too long. Truncated 'It is "Death" itself, in physical form.\n\nThe king of monsters, reigning over countless other monsters.\n\nIts blows can shatter rocks.\n\nIts roar shakes the heavens.\n\nHowever, its resurrection is not yet complete,\n\nand it seems it is not yet able to unleash its full power.' (270B) -> 'It is "Death" itself, in physical form.\n\nThe king of monsters, reigning over countless other monsters.\n\nIts blows can shatter rocks.\n\nIts roar shakes the heavens.\n\nHowever, its resurrection is not ye' (199B). Original space: 199B.
+[!] Warning: String at 0x004340C0 too long. Truncated 'Goblin warriors are aggressive and ferocious warriors of the goblin race.\nThey usually act in packs, but once they spot prey, they are cowardly monsters that will attack alone to monopolize it.\nTheir rare "area attack" is a troublesome attack that damages everything in its path, so be careful.' (294B) -> 'Goblin warriors are aggressive and ferocious warriors of the goblin race.\nThey usually act in packs, but once they spot prey, they are cowardly monsters that will attack alone to monopolize it.\nTheir rare "area attack" is a troublesome attack that damages everything in i' (271B). Original space: 271B.
+[!] Warning: String at 0x004341D0 too long. Truncated 'Necromancers are fearsome sorcerers who emerge from dimensional holes and bring "death" to all living things.\nThey possess a troublesome characteristic: if the battle drags on, they activate their "attack power enhancement" ability, increasing their normal attack power.' (270B) -> 'Necromancers are fearsome sorcerers who emerge from dimensional holes and bring "death" to all living things.\nThey possess a troublesome characteristic: if the battle drags on, they activate their ' (197B). Original space: 197B.
+[!] Warning: String at 0x00434298 too long. Truncated 'One of the four leaders of the monster clan known as the Wings of Calamity.\nZorud, the "Calamity of Power," aims to bring chaos and destruction to this world.\nNo one can resist the curse of his "petrification attack," and the "consecutive attacks" he occasionally unleashes also possess terrifying power.' (304B) -> 'One of the four leaders of the monster clan known as the Wings of Calamity.\nZorud, the "Calamity of Power," aims to bring chaos and destruction to this world.\nNo one can resist the curse of his "' (195B). Original space: 195B.
+[!] Warning: String at 0x00434360 too long. Truncated 'One of the four leaders of the monster clan known as the Wings of Calamity.\n\nA being who hates everything, is enraged by everything, and wants to erase everything.\n"The Black Calamity" Niza.\n\nThe longer time passes, the more powerful her attacks will become,\nand she will strike fear into the hearts of her enemies.' (315B) -> 'One of the four leaders of the monster clan known as the Wings of Calamity.\n\nA being who hates everything, is enraged by everything, and wants to erase everything.\n"The Black Calamity"' (184B). Original space: 184B.
+[!] Warning: String at 0x00434420 too long. Truncated 'Dragoons. A legendary race said to have existed since the beginning of the world. Terrifying divine dragons that turn all their enemies to stone and burn them to ashes.\nWhen you encounter them, you will feel death closer than ever before.' (238B) -> 'Dragoons. A legendary race said to have existed since the beginning of the world. Terrifying divine dragons that turn all their enemies to stone and burn them to ashes.\nWhen you encounter them, ' (194B). Original space: 194B.
+[!] Warning: String at 0x004347B0 too long. Truncated 'The state of my friends' (23B) -> 'The state of' (12B). Original space: 12B.
+[!] Warning: String at 0x004347C0 too long. Truncated 'Confirmation of Summoned Spirits' (32B) -> 'Confirmation o' (14B). Original space: 14B.
+[!] Warning: String at 0x004347D0 too long. Truncated 'I heard a rumor' (15B) -> 'I heard ' (8B). Original space: 8B.
+[!] Warning: String at 0x004347E0 too long. Truncated 'Talking to the goddess' (22B) -> 'Talking to' (10B). Original space: 10B.
+[!] Warning: String at 0x00434A40 too long. Truncated 'The state of my friends' (23B) -> 'The state of' (12B). Original space: 12B.
+[!] Warning: String at 0x00434A50 too long. Truncated 'Confirmation of Summoned Spirits' (32B) -> 'Confirmation o' (14B). Original space: 14B.
+[!] Warning: String at 0x00434A60 too long. Truncated 'I heard a rumor' (15B) -> 'I heard ' (8B). Original space: 8B.
+[!] Warning: String at 0x00434A70 too long. Truncated 'Talking to the goddess' (22B) -> 'Talking to' (10B). Original space: 10B.
+[!] Warning: String at 0x00434A80 too long. Truncated 'List of burials' (15B) -> 'List of buri' (12B). Original space: 12B.
+[!] Warning: String at 0x00434A90 too long. Truncated 'Search mode' (11B) -> 'Search mod' (10B). Original space: 10B.
+[!] Warning: String at 0x00434AA0 too long. Truncated 'Search mode ended' (17B) -> 'Search mode en' (14B). Original space: 14B.
+[!] Warning: String at 0x00434B70 too long. Truncated 'Until the next prophecy' (23B) -> 'Until the next' (14B). Original space: 14B.
+[!] Warning: String at 0x00434D70 too long. Truncated "Akral's Official Calendar 999-1000" (34B) -> "Akral's Official Calendar" (25B). Original space: 25B.
+[!] Warning: String at 0x00434D90 too long. Truncated "Akral's official calendar: 1000-1011" (36B) -> "Akral's official calendar:" (26B). Original space: 26B.
+[!] Warning: String at 0x00434DD0 too long. Truncated "Akral's official calendar: 1021-1036" (36B) -> "Akral's official calendar:" (26B). Original space: 26B.
+[!] Warning: String at 0x00434DF0 too long. Truncated 'Akral Calendar Year 1036' (24B) -> 'Akral Calendar Year ' (20B). Original space: 20B.
+[!] Warning: String at 0x00434E08 too long. Truncated "Akral's official calendar: 1036-1049" (36B) -> "Akral's official calendar:" (26B). Original space: 26B.
+[!] Warning: String at 0x00434E28 too long. Truncated "Akral's official calendar: 1050-1078" (36B) -> "Akral's official calendar:" (26B). Original space: 26B.
+[!] Warning: String at 0x00434E48 too long. Truncated "Akral's official calendar: 1079-1087" (36B) -> "Akral's official calendar:" (26B). Original space: 26B.
+[!] Warning: String at 0x00434E68 too long. Truncated "Akral's official calendar: 1088-1099" (36B) -> "Akral's official calendar:" (26B). Original space: 26B.
+[!] Warning: String at 0x00434E88 too long. Truncated "Akral's official calendar: 1099-1115" (36B) -> "Akral's official calendar:" (26B). Original space: 26B.
+[!] Warning: String at 0x00434ED0 too long. Truncated 'The movements of the Golem Bandit Gang' (38B) -> 'The movements of the ' (21B). Original space: 21B.
+[!] Warning: String at 0x00434FB0 too long. Truncated 'The void of death' (17B) -> 'The void' (8B). Original space: 8B.
+[!] Warning: String at 0x004351F8 too long. Truncated '<The Mysterious Old Man>' (24B) -> '<The Mysteriou' (14B). Original space: 14B.
+[!] Warning: String at 0x00435648 too long. Truncated 'mv01: Dream (Part 1)' (20B) -> 'mv01: Dream (Part' (17B). Original space: 17B.
+[!] Warning: String at 0x00435678 too long. Truncated 'mv03: Dream (Part 2)' (20B) -> 'mv03: Dream (Part' (17B). Original space: 17B.
+[!] Warning: String at 0x00435690 too long. Truncated 'mv04: Departure' (15B) -> 'mv04: Depar' (11B). Original space: 11B.
+[!] Warning: String at 0x004356B0 too long. Truncated 'mv06: Drops of Darkness, Gate of Spirits' (40B) -> 'mv06: Drops of Darkness, ' (25B). Original space: 25B.
+[!] Warning: String at 0x004356D0 too long. Truncated 'mv07: The Collapse of the Spirit Tower' (38B) -> 'mv07: The Collaps' (17B). Original space: 17B.
+[!] Warning: String at 0x00435708 too long. Truncated 'ex01: Dream (Part 3)' (20B) -> 'ex01: Dream (Part' (17B). Original space: 17B.
+[!] Warning: String at 0x00435730 too long. Truncated 'op01: OP Demo 1 (Normal)' (24B) -> 'op01: OP Demo 1 (Nor' (20B). Original space: 20B.
+[!] Warning: String at 0x00435748 too long. Truncated 'op02: OP Demo 2 (Introduction to 17 Job Categories)' (51B) -> 'op02: OP Demo 2 (Introduct' (26B). Original space: 26B.
+[!] Warning: String at 0x004479F0 too long. Truncated 'Remaining until the decision is made' (36B) -> 'Remaining until ' (16B). Original space: 16B.
+[!] Warning: String at 0x0044ED80 too long. Truncated 'by a band of bandits' (20B) -> 'by a band of b' (14B). Original space: 14B.
+[!] Warning: String at 0x0044EDA0 too long. Truncated 'They were defeated.' (19B) -> 'They were defeat' (16B). Original space: 16B.
+[!] Warning: String at 0x0044EDB8 too long. Truncated 'The bandit group' (16B) -> 'The band' (8B). Original space: 8B.
+[!] Warning: String at 0x0044EDC8 too long. Truncated 'The Knights' (11B) -> 'The Knig' (8B). Original space: 8B.
+[!] Warning: String at 0x0044EDF0 too long. Truncated 'The commander has been defeated.' (32B) -> 'The commander has be' (20B). Original space: 20B.
+[!] Warning: String at 0x0044EE08 too long. Truncated 'We successfully retreated.' (26B) -> 'We successfully retr' (20B). Original space: 20B.
+[!] Warning: String at 0x00450580 too long. Truncated 'The memory card (PS2) in slot 1 has insufficient free space.\nPlease insert a memory card (PS2) with at least 985KB of free space.\nYou cannot save your game progress.\nDo you wish to start the game as is?' (202B) -> 'The memory card (PS2) in slot 1 has insufficient free space.\nPlease insert a memory card (PS2) with at least 985KB of free space.\nYou cannot save your game progress.\nDo you wish to start the ga' (193B). Original space: 193B.
+[!] Warning: String at 0x00450648 too long. Truncated 'The memory card (PS2) in slot 2 has insufficient free space.\nPlease insert a memory card (PS2) with at least 985KB of free space.\nYou cannot save your game progress.\nDo you wish to proceed with the game?' (203B) -> 'The memory card (PS2) in slot 2 has insufficient free space.\nPlease insert a memory card (PS2) with at least 985KB of free space.\nYou cannot save your game progress.\nDo you wish to proceed with' (193B). Original space: 193B.
+[!] Warning: String at 0x00450710 too long. Truncated 'Memory cards (PS2) in slots 1 and 2 have insufficient free space.\nPlease insert a memory card (PS2) with at least 985KB of free space.\nYou cannot save your game progress.\nDo you wish to start the game as is?' (207B) -> 'Memory cards (PS2) in slots 1 and 2 have insufficient free space.\nPlease insert a memory card (PS2) with at least 985KB of free space.\nYou cannot save your game progress.\nDo you wish to start the game as is' (206B). Original space: 206B.
+[!] Warning: String at 0x004508B0 too long. Truncated 'Please insert a memory card (PS2) with at least 985KB of free space.' (68B) -> 'Please insert a memory card (PS2) with at least 985KB of free s' (63B). Original space: 63B.
+[!] Warning: String at 0x004514A8 too long. Truncated "The game's progress cannot be saved to the internal memory card (PS2). Do you wish to proceed with the game?" (108B) -> "The game's progress cannot be saved to the internal memory card (PS2). Do you wish to proceed w" (95B). Original space: 95B.
+[!] Warning: String at 0x004515B8 too long. Truncated 'Important historical figures' (28B) -> 'Important histor' (16B). Original space: 16B.
+[!] Warning: String at 0x004519D0 too long. Truncated 'Check the Knights' (17B) -> 'Check the Knight' (16B). Original space: 16B.
+[!] Warning: String at 0x004519E8 too long. Truncated 'Return to message board' (23B) -> 'Return to me' (12B). Original space: 12B.
+[!] Warning: String at 0x00451A08 too long. Truncated 'Send a challenge' (16B) -> 'Send a chall' (12B). Original space: 12B.
+[!] Warning: String at 0x00451A18 too long. Truncated 'Return to the list of entrants' (30B) -> 'Return to the li' (16B). Original space: 16B.
+[!] Warning: String at 0x00451A30 too long. Truncated 'Accepting the challenge' (23B) -> 'Accepting th' (12B). Original space: 12B.
+[!] Warning: String at 0x00451A40 too long. Truncated 'I decline the challenge.' (24B) -> 'I decline the ' (14B). Original space: 14B.
+[!] Warning: String at 0x00451A68 too long. Truncated 'Mysterious Woman 2' (18B) -> 'Mysterio' (8B). Original space: 8B.
+[!] Warning: String at 0x00451A78 too long. Truncated 'This is also a test.' (20B) -> 'This is also a' (14B). Original space: 14B.
+[!] Warning: String at 0x00451A88 too long. Truncated "I've actually done quite a bit of producing." (44B) -> "I've actually done quite a bit" (30B). Original space: 30B.
+[!] Warning: String at 0x00451AA8 too long. Truncated 'Tetsuro Kashibuchi' (18B) -> 'Tetsuro Kash' (12B). Original space: 12B.
+[!] Warning: String at 0x00451AB8 too long. Truncated "He's a dapper gentleman." (24B) -> "He's a dapper gentle" (20B). Original space: 20B.
+[!] Warning: String at 0x00451B10 too long. Truncated "She's new, but she's really assertive." (38B) -> "She's new, but she's really asse" (32B). Original space: 32B.
+[!] Warning: String at 0x00451C80 too long. Truncated 'No room number specified' (24B) -> 'No room number s' (16B). Original space: 16B.
+[!] Warning: String at 0x00451DE8 too long. Truncated 'You have lost the "Victor\'s Shield".' (36B) -> 'You have lost the "Victor\'s Shie' (32B). Original space: 32B.
+[!] Warning: String at 0x00451FA0 too long. Truncated 'The opponent was in a position where they could not accept the challenge.' (73B) -> 'The opponent was in a position where' (36B). Original space: 36B.
+[!] Warning: String at 0x00452B70 too long. Truncated 'The Knights of Tiramisu' (23B) -> 'The Knights of T' (16B). Original space: 16B.
+[!] Warning: String at 0x00452B88 too long. Truncated 'Order of Barbarossa' (19B) -> 'Order of Barbaross' (18B). Original space: 18B.
+[!] Warning: String at 0x00452BB0 too long. Truncated 'Honoka Knights' (14B) -> 'Honoka Knigh' (12B). Original space: 12B.
+[!] Warning: String at 0x00454148 too long. Truncated "I don't have it." (16B) -> "I don't have" (12B). Original space: 12B.
+[!] Warning: String at 0x004544F8 too long. Truncated 'Hall of Fame List' (17B) -> 'Hall of Fame' (12B). Original space: 12B.
+[!] Warning: String at 0x004550C0 too long. Truncated 'hahifuheho hahifuheho' (21B) -> 'hahifuheho hahifuheh' (20B). Original space: 20B.
+[!] Warning: String at 0x004550D8 too long. Truncated 'Papipupepo Papipupepo' (21B) -> 'Papipupepo Papipupep' (20B). Original space: 20B.
+[!] Warning: String at 0x00455118 too long. Truncated 'a i u e o ma mi mu me mo' (24B) -> 'a i u e o ma mi mu m' (20B). Original space: 20B.
+[!] Warning: String at 0x00455130 too long. Truncated 'ka ki ku ke ko ya yu yo' (23B) -> 'ka ki ku ke ko ya yu' (20B). Original space: 20B.
+[!] Warning: String at 0x00455148 too long. Truncated 'sashisusesora rirurero' (22B) -> 'sashisusesora rirure' (20B). Original space: 20B.
+[!] Warning: String at 0x004551D8 too long. Truncated 'A-I-U-E-O-Ma-Mi-Mu-Me-O' (23B) -> 'A-I-U-E-O-Ma-Mi-Mu-M' (20B). Original space: 20B.
+[!] Warning: String at 0x004551F0 too long. Truncated 'Ka ki ku ke ko ya yu yo' (23B) -> 'Ka ki ku ke ko ya yu' (20B). Original space: 20B.
+[!] Warning: String at 0x00455208 too long. Truncated 'Sa shi su se so ra ri ru re ro' (30B) -> 'Sa shi su se so ra r' (20B). Original space: 20B.
+[!] Warning: String at 0x00455A00 too long. Truncated 'We will send the following information to Namco Co., Ltd. Is this alright?\n\nIf you are under 16 years old, please obtain parental consent before selecting "Send".' (162B) -> 'We will send the following information to Namco Co., Ltd. Is this alright?\n\nIf you are under 16 years old, please obtain parental consent before selec' (150B). Original space: 150B.
+[!] Warning: String at 0x00455A98 too long. Truncated 'Starting connection to external network' (39B) -> 'Starting connection to exter' (28B). Original space: 28B.
+[!] Warning: String at 0x00455B00 too long. Truncated 'We were defeated.' (17B) -> 'We were defeat' (14B). Original space: 14B.
+[!] Warning: String at 0x00455B70 too long. Truncated 'Your knight order' (17B) -> 'Your knight orde' (16B). Original space: 16B.
+[!] Warning: String at 0x00455BD0 too long. Truncated 'I still hold onto it.' (21B) -> 'I still hold onto it' (20B). Original space: 20B.
+[!] Warning: String at 0x00455DE0 too long. Truncated 'Please select a nickname for the other person.' (46B) -> 'Please select a nickname for the other perso' (44B). Original space: 44B.
+[!] Warning: String at 0x00455E48 too long. Truncated 'I am holding onto it.' (21B) -> 'I am holding ont' (16B). Original space: 16B.
+[!] Warning: String at 0x00456048 too long. Truncated 'Game server access started.' (27B) -> 'Game server access started' (26B). Original space: 26B.
+[!] Warning: String at 0x00456220 too long. Truncated 'Sending ads:\nAllow' (18B) -> 'Sending ads:\nAllo' (17B). Original space: 17B.
+[!] Warning: String at 0x00456628 too long. Truncated '(Application period has ended)' (30B) -> '(Application p' (14B). Original space: 14B.
+[!] Warning: String at 0x00456800 too long. Truncated 'You cannot leave comments in this room.' (39B) -> 'You cannot leave comments in this ' (34B). Original space: 34B.
+[!] Warning: String at 0x00456828 too long. Truncated 'Please enter your comment to register.' (38B) -> 'Please enter your comment to registe' (36B). Original space: 36B.
+[!] Warning: String at 0x00457200 too long. Truncated 'The opponent was in a position where they could not accept the challenge.' (73B) -> 'The opponent was in a position where' (36B). Original space: 36B.
+[!] Warning: String at 0x00458028 too long. Truncated "This is an undefined error (it shouldn't appear in the final product)." (70B) -> 'This is an undefined error (it shouldn' (38B). Original space: 38B.
+[!] Warning: String at 0x00458050 too long. Truncated 'HTTP communication failed.' (26B) -> 'HTTP communication faile' (24B). Original space: 24B.
+[!] Warning: String at 0x004580D0 too long. Truncated 'The information is not entered correctly.' (41B) -> 'The information is not ent' (26B). Original space: 26B.
+[!] Warning: String at 0x00458278 too long. Truncated 'There is a problem with your input.\n\nPlease enter your name in 16 characters or less.' (85B) -> 'There is a problem with your input.\n\nPlease enter your name ' (60B). Original space: 60B.
+[!] Warning: String at 0x004582B8 too long. Truncated 'There is a problem with your input.\n\nPlease enter your address within 127 characters.' (85B) -> 'There is a problem with your input.\n\nPlease enter your addres' (61B). Original space: 61B.
+[!] Warning: String at 0x004582F8 too long. Truncated 'There is a problem with the input.\n\nThe phone number must be 16 digits or less, and the only characters allowed are numbers and the symbols "+", "-", "(", and ")".' (163B) -> 'There is a problem with the input.\n\nThe phone number must be 16 digits or less, and the only characters al' (106B). Original space: 106B.
+[!] Warning: String at 0x00458368 too long. Truncated 'There is a problem with your input.\n\nEmail addresses must be 64 characters or less, and there are restrictions on the characters that can be used.' (146B) -> 'There is a problem with your input.\n\nEmail addresses must be 64 characters or less, and ' (88B). Original space: 88B.
+[!] Warning: String at 0x004583C8 too long. Truncated 'There is a problem with your input.\n\nYour username must be 8 characters or less and contains characters that cannot be used.\n' (125B) -> 'There is a problem with your input.\n\nYour username must be 8 characters or less' (79B). Original space: 79B.
+[!] Warning: String at 0x00458418 too long. Truncated 'There is a problem with your input.\n\nPlease enter a password that is between 4 and 16 alphanumeric characters long.' (115B) -> 'There is a problem with your input.\n\nPlease enter a password that is ' (69B). Original space: 69B.
+[!] Warning: String at 0x00458460 too long. Truncated 'There is a problem with your input.\nYour User ID must be a 7-digit number, and your Password must be 4 to 16 alphanumeric characters.' (133B) -> 'There is a problem with your input.\nYour User ID must be a 7-digit number, and your Password must ' (98B). Original space: 98B.
+[!] Warning: String at 0x00458550 too long. Truncated 'Communication failed.' (21B) -> 'Communication failed' (20B). Original space: 20B.
+[!] Warning: String at 0x00458568 too long. Truncated "The opponent's connection was lost." (35B) -> "The opponent's connection was lo" (32B). Original space: 32B.
+[!] Warning: String at 0x00458590 too long. Truncated 'The match has been called off (timeout).' (40B) -> 'The match has been called off (timeout' (38B). Original space: 38B.
+[!] Warning: String at 0x00458618 too long. Truncated 'The match is being interrupted because the results are inconsistent.' (68B) -> 'The match is being interrupted because t' (40B). Original space: 40B.
+[!] Warning: String at 0x00458648 too long. Truncated "There were too many people, so I couldn't join the chat room." (61B) -> "There were too many people, so I couldn't join t" (48B). Original space: 48B.
+[!] Warning: String at 0x00458750 too long. Truncated "This is an undefined error (it shouldn't appear in the final product)." (70B) -> "This is an undefined error (it shouldn't" (40B). Original space: 40B.
+[!] Warning: String at 0x0045B4B0 too long. Truncated 'Romanization' (12B) -> 'Romaniza' (8B). Original space: 8B.
+
+[+] Executable patching complete:
+  - Successfully patched 1134 UI strings.
+  - Skipped 7195 binary false positives.
+  - Truncated 716 strings to fit memory limits.

@@ -1,0 +1,68 @@
+{
+  "path": "/Users/acr/venus-braves/cdimage_unpacked/seven_data_link/scrdata/map/ev_sora/ev_sora.pma",
+  "file_size": 93344,
+  "magic": "PMA\u0000",
+  "version": 5,
+  "header_u32": [
+    4279632,
+    5,
+    640,
+    448,
+    2,
+    1232,
+    92768,
+    48,
+    93328,
+    8421504,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "table_offset": 92764,
+  "table_entries": 141,
+  "chunks": 141,
+  "chunk_size_min": 28,
+  "chunk_size_max": 1712,
+  "chunk_size_median": 592,
+  "top_chunk_signatures": [
+    {
+      "signature": "03000000ffff0000:0003",
+      "count": 95,
+      "size_min": 144,
+      "size_max": 1712,
+      "size_median": 640,
+      "sample_chunk_index": 2,
+      "sample_chunk_offset": "0x770"
+    },
+    {
+      "signature": "0100000001000000:0001",
+      "count": 23,
+      "size_min": 160,
+      "size_max": 1184,
+      "size_median": 352,
+      "sample_chunk_index": 25,
+      "sample_chunk_offset": "0x3030"
+    },
+    {
+      "signature": "02000000ffff0000:0002",
+      "count": 22,
+      "size_min": 28,
+      "size_max": 1088,
+      "size_median": 576,
+      "sample_chunk_index": 1,
+      "sample_chunk_offset": "0x580"
+    },
+    {
+      "signature": "504d410005000000:4d50",
+      "count": 1,
+      "size_min": 1408,
+      "size_max": 1408,
+      "size_median": 1408,
+      "sample_chunk_index": 0,
+      "sample_chunk_offset": "0x0"
+    }
+  ]
+}
