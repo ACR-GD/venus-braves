@@ -1,0 +1,36 @@
+{
+  "_comment": "Manifeste générique — adapter à votre jeu PS2",
+  "original_iso": "game_original.iso",
+  "output_iso": "game_translated.iso",
+  "staging_dir": "staging",
+
+  "archives": [
+    {
+      "name": "CDIMAGE.BIN",
+      "iso_path": "IMAGE/CDIMAGE.BIN",
+      "unpacked_dir": "cdimage_unpacked",
+      "output": "staging/CDIMAGE.BIN",
+      "max_size": null,
+      "layout": null,
+      "repack_before_build": true,
+      "_note": "max_size = taille exacte dans l'ISO (ps2_iso.py inventory). layout null = auto."
+    }
+  ],
+
+  "same_size_patches": [
+    {
+      "iso_path": "SLPS_XXX.XX",
+      "source": "patched/SLPS_XXX.XX",
+      "_note": "Exécutable EE modifié, MÊME taille obligatoire"
+    }
+  ],
+
+  "replace_files": [
+    {
+      "iso_path": "IMAGE/CDIMAGE.BIN",
+      "source": "staging/CDIMAGE.BIN",
+      "check_extent": true,
+      "pad_to_original": true
+    }
+  ]
+}

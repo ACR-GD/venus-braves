@@ -1,0 +1,41 @@
+{
+  "_comment": "Workflow TIM2 PS2 — textures standard (extension .tm2)",
+  "how_to_find": {
+    "step1_extensions": "Parcourir l'ISO décompressé : *.tm2, *.TM2 (parfois sans extension)",
+    "step2_scan": "python3 ps2_ghidra.py scan-tim2 ./cdimage_unpacked -o out/tim2_scan.json",
+    "step3_embedded": "python3 ps2_ghidra.py scan-tim2 ./cdimage_unpacked --embedded -o out/tim2_embedded.json",
+    "step4_magic": "Magic 'TIM2' @ offset 0 (ou embarqué). Version 3-4, format 0 ou 1.",
+    "step5_no_tim2": "Si aucun TIM2 : le jeu utilise FHM/GIM/custom (voir graphics_workflow.json)",
+    "external_tools": "Rainbow (romhacking.net/utilities/1069/) pour prévisualisation rapide"
+  },
+  "export_for_translation": {
+    "info": "python3 ps2_ghidra.py tim2-info path/to/texture.tm2",
+    "export": "python3 ps2_ghidra.py tim2-export path/to/texture.tm2 -o out/tim2/",
+    "formats_supported": [
+      "rgba32 / PSMCT32 (image_type 3)",
+      "rgb32 (image_type 2)",
+      "indexed8 / PSMT8 (image_type 5) + CLUT",
+      "indexed4 / PSMT4 (image_type 4) + CLUT"
+    ],
+    "notes": [
+      "Les pixels sont déséswizzlés (layout GS → PNG linéaire)",
+      "La CLUT est exportée en *_clut.png si présente",
+      "RGBA16 non encore supporté — utiliser Rainbow ou PCSX2 dump"
+    ]
+  },
+  "modify_and_reinsert": {
+    "replace": "python3 ps2_ghidra.py tim2-replace original.tm2 edited.png -o translated.tm2 --picture 0",
+    "clut": "python3 ps2_ghidra.py tim2-replace original.tm2 edited.png -o out.tm2 --clut palette.png",
+    "constraints": [
+      "PNG doit avoir exactement les mêmes dimensions que l'image TIM2",
+      "image_size / clut_size doivent rester identiques (pas de resize fichier)",
+      "Pour indexé : réutilise la palette TIM2 (quantize) sauf si --clut fourni",
+      "Réinsérer dans l'ISO via votre outil habituel (cdvdman, rebuild ISO)"
+    ]
+  },
+  "tim2_vs_custom": {
+    "tim2_signs": "Magic TIM2, headers GS (TEX0/CLUT), image swizzlée PSM",
+    "custom_signs": "FHM/ITE, GIM+LZSS, pas de magic TIM2, compression par tuile",
+    "decision_tree": "TIM2 trouvé → tim2-export. Sinon → inventory-fhm / probe-chunk / hunt-codec"
+  }
+}

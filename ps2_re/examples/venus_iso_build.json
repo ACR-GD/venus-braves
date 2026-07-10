@@ -1,0 +1,45 @@
+{
+  "_comment": "Manifeste build ISO — Venus & Braves (adapter chemins à votre workspace)",
+  "original_iso": "../../Venus & Braves - Majo to Megami to Horobi no Yogen (Japan).iso",
+  "output_iso": "../../venus_braves_translated.iso",
+  "staging_dir": "staging",
+  "use_staging_copy": true,
+
+  "archives": [
+    {
+      "name": "CDIMAGE.BIN",
+      "iso_path": "IMAGE/CDIMAGE.BIN",
+      "unpacked_dir": "../../cdimage_temp_unpacked",
+      "output": "staging/CDIMAGE.BIN",
+      "max_size": 373645312,
+      "layout": "forward",
+      "index_template": "../../cdimage_temp_unpacked/archive_index.bin",
+      "repack_before_build": true
+    }
+  ],
+
+  "same_size_patches": [
+    {
+      "iso_path": "SLPS_251.96",
+      "source": "../../extracted_iso/SLPS_251.96",
+      "_note": "ELF modifié même taille que l'original"
+    }
+  ],
+
+  "replace_files": [
+    {
+      "iso_path": "IMAGE/CDIMAGE.BIN",
+      "source": "staging/CDIMAGE.BIN",
+      "check_extent": true,
+      "pad_to_original": true,
+      "_note": "Rempli par repack automatique si absent"
+    }
+  ],
+
+  "checklist_post_build": [
+    "Tester boot PCSX2 / console réelle",
+    "Vérifier écran titre, options, un dialogue",
+    "Confirmer streaming audio/vidéo (LBAs inchangés = OK)",
+    "Checksum optionnel: shasum -a 256 output.iso"
+  ]
+}

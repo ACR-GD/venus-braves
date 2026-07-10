@@ -1,0 +1,18 @@
+{
+  "_comment": "Exemple Venus & Braves — codec ULZ dans un dump EE PCSX2",
+  "target": {
+    "binary": "../../option_savestate/extracted/eeMemory.bin",
+    "preset": "ee-dump",
+    "analyze": false,
+    "project_name": "venus_codec"
+  },
+  "decompile": [
+    {"addr": "0x1aef20", "name": "ReadBits"},
+    {"addr": "0x1afc08", "name": "DecodePlane"},
+    {"addr": "0x1afdc8", "name": "TextureUpload_Main"}
+  ],
+  "disassemble": [
+    {"start": "0x1afeb8", "length": "0x680", "label": "upload_loop"}
+  ],
+  "output": "codec_decompiled.c"
+}

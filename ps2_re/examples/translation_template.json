@@ -1,0 +1,26 @@
+{
+  "_comment": "Exemple générique — exécutable EE pour traduction JP->EN/FR",
+  "target": {
+    "binary": "SLPS_XXXXXX.orig",
+    "preset": "ee-elf",
+    "analyze": true,
+    "project_name": "my_ps2_game"
+  },
+  "strings": {
+    "encodings": ["sjis", "ascii"],
+    "min_len": 4,
+    "translation_filter": true,
+    "langs": ["ja", "en"],
+    "csv": "strings.csv",
+    "xrefs": {
+      "hot_functions": true,
+      "min_strings": 3,
+      "hot_json": "hot_text_functions.json"
+    }
+  },
+  "decompile": [
+    {"addr": "0x100008", "name": "entry"},
+    {"addr": "0x123456", "name": "PrintText_candidate"}
+  ],
+  "output": "report.c"
+}

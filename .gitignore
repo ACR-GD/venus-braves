@@ -67,6 +67,12 @@ gim_decoded/
 # Projets Ghidra locaux
 *.gpr
 *.rep/
+.ps2_re_projects/
+.ps2_re_cache/
+ps2_re_projects/
+ps2_re_cache/
+staging/
+build_report.json
 
 # OS / éditeur
 .DS_Store

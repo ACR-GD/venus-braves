@@ -1,0 +1,40 @@
+{
+  "_comment": "Workflow graphismes traduisibles — Venus & Braves option.fhm",
+  "phase1_inventory": {
+    "command": "python3 ps2_ghidra.py inventory-fhm cdimage_temp_unpacked/seven_data_link/futa/screen/option.fhm -o out/option_inventory.json",
+    "goal": "Lister entrées ITE, dimensions, priorité UI (labels/boutons vs fonds)"
+  },
+  "phase2_probe_compression": {
+    "command": "python3 ps2_ghidra.py probe-chunk option.fhm --ite 0xEF0 -o out/option_tile_probes.json",
+    "goal": "Par tuile : entropie, lead byte, codec probable (ulz-namco, lzss, raw, custom)"
+  },
+  "phase3_identify_custom_codec": {
+    "command": "python3 ps2_ghidra.py identify-compression --asset option.fhm --elf SLPS_251.96.orig --chunk-offset 0xF40 --chunk-size 0x500 -o out/compression_report.json",
+    "goal": "Si probe = custom : fingerprint ELF + méthodologie Ghidra"
+  },
+  "phase4_ghidra_decompile": {
+    "target": {
+      "binary": "option_savestate/extracted/eeMemory.bin",
+      "preset": "ee-dump"
+    },
+    "decompile": [
+      {"addr": "0x1aef20", "name": "ReadBits"},
+      {"addr": "0x1afc08", "name": "DecodePlane"},
+      {"addr": "0x1afdc8", "name": "TextureUpload_Main"}
+    ],
+    "notes": "Suivre dispatch format +0xE : 0=VU1, 2=codec EE"
+  },
+  "phase5_extract_and_translate": {
+    "command": "python3 ps2_ghidra.py extract-graphics option.fhm --entries 3,4,5,6,7,8,9,11,12 --tiles -o out/option_ui/",
+    "goal": "PNG grayscale par entrée + tuiles 64x32 pour édition graphique",
+    "repack": "fhm_tool.py replace-png-tile + make_test_patch.py + patch_iso.py"
+  },
+  "compression_identification_checklist": [
+    "Entropie > 7 et aucun zlib/lzss → custom bitstream",
+    "Lead byte 0x48-0x51 + footer 00 00 01 SS SS → Namco ULZ (Venus)",
+    "Bit 31 des offsets ITE = flag compressé",
+    "GIM/ARC : tester lzss ei=11 ej=4 offset_bias=1 puis 18",
+    "Fingerprint ELF : srl 10-13 + andi masque (ReadBits/LZ distance)",
+    "Validation : round-trip encodeur, scratchpad savestate, dump PCSX2"
+  ]
+}
